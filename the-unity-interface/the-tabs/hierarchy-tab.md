@@ -1,0 +1,76 @@
+---
+description: Where the items in your scene go
+---
+
+# Hierarchy Tab
+
+This tab shows a list of game objects within your scene.
+
+Game objects are the objects in the actual game. They use assets listed in the [Project Tab](project-tab.md) to determine how the scene or game looks, sounds, and behaves. 
+
+### **Layout**
+
+Usually, this tab starts with a Main Camera and a Directional Light. 
+
+![](../../.gitbook/assets/image%20%2897%29.png)
+
+Objects can "parent" other objects. The list of "child" or inner objects appears or collapses when you click on the triangle to the left of the object's name.
+
+![](../../.gitbook/assets/image%20%2870%29.png)
+
+**::** Learn more info about [parenting objects](../../create/create-game-objects/parenting.md).
+
+### **Scene Name**
+
+The current scene name is shown at the top of the tab.
+
+An asterisk or \* at the end of the scene name means changes have been made, but have not been saved. Saving the file removes the asterisk.
+
+![](../../.gitbook/assets/image%20%2815%29.png)
+
+Selected objects are highlighted blue by default. You can select more than one object by holding the CTRL Key and clicking with the left mouse button on the objects. The same method with the SHIFT key can select all the objects in a row.
+
+![](../../.gitbook/assets/image%20%2868%29.png)
+
+### **Hiding Objects**
+
+Sometimes, you'll want to hide an object from view. Hover your cursor over the space to the left of an object. Click the eye symbol to toggle the objects visibility in the Scene View. Clicking the eye to the left of the scene name will toggle visibility on and off for all objects.
+
+**Notes:**   
+1. The hidden object will still be visible in the Game View.  
+2. When you hide a parent object, this also hides its child objects.
+
+![](../../.gitbook/assets/image%20%2832%29.png)
+
+**::** Learn more info about [hiding, disabling, and deleting objects](../../delete/delete-game-objects/delete-in-editor.md).
+
+### Finding and Selecting
+
+Sometimes, you'll find yourself picking the wrong game object in the Scene View because of an overlap or how close it is to your intended game object. The pointy hand symbol that appears to the left of the object is a way to target whether an object can be selected in the Scene View. Clicking the symbol to the left of the scene name will toggle the ability to pick all the objects.
+
+**Notes:**   
+1. You must unselect the object for the inability to select to work.  
+2. When you change the ability for a parent object to be selected, you change it for all its child objects.
+
+![](../../.gitbook/assets/image%20%2860%29.png)
+
+You can search for items using the search bar. Once you begin typing, the list will only show items with the letters in the name in the same order. To clear the search quickly, click the X on the right side of the search bar.
+
+![](../../.gitbook/assets/image%20%283%29.png)
+
+**Note:** Game objects are listed without their hierarchy in the search results.
+
+**::** Learn more info about [selecting objects](../../select/update-game-objects/editor-selecting-objects.md).
+
+### Menus
+
+Click on the three dots on the right of the scene name and the tab for menus of commands related to the tab and scene.
+
+![](../../.gitbook/assets/image%20%2891%29.png)
+
+Click the plus sign or + on the left of the search bar to add a game object to the scene.
+
+![](../../.gitbook/assets/image%20%2854%29.png)
+
+**::** Learn more info about [creating and adding objects](../../create/create-game-objects/editor-creating-game-objects.md).
+
