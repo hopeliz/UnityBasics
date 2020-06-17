@@ -2,6 +2,7 @@
 
 * [Welcome](README.md)
 * [Getting Started](getting-started.md)
+* [Helpful Shortcuts](helpful-shortcuts.md)
 
 ## The Unity Interface
 
@@ -23,7 +24,8 @@
   * [Creating Game Objects](create/create-game-objects/editor-creating-game-objects.md)
   * [Spawning Objects](create/create-game-objects/spawning-objects.md)
   * [Unhiding/Hiding Objects During Gameplay](create/create-game-objects/unhiding-objects.md)
-  * [Parenting](create/create-game-objects/parenting.md)
+  * [Parenting](create/create-game-objects/parenting/README.md)
+    * [Parenting Tricks](create/create-game-objects/parenting/parenting-tricks.md)
 * [Creating Assets](create/create-assets.md)
 * [Creating Components and Scripts](create/create-scripts/README.md)
   * [Adding Components Using the Inspector Tab](create/create-scripts/using-inspector-tab.md)
@@ -65,6 +67,7 @@
   * [Rotation vs. EulerAngles](translate-rotate-and-scale/rotate/rotation-eulerangles.md)
   * [In-Game: Using Rotate\(\) Function](translate-rotate-and-scale/rotate/using-rotate-function.md)
   * [In-Game: Updating EulerAngles](translate-rotate-and-scale/rotate/updating-eulerangles.md)
+* [Common Issues: Rotation](translate-rotate-and-scale/rotation.md)
 * [Scale](translate-rotate-and-scale/scale/README.md)
   * [Editor: Scaling Objects](translate-rotate-and-scale/scale/scaling.md)
   * [In-Game: Updating Scale](translate-rotate-and-scale/scale/updating-scale.md)
@@ -83,9 +86,12 @@
 * [Colliders and Triggers](physics/colliders-and-triggers/README.md)
   * [Collider Component Overview](physics/colliders-and-triggers/collider-component-overview.md)
   * [Accessing Colliders Through Scripts](physics/colliders-and-triggers/accessing-through-code.md)
+  * [Common Issues: Colliders and Triggers](physics/colliders-and-triggers/colliders-and-triggers-1.md)
 * [Rigidbody Component](physics/rigidbody-component/README.md)
   * [Rigidbody Component Overview](physics/rigidbody-component/component-overview.md)
   * [Accessing the Rigidbody Component Through Scripts](physics/rigidbody-component/accessing-through-code.md)
+  * [Common Issues: Rigidbody Components](physics/rigidbody-component/rigidbody-components.md)
+* [Common Issues: Physics and Velocity](physics/physics-and-velocity.md)
 
 ## Interaction
 
@@ -102,18 +108,4 @@
 * [Arrays](coding-basics/arrays.md)
 * [Loops](coding-basics/iterators-and-loops.md)
 * [Functions](coding-basics/functions.md)
-
-## Common Issues
-
-* [Rotation](common-issues/rotation.md)
-* [Timing and Speed](common-issues/timing-and-speed.md)
-* [Colliders and Triggers](common-issues/colliders-and-triggers.md)
-* [Rigidbody Components](common-issues/rigidbody-components.md)
-* [Physics and Velocity](common-issues/physics-and-velocity.md)
-* [Out-of-Bound Errors](common-issues/out-of-bound-errors.md)
-
-## Tips and Tricks
-
-* [Helpful Shortcuts](tips-and-tricks/helpful-shortcuts.md)
-* [Parenting Tricks](tips-and-tricks/parenting-tricks.md)
 

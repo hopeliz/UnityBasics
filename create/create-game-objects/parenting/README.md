@@ -2,7 +2,7 @@
 
 Parenting is where game objects can exist within other objects. The object containing other objects is the "parent" object and the objects within are "child" objects, referred to as "children."
 
-![](../../.gitbook/assets/image%20%2877%29.png)
+![](../../../.gitbook/assets/image%20%2877%29.png)
 
 In the example above:
 
