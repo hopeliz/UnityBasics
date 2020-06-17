@@ -12,11 +12,11 @@ In the example above:
 
 ### **Behaviors**
 
-Certain aspects applied to parent object affect its children. The most common are transform controls \(Translate, Rotate, and Scale\), its active state, and visibility.
+Certain aspects applied to a parent object affect its children. The most common are transform controls \(Translate, Rotate, and Scale\), its active state, and visibility.
 
-If Fruit is moved or resized or hidden, it effects all the children the same way.
+If Fruit is moved or resized or hidden, it affects all the child objects the same way.
 
-However, aspects effecting the object individually \(scripts, mesh, colliders, etc.\) do not change its children.
+However, aspects affecting the object individually \(scripts, mesh, colliders, etc.\) do not change its child objects.
 
 If Fruit had a script to trigger a noise, only that object creates the noise.
 
@@ -82,7 +82,7 @@ Collider[] childColliders = transform.GetComponentsInChildren<Collider>();
 Grouping similar objects can help you hide, move, etc. a certain type by manipulating one object.
 
 **Tying Together Behavior**  
-A great example of this are games who use a camera that follows a character. One way to do this is to make the camera a child object of the character so when the character moves, the camera moves, maintaining its offset without extra coding.
+A great example of this are games that use a camera that follows a character. One way to do this is to make the camera a child object of the character so when the character moves, the camera moves, maintaining its offset without extra coding.
 
 **Easy Access**  
 Similar to organizing, you can use a script to access only items inside a specific object instead of looking through all the game objects.

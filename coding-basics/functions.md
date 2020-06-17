@@ -17,19 +17,19 @@ public void MakeRed() {
 }
 ```
 
-**public** refers to the [**scope**](functions.md#function-scope) of the function. It determines how it can be accessed.
+**public** - the [**scope**](functions.md#function-scope) of the function. It determines how it can be accessed.
 
-**void** refers to the [**return type**](functions.md#function-type). In C\#, this has to be stated and it limits the type of information returned and how it can be used. "Void" means the function is not providing information to be used as a value \(here, the game object is being made red\).
+**void** - the [**return type**](functions.md#function-type). In C\#, this has to be stated and it limits the type of information returned and how it can be used. "Void" means the function is not providing information to be used as a value \(here, the game object is being made red\).
 
-**MakeRed** in this example, is the function **name**. This is the representative phrase or word and can be anything that is not already used, but there are [some naming conventions and rules](functions.md#function-naming-conventions-and-rules) to follow to ensure it works.
+**MakeRed** - the function **name**. This is the representative phrase or word and can be anything that is not already used, but there are [some naming conventions and rules](functions.md#function-naming-conventions-and-rules) to follow to ensure it works.
 
-The **parentheses \(\)** is where [**arguments**](functions.md#arguments) can be used to apply the function in specific ways.
+**parentheses \( \)** - where [**arguments**](functions.md#arguments) can be used to apply the function in specific ways.
 
-The **curly brackets** hold the **code** to run when the function is _called._
+**curly brackets { }** - hold the **code** to run when the function is _called._
 
 ### Calling a Function
 
-The code within the brackets of a function only run when it's called in other code that is running.
+The code within the brackets of a function only runs when it's called in other code that is running.
 
 Example calling MakeRed\(\) within another function, including Start\(\) or Update\(\):
 
@@ -113,9 +113,9 @@ Generally, function names can be almost anything. However, there are some strict
 
 Arguments are values passed into the function to get different desired results based on those values.
 
-Empty parentheses \(\) after a function name means the function will preform the same functions each time.
+Empty parentheses \(\) after a function name means the function will perform the same functions each time.
 
-To create a function that takes arguments, declare the temporary / local variable names within the parentheses, separated by commas. In C\#, you must also put the type of variable you are declaring.
+To create a function that takes arguments, declare the temporary/local variable names within the parentheses, separated by commas. In C\#, you must also put the type of variable you are declaring.
 
 Example:
 
@@ -138,7 +138,7 @@ public string SayYesOrNo(float posLevel, string currentMsg)
 }
 ```
 
-This does the same thing as the SayYesOrNo\(\) function with no arguments, but takes in account a value for posLevel and adds to an already defined string.
+This does the same thing as the SayYesOrNo\(\) function with no arguments, but takes into account a value for posLevel and adds to an already defined string.
 
 To call a function with arguments, put the values or variables within the parentheses:
 

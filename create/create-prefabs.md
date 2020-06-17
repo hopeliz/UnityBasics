@@ -4,7 +4,7 @@ Prefabs are sets of game objects with elements and settings you would like to us
 
 When you add a 3D model to your Assets folder, it becomes a prefab.
 
-For an example, I made a weird character out of four different spheres with four different positions, size, and materials. It would take forever if I wanted to create this multiple times. Even if I duplicated the parent object, updating each could be a nightmare.
+For an example, I made a weird character out of four different spheres with four different positions, sizes, and materials. It would take forever if I wanted to create this multiple times. Even if I duplicated the parent object, updating each could be a nightmare.
 
 ![Set of object in the Scene View](../.gitbook/assets/image%20%28132%29.png)
 

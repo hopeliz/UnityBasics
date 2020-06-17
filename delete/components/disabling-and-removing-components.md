@@ -1,4 +1,4 @@
-# Disabling and Removing Components During Game Play
+# Disabling and Removing Components During Gameplay
 
 You won't have access to the checkbox and menus in the editor while the game is playing, but you might want to turn on and off or remove components.
 
@@ -33,9 +33,9 @@ Use the Destroy\(\) function to remove components. Go to the link below for more
 
 ### Avoiding Errors
 
-You will get an error if you try to enable, disable, or remove component that is not there.
+You will get an error if you try to enable, disable, or remove a component that is not there.
 
-You can check to see if an component is there by using this script.
+You can check to see if a component is there by using this script.
 
 Example of checking for a rigidbody component:
 

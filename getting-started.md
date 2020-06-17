@@ -8,7 +8,7 @@ description: First steps
 Unity is a game engine that you can download for free as a student and for personal use [here](https://store.unity.com/?_ga=2.219619545.1982751462.1590796351-1267817405.1590796351#plans-individual).
 
 **Make an account**  
-You will need to make an account with Unity. This helps when multiple people use the same computer, synching with GitHub, and when you want to access favorite items in the Asset Store.
+You will need to make an account with Unity. This helps when multiple people use the same computer, syncing with GitHub, and when you want to access favorite items in the Asset Store.
 
 **Install the latest version of the Unity software**  
 Open Unity Hub and click on Installs.

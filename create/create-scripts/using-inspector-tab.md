@@ -44,7 +44,7 @@ You can right-click on any component and click Copy Component.
 
 **Pasting**
 
-To paste a full component right click in the Inspector Tab and click Paste Component As New.
+To paste a full component right-click in the Inspector Tab and click Paste Component As New.
 
 If you are copying values from one object or asset to update another, click Paste Component Values instead.
 

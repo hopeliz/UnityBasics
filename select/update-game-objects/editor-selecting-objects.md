@@ -20,7 +20,7 @@ Below are ways you can update game objects in each of the default tabs.
 
        Options:  
             1. Click once to make the name editable  
-            2. Right click or use the task bar GameObject menu
+            2. Right-click or use the taskbar GameObject menu
 
 * Change the [visibility](../../the-unity-interface/the-tabs/hierarchy-tab.md#hiding-objects) in the Scene Tab
 * Change whether or not the object can be [selected](../../the-unity-interface/the-tabs/hierarchy-tab.md#finding-and-selecting) within the Scene Tab

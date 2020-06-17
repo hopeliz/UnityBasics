@@ -34,7 +34,7 @@ Selected objects are highlighted blue by default. You can select more than one o
 
 ### **Hiding Objects**
 
-Sometimes, you'll want to hide an object from view. Hover your cursor over the space to the left of an object. Click the eye symbol to toggle the objects visibility in the Scene View. Clicking the eye to the left of the scene name will toggle visibility on and off for all objects.
+Sometimes, you'll want to hide an object from view. Hover your cursor over the space to the left of an object. Click the eye symbol to toggle the object's visibility in the Scene View. Clicking the eye to the left of the scene name will toggle visibility on and off for all objects.
 
 **Notes:**   
 1. The hidden object will still be visible in the Game View.  

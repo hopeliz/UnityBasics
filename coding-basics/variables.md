@@ -10,17 +10,17 @@ Let's look at the code for _declaring_ and _assigning_ a simple variable:
 public int count = 0;
 ```
 
-**public** refers to the [**scope**](variables.md#scope) of the variable. It determines how it can be accessed \(can other parts of the code use it? can the user see and update it in the Inspector?\).
+**public** - the [**scope**](variables.md#scope) of the variable. It determines how it can be accessed \(can other parts of the code use it? can the user see and update it in the Inspector?\).
 
-**int** refers to the variable [**type**](variables.md#variable-types). In C\#, this has to be stated and it limits the type of information stored and how it can be used.
+**int** - the variable [**type**](variables.md#variable-types). In C\#, this has to be stated and it limits the type of information stored and how it can be used.
 
-**count** in this example, is the variable **name**. This is the representative word and can be anything that is not already used, but there are some [naming conventions and rules](variables.md#variable-naming-conventions-and-rules) to follow to ensure it works.
+**count** - the variable **name**. This is the representative word and can be anything that is not already used, but there are some [naming conventions and rules](variables.md#variable-naming-conventions-and-rules) to follow to ensure it works.
 
-**= \(single equals sign\)** tells the computer what the variable name should represent or be [_assigned_](variables.md#assigning-variables).
+**= \(single equals sign\)** - tells the computer what the variable name should represent or be [_assigned_](variables.md#assigning-variables).
 
-**0** **\(zero\)** in this example is the information stored or [_assigned_](variables.md#assigning-variables) to the variable named count.
+**0** **\(zero\)** - the information stored or [_assigned_](variables.md#assigning-variables) to the variable named count.
 
-**; \(semi-colon\)** tells the computer that it is the end of this command.
+**; \(semi-colon\)** - the end of the command.
 
 ### Declaring vs. Assigning
 
@@ -36,7 +36,7 @@ public int count;
 count = 0;
 ```
 
-Variables only can be declared once, but can be assigned and updated when needed.
+Variables only can be declared once, but they can be assigned and updated when needed.
 
 {% hint style="info" %}
 **Best Practice:** When possible, always assign a value or object to your declared variables, even if that is zero or null.
@@ -54,7 +54,7 @@ Scope determines how a variable can be used. They are **private** by default, bu
 
 In most scripts, you will declare variables just above the Start\(\) function. This makes the variable a **global** variable accessible by the functions within the script as well as other scripts accessing it \(as long as it's public\).
 
-Variables declared inside of any function or loop are **local** variables, used only within the function or loop they are declared. So if a variable is declared in the Start\(\) function, script within the Update\(\) function would not be able to access it.
+Variables declared inside of any function or loop are **local** variables, used only within the function or loop they are declared. So if a variable is declared in the Start\(\) function, the script within the Update\(\) function would not be able to access it.
 
 Unless it is a temporary variable \(such as to keep track of something within a loop only until the loop is finished\) or if it is a name used differently in multiple functions, it's best to make variables as global as possible.
 
@@ -69,7 +69,7 @@ Here is a list of common types, how to use them in declarations, and their descr
 | Boolean | bool | true or false; 1 or 0; yes or no; works best with true or false |
 | String | string | Plain text; always put this in quotes " " or ' ' ; be careful of apostrophes! \(use \' to avoid breaking code\) |
 
-C\# is an object oriented programming language. So another type is an object, but is declared using specific types of objects already built into Unity's code.
+C\# is an object-oriented programming language. So another type is an object, but it is declared using specific types of objects already built into Unity's code.
 
 Examples include GameObject, Transform, Vector2, Vector3, Collider, Rigidbody, etc.
 
@@ -102,7 +102,7 @@ Generally, variable names can be almost anything. However, there are some strict
 
 The information to be stored into a variable should always appear **to the right** of the equal sign.
 
-Objects sometime require the keyword "new" followed by the object and aspects of that object.
+Objects sometimes require the keyword "new" followed by the object and aspects of that object.
 
 Examples:
 

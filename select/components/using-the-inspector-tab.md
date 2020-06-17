@@ -29,7 +29,7 @@ These fields will often be "None" for their default followed by the type of comp
 There are two ways to update these in the Inspector Tab:
 
 1. Click and drag objects from the Hierarchy Tab or Project Tab into the field
-2. Click on the circle / target icon to the right of the field for a list of objects and assets that match the required type.
+2. Click on the circle/target icon to the right of the field for a list of objects and assets that match the required type.
 
 {% hint style="warning" %}
 If there is a reference an object in the script and the Inspector field is empty and the script doesn't assign the variable, you will get a common error:
@@ -57,7 +57,7 @@ These appear as a color box.
 
 Click the dropper icon to select a color visible on the screen.
 
-Click on the swatch to open the Color window. Select the hue you want from the outer ring, then the value of the color \(lightness / darkness / tint\) in the square.
+Click on the swatch to open the Color window. Select the hue you want from the outer ring, then the value of the color \(lightness/darkness/tint\) in the square.
 
 ![](../../.gitbook/assets/image%20%2817%29.png)
 

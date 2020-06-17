@@ -19,6 +19,7 @@
 ## Create
 
 * [Creating Game Objects](create/create-game-objects/README.md)
+  * [Untitled](create/create-game-objects/untitled.md)
   * [Creating Game Objects](create/create-game-objects/editor-creating-game-objects.md)
   * [Spawning Objects](create/create-game-objects/spawning-objects.md)
   * [Unhiding/Hiding Objects During Gameplay](create/create-game-objects/unhiding-objects.md)
@@ -37,6 +38,7 @@
   * [Updating Game Objects in the Editor](select/update-game-objects/editor-selecting-objects.md)
   * [Updating Prefabs](select/update-game-objects/updating-prefabs.md)
 * [Updating Assets](select/updating-assets.md)
+* [Untitled](select/untitled.md)
 * [Updating Components](select/components/README.md)
   * [Update Components Using the Inspector Tab](select/components/using-the-inspector-tab.md)
   * [Accessing Game Object Properties Through Scripts](select/components/accessing-attributes.md)
@@ -48,7 +50,7 @@
   * [Using the Destroy\(\) Function](delete/delete-game-objects/destroy-function.md)
 * [Deleting Components and Scripts](delete/components/README.md)
   * [Disabling and Removing Components in the Editor](delete/components/in-editor-disabling-and-removing.md)
-  * [Disabling and Removing Components During Game Play](delete/components/disabling-and-removing-components.md)
+  * [Disabling and Removing Components During Gameplay](delete/components/disabling-and-removing-components.md)
 
 ## Translate, Rotate, and Scale
 
@@ -80,10 +82,10 @@
 * [Physics Basics](physics/intro-to-physics.md)
 * [Colliders and Triggers](physics/colliders-and-triggers/README.md)
   * [Collider Component Overview](physics/colliders-and-triggers/collider-component-overview.md)
-  * [Accessing Colliders Through Code](physics/colliders-and-triggers/accessing-through-code.md)
+  * [Accessing Colliders Through Scripts](physics/colliders-and-triggers/accessing-through-code.md)
 * [Rigidbody Component](physics/rigidbody-component/README.md)
   * [Rigidbody Component Overview](physics/rigidbody-component/component-overview.md)
-  * [Accessing the Rigidbody Component Through Code](physics/rigidbody-component/accessing-through-code.md)
+  * [Accessing the Rigidbody Component Through Scripts](physics/rigidbody-component/accessing-through-code.md)
 
 ## Interaction
 
@@ -114,5 +116,4 @@
 
 * [Helpful Shortcuts](tips-and-tricks/helpful-shortcuts.md)
 * [Parenting Tricks](tips-and-tricks/parenting-tricks.md)
-* [Using Tags and Layers](tips-and-tricks/using-tags-and-layers.md)
 

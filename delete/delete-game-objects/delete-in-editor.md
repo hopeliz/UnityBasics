@@ -6,12 +6,16 @@ Game objects can be deleted easily within the Unity editor.
 
 Just select your game object in the [Hierarchy Tab](../../the-unity-interface/the-tabs/hierarchy-tab.md) or [Scene Tab](../../the-unity-interface/the-tabs/scene-tab.md) and press the Delete key on your keyboard.
 
-Another way is to select your game object in the Hierarchy Tab, right-click within the tab and select **Delete**.
+Another way is to select your game object in the Hierarchy Tab, right-click within the tab, and select **Delete**.
 
 ![](../../.gitbook/assets/image%20%2841%29.png)
 
 {% hint style="danger" %}
 If you delete a parent object, the child objects will also be deleted. Read more about [Parenting](../../create/create-game-objects/parenting.md).
+{% endhint %}
+
+{% hint style="danger" %}
+Changes and additions made while in Play Mode will revert back to the values before playing.
 {% endhint %}
 
 ### Disabling Game Objects

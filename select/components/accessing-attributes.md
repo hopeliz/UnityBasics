@@ -24,7 +24,7 @@ This means the script is looking for specific types of components \(Game Object,
 
 **Using the Inspector Tab**
 
-Click and drag the game objects you want to manipulate with the script into the proper fields OR clock on the circle / target icon to the right of the field to search for and select the game object. Clicking the target icon will only list objects that have the type of component required.
+Click and drag the game objects you want to manipulate with the script into the proper fields OR clock on the circle/target icon to the right of the field to search for and select the game object. Clicking the target icon will only list objects that have the type of component required.
 
 Once filled in, it will look similar to this:
 
@@ -65,9 +65,9 @@ rb.useGravity = false;
 objectToMove.GetComponent<Rigidbody>().useGravity = false;
 ```
 
-This guide will not go in depth in most components, so please search the Unity Documentation for details.
+This guide will not go in-depth in most components, so please search the Unity Documentation for details.
 
-Generally, you can start typing the name of the value you would like to update and something close will appear in the smart text feature in your IDE / code editor. It will often give you details such as what the command does, what type uses it, what kind of value it uses, and what information is needed to work. There will be arrows that you can scroll through if there are multiple uses of the same function.
+Generally, you can start typing the name of the value you would like to update and something close will appear in the smart text feature in your IDE/code editor. It will often give you details such as what the command does, what type uses it, what kind of value it uses, and what information is needed to work. There will be arrows that you can scroll through if there are multiple uses of the same function.
 
 ![](../../.gitbook/assets/image%20%28140%29.png)
 

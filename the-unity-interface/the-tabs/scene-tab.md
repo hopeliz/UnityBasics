@@ -38,7 +38,7 @@ The lock symbol keeps the view from rotating. It will still allow you to move th
 
 ### Options
 
-The dropdown at the top left of the table provides more options for how to view things within the scene. The default Shading Mode is "Shaded." This tutorial will not go in depth about these options. Please see the links for Unity's documentation.
+The dropdown at the top left of the table provides more options for how to view things within the scene. The default Shading Mode is "Shaded." This tutorial will not go in-depth about these options. Please see the links for Unity's documentation.
 
 ![](../../.gitbook/assets/image%20%2838%29.png)
 
@@ -96,15 +96,15 @@ These tools are available at the top left of the window in all layouts and are p
 
 **Hand Tool** - Move around the scene without accidentally moving a selected object
 
-**Move Tool** - Move selected objects on a x \(red\), y \(green\), and z \(blue\) axes
+**Move Tool** - Move selected objects on an x \(red\), y \(green\), and z \(blue\) axes
 
-**Rotate Tool** - Rotate selected objects on a x \(red\), y \(green\), and z \(blue\) axes
+**Rotate Tool** - Rotate selected objects on an x \(red\), y \(green\), and z \(blue\) axes
 
-**Scale Tool** - Scale selected objects on a x \(red\), y \(green\), and z \(blue\) axes
+**Scale Tool** - Scale selected objects on an x \(red\), y \(green\), and z \(blue\) axes
 
 **Rect Tool** - Usually for 2D game objects, move, rotate, and scale selected objects on x and y axes
 
-**Transform Tool** - Move, rotate, and scales selected objects on a x \(red\), y \(green\), and z \(blue\) axes \(equivalent to having the Move, Rotate, and Scale tools on at the same time\)
+**Transform Tool** - Move, rotate, and scales selected objects on an x \(red\), y \(green\), and z \(blue\) axes \(equivalent to having the Move, Rotate, and Scale tools on at the same time\)
 
 **Custom Tools** - Access custom tools, if available
 

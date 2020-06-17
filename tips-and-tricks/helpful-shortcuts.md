@@ -11,10 +11,10 @@
 | CTRL+C | Copy |  |
 | CTRL+V | Paste |  |
 | CTRL+D | Duplicate | Only in Unity tabs |
-| CTRL+X | Cut | Remove, put in clipboard |
+| CTRL+X | Cut | Remove, put in the clipboard |
 | F | Focus | Focuses in tab the cursor is in |
 | ALT+SHIFT+A | Toggle selected item\(s\) availability |  |
-| SHIFT+Space | Makes tab full screen | Toggle |
+| SHIFT+Space | Makes tab fullscreen | Toggle |
 
 
 

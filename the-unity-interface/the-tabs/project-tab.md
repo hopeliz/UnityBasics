@@ -4,7 +4,7 @@ description: Where all your assets go
 
 # Project Tab
 
-This tab shows the folders in your Asset folder of your project file and is where all of your assets \(materials, scripts, sounds, prefabs, etc.\) can be accessed.
+This tab shows the folders in the Asset folder of your project file and is where all of your assets \(materials, scripts, sounds, prefabs, etc.\) can be accessed.
 
 Assets are the files used like an artist's materials - they can be used multiple times on many game objects. The game objects are listed in the [Hierarchy Tab](hierarchy-tab.md).
 
@@ -48,7 +48,7 @@ Larger projects could have many subfolders. The "breadcrumb" navigation at the t
 
 **Note:** Unlike Windows Explorer, you cannot drag an asset to a folder in the breadcrumb navigation. You can, however, drag it to the folder in the Assets Folder Structure on the left.
 
-The file path \(starting with the Assets folder\) is shows at the bottom of tab:
+The file path \(starting with the Assets folder\) is shown at the bottom of the tab:
 
 ![](../../.gitbook/assets/image%20%28126%29.png)
 

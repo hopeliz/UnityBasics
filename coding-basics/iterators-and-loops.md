@@ -2,7 +2,7 @@
 
 Loops are great for repeating the same command or comparison for multiple items, so they are often used with arrays.
 
-A loop tells the program to run a piece of code multiple times. The number of times is set based on conditions you set.
+A loop tells the program to run a piece of code multiple times. The number of times is set based on the conditions you set.
 
 The most common loops in Unity are For Loops.
 
@@ -12,7 +12,7 @@ For loops basically say, “run this code for this many times.”
 
 The three elements found in for loops are:
 
-1. Starting point or initialization value
+1. The starting point or initialization value
 2. Conditions to be met
 3. How to increase/decrease the value \(steps\)
 
@@ -31,7 +31,7 @@ In the code above:
 
 **int i = 0** is the starting point or initialization value. in this example, we start with zero - a common starting value since arrays start with zero. i is generally used, standing for "index."
 
-**i &lt; 10** is the condition to be met to run the code in the brackets. Here, the code will run 10 times, since on the 11th time, i will be 10 and be false.
+**i &lt; 10** is the condition to be met to run the code in the brackets. Here, the code will run 10 times, since, on the 11th time, i will be 10 and be false.
 
 **i++** is how much to increase the i or index value. ++ is a shorthand for "add 1" and could have also been written as i += 1 \(another shorthand\) or i = i + 1. This number can also be decreased. The shorthand for that would be i-- or i -= 1; The number it increases or decreases can be any integer.
 
@@ -47,5 +47,7 @@ for (int i = 0; i < cubes.Length; i++)
 }
 ```
 
+For more information about Arrays and Lists, go to the link below:
 
+{% page-ref page="arrays.md" %}
 

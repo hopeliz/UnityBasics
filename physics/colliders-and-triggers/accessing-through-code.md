@@ -1,2 +1,2 @@
-# Accessing Colliders Through Code
+# Accessing Colliders Through Scripts
 

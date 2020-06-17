@@ -23,7 +23,7 @@ This tab shows your scene overall. You can move around game objects and change y
 {% page-ref page="the-tabs/scene-tab.md" %}
 
 **Project**  
-This tab shows the folders in your Asset folder of your project file and is where all of your assets \(materials, scripts, sounds, prefabs, etc.\) can be accessed.
+This tab shows the folders in the Asset folder of your project file and is where all of your assets \(materials, scripts, sounds, prefabs, etc.\) can be accessed.
 
 ![](../.gitbook/assets/default-projectx.jpg)
 

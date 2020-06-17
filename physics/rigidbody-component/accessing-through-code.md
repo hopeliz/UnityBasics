@@ -1,2 +1,2 @@
-# Accessing the Rigidbody Component Through Code
+# Accessing the Rigidbody Component Through Scripts
 

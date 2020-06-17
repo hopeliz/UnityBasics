@@ -2,7 +2,7 @@
 
 This section will cover the basics of materials to get you started. Please check out the Unity documentation and Resources page for more information.
 
-Materials are assets that are applied to visible game objects that determines the object's texture, color, and other attributes programmed within its _shader_. Shaders will not be covered in this guide, but they can be coded using HLSL and tools like Shader Graph, available in some Unity project types.
+Materials are assets that are applied to visible game objects that determine the object's texture, color, and other attributes programmed within its _shader_. Shaders will not be covered in this guide, but they can be coded using HLSL and tools like Shader Graph, available in some Unity project types.
 
 When you create a primitive object \(sphere, cube, etc.\), it will have a default material.
 

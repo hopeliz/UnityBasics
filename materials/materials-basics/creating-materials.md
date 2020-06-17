@@ -4,7 +4,7 @@
 
 Since materials can be used on multiple game objects, it is an [asset created](../../create/create-assets.md) and stored in the Assets folder and [Project Tab](../../the-unity-interface/the-tabs/project-tab.md).
 
-Right-click in the Project Tab or click on Assets in the task bar.
+Right-click in the Project Tab or click on Assets in the taskbar.
 
 Select **Create &gt; Material**.
 
@@ -42,7 +42,7 @@ Click on the color picker to choose the color or input color values. Click on th
 
 **Textures**
 
-Click on the circle / target icon to the left of "Albedo." A window will appear listing your available textures - those in your Asset folder and a few built-in options.
+Click on the circle/target icon to the left of "Albedo." A window will appear listing your available textures - those in your Asset folder and a few built-in options.
 
 ![Wood is a texture I added to the Asset folder. The other textures are built-in to most projects.](../../.gitbook/assets/image%20%2835%29.png)
 

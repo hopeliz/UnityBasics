@@ -39,7 +39,7 @@ The script will now appear in the Project Tab, in the Assets folder, the list of
 
 ![](../../.gitbook/assets/image%20%2893%29.png)
 
-The script can now be edited in the IDE / code editor set up with Unity \(usually Visual Studio or MonoDevelop\).
+The script can now be edited in the IDE/code editor set up with Unity \(usually Visual Studio or MonoDevelop\).
 
 Please see the [Coding Basics](../../coding-basics/intro-to-scripts.md) section for more information on the actual scripting.
 
@@ -57,12 +57,12 @@ Script names should:
 4. Use "Pascal casing" \(capitalize each word\)  
 5. Be descriptive
 
-Not following these "rules" could break script
+Not following these "rules" could break the script.
 {% endhint %}
 
-Press enter to conform the name.
+Press enter to confirm the name.
 
-The script can now be edited in the IDE / code editor set up with Unity \(usually Visual Studio or MonoDevelop\).
+The script can now be edited in the IDE/code editor set up with Unity \(usually Visual Studio or MonoDevelop\).
 
 After editing, the script will need to be added to the game object or asset for it to run.
 

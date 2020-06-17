@@ -30,9 +30,9 @@ Often, you'll have elements outside of your Unity project that you would like to
 
 Navigate to and open the folder where you want to add Assets in either the Unity Editor or in your computer's file management \(e.g. Windows Explorer\).
 
-**Method 1:** Select, click and drag your files you want to add into the Project Tab. This will automatically make a **COPY** within your Asset Folder. This is great for not accidentally losing assets when moving projects from folder to folder, but not so great for very large files on a small hard drive.
+**Method 1:** Select, click, and drag the files you want to add into the Project Tab. This will automatically make a **COPY** within your Asset Folder. This is great for not accidentally losing assets when moving projects from folder to folder, but not so great for very large files on a small hard drive.
 
-**Method 2:** Select, right-click and drag files you want to add into your destination folder within the Assets folder on your computer and click "Copy Files." You can move the files, but this will often remove them from the source folder, making moving folders from one project's Assets folder to another's risky. After everything is copied, the files will appear within the Project Tab.
+**Method 2:** Select, right-click, and drag files you want to add into your destination folder within the Assets folder on your computer and click "Copy Files." You can move the files, but this will often remove them from the source folder, making moving folders from one project's Assets folder to another's risky. After everything is copied, the files will appear within the Project Tab.
 
 ### Duplicate, Copy, and Paste
 

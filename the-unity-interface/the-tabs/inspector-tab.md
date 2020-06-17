@@ -87,7 +87,7 @@ Components can pile up in the Inspector Tab, so there are dropdown toggle triang
 
 Many components allow you to turn them off and on by using the checkbox to the left of the component name.
 
-**Note:** Scripts will given an error if they are trying to access a component that has been turned off.
+**Note:** Scripts will give an error if they are trying to access a component that has been turned off.
 
 ### Add Component Button
 

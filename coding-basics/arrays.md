@@ -10,7 +10,7 @@ The **index** of an array is the location of the element in the list, **starting
 
 ### Why Use Arrays?
 
-Imagine you had a game where you had large pile of cubes that the player can pick up and manipulate, but you want to control each individually. Putting them all in an empty game object and controlling that parent game object will affect all of them.
+Imagine you had a game where you had a large pile of cubes that the player can pick up and manipulate, but you want to control each individually. Putting them all in an empty game object and controlling that parent game object will affect all of them.
 
 You might consider making each cube its own variable:
 
@@ -30,7 +30,7 @@ Instead, use an array!
 public Transform[] cubes;
 ```
 
-Adding the square brackets \[\] at the end of the variable type tells the program this is a list of this type of variables.
+Adding the square brackets \[\] at the end of the variable type tells the program this is a list of this type of variable.
 
 In the Inspector, this looks like this:
 
@@ -84,7 +84,7 @@ for (int i = 0; i < cubes.Length; i++)
 
 ### Common Array Functions and Properties
 
-**arrayName.Length** - Provides the size of an array determined by the code, not number of assigned indexes. Used mostly as a test value in for loops.
+**arrayName.Length** - Provides the size of an array determined by the code, not the number of assigned indexes. Used mostly as a test value in for loops.
 
 {% hint style="info" %}
 Since arrays start with zero, make sure for loop control values \(usually _i_ for index\) are tested to be LESS THAN the array length.
@@ -102,7 +102,7 @@ public List<Transform> cubes;
 
 This appears the same in the Inspector as arrays and the same script can access the elements of the list as arrays.
 
-One big difference is that it doesn't use .Length. Instead it uses .Capacity:
+One big difference is that it doesn't use .Length. Instead, it uses .Capacity:
 
 ```csharp
 // Moving all cubes forward

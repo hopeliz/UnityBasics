@@ -1,10 +1,10 @@
 # Using the Destroy\(\) Function
 
-Having too many items in a game could slow down the computer and its frame rate. This is especially apparent in games where objects are created during game play.
+Having too many items in a game could slow down the computer and its frame rate. This is especially apparent in games where objects are created during gameplay.
 
 ### The Destroy\(\) Function
 
-To remove a game object or components of a game objects, use the Destroy\(\) function.
+To remove a game object or components of a game object, use the Destroy\(\) function.
 
 In the examples below, the following variables are used:
 
@@ -44,7 +44,7 @@ Destroy(gameObject);
 ```
 
 {% hint style="danger" %}
-Deleting parent objects will delete its child objects. Child objects can be moved to another parent if needed. Read more about [Parenting](../../create/create-game-objects/parenting.md).
+Deleting parent objects will delete their child objects. Child objects can be moved to another parent if needed. Read more about [Parenting](../../create/create-game-objects/parenting.md).
 {% endhint %}
 
 ### Avoiding Errors

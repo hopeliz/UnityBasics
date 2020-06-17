@@ -109,7 +109,7 @@ There can be multiple else if statements.
 
 Using else if statements can get tedious, especially when you are comparing something to a specific number or string.
 
-A switch / case statement takes in the variable to compare and compares it to defined "cases," running the commands within those cases. Instead of an else statement, a default case can be defined.
+A switch/case statement takes in the variable to compare and compares it to defined "cases," running the commands within those cases. Instead of an else statement, a default case can be defined.
 
 Format:
 

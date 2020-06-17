@@ -24,7 +24,7 @@ The area starting with "Create Empty" is the list of game objects to choose from
 
 ![](../../.gitbook/assets/image%20%2845%29.png)
 
-**Method 3: Click on GameObject in the task bar:**
+**Method 3: Click on GameObject in the taskbar:**
 
 ![](../../.gitbook/assets/image%20%28115%29.png)
 
