@@ -1,4 +1,4 @@
-# Accessing Game Object Properties Through Scripts
+# Accessing Components Through Scripts
 
 During gameplay, you won't be able to click and drag on objects to update them, so here are some ways to access common properties through scripts.
 

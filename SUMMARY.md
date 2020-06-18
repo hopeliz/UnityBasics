@@ -43,7 +43,7 @@
 * [Untitled](select/untitled.md)
 * [Updating Components](select/components/README.md)
   * [Update Components Using the Inspector Tab](select/components/using-the-inspector-tab.md)
-  * [Accessing Game Object Properties Through Scripts](select/components/accessing-attributes.md)
+  * [Accessing Components Through Scripts](select/components/accessing-attributes.md)
 
 ## Delete
 
