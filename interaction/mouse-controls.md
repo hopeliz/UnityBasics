@@ -40,3 +40,7 @@ if (Input.GetMouseButtonDown(1))
 **Solution:** You might be using GetMouseButtonDown\(\) which only runs for one frame. Try using GetMouseButton\(\) instead.
 {% endhint %}
 
+### Using the Input Manager
+
+If you set up the Input Manager, track mouse movement with Input.GetAxis\("Mouse X"\) and Input.GetAxis\("Mouse Y"\).
+

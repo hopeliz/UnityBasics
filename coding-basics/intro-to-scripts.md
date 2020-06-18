@@ -49,6 +49,20 @@ This is similar to loop\(\) or draw\(\) in some other programming languages.
 
 You can store values, messages, and objects into variables, then control and update them through code. Public variables will appear in the [Inspector Tab](../the-unity-interface/the-tabs/inspector-tab.md) when the script is added to a game object.
 
+The biggest thing to remember when accessing parts of your game and game objects is that it starts with the biggest element and gets smaller with dots in between.
+
+**Examples:**
+
+Game Object &gt; Component &gt; Property &gt; Value/Function
+
+```csharp
+gameObject.GetComponent<Renderer>().material.color = new Color(1.0F, 0, 0, 1.0F);
+
+gameObject.GetComponent<Rigidbody>().iskinematic = false;
+
+print(gameObject.name);
+```
+
 Please see the following sections for more information about the elements used in coding:
 
 {% page-ref page="variables.md" %}

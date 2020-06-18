@@ -2,7 +2,7 @@
 
 Use a script and the **Input** class to determine what key is pressed on the keyboard:
 
-### Types of Keyboard Input
+### Types of Direct Keyboard Input
 
 **Input.GetKey\(\)** - Returns true each frame the key within the parentheses is pressed. This is great for moving objects.
 
@@ -22,6 +22,7 @@ using UnityEngine;
 public class PlayerMotor : MonoBehaviour
 {
     public float moveSpeed = 10;
+    public float jumpHeight = 200;
     
     void Update()
     {
@@ -44,6 +45,10 @@ public class PlayerMotor : MonoBehaviour
         {
             transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
         }
+        
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            transform.GetComponent<Rigidbody>().AddForce(Vector3.up * jumpHeight);
+        }
     }
 }
 ```
@@ -54,7 +59,46 @@ public class PlayerMotor : MonoBehaviour
 **Solution:** You might be using GetKeyDown\(\) which only runs for one frame. Try using GetKey\(\) instead.
 {% endhint %}
 
+### Using the Input Manager
 
+If you set up the Input Manager, the following is an example that can be used in place of the code above. It is better to use the Input Manager axes if you plan to have the player be able to change the controls.
+
+```csharp
+using UnityEngine;
+
+public class PlayerMotor : MonoBehaviour
+{
+    public float moveSpeed = 10;
+    public float jumpHeight = 200;
+    
+    void Update()
+    {
+        if (Input.GetAxis("Vertical") > 0)
+        {
+            transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+        }
+
+        if (Input.GetAxis("Horizontal") < 0)
+        {
+            transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
+        }
+
+        if (Input.GetAxis("Vertical") < 0)
+        {
+            transform.Translate(Vector3.back * moveSpeed * Time.deltaTime);
+        }
+
+        if (Input.GetAxis("Horizontal") > 0)
+        {
+            transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
+        }
+
+        if (Input.GetButtonDown("Jump")) {
+            transform.GetComponent<Rigidbody>().AddForce(Vector3.up * jumpHeight);
+        }
+    }
+}
+```
 
 
 
