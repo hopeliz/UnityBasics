@@ -2,7 +2,7 @@
 
 Different computers run at different speeds. The best way to account for this is to always multiply your transform code by Time.deltaTime.
 
-Speed can be stored in it's own variable to update with ease and is generally multiplied or divided when updating the transform.
+Speed can be stored in its own variable to update with ease and is generally multiplied or divided when updating the transform.
 
 Examples:
 
