@@ -2,7 +2,7 @@
 
 **Issue:**
 
-When using a script to move or reposition an already moving object with a rigidbody, the object continues to move.
+When using a script to move or reposition an already moving object with a rigidbody component, the object continues to move.
 
 **Solution:**
 
@@ -13,7 +13,7 @@ GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
 GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
 ```
 
-Since this is a lot to type repeatedly, consider condensing it into it's own function.
+Since this is a lot to type repeatedly, consider condensing it into its own function.
 
 After the end bracket for the Update\(\) function, add this function:
 
