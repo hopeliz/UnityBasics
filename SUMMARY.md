@@ -70,7 +70,6 @@
 * [Scale](translate-rotate-and-scale/scale/README.md)
   * [Editor: Scaling Objects](translate-rotate-and-scale/scale/scaling.md)
   * [In-Game: Updating Scale](translate-rotate-and-scale/scale/updating-scale.md)
-  * [In-Game: Using Scale\(\) Function](translate-rotate-and-scale/scale/using-scale-function.md)
 * [Controlling Speed](translate-rotate-and-scale/controlling-speed.md)
 
 ## Materials
