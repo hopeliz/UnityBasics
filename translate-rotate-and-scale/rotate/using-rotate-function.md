@@ -1,2 +1,2 @@
-# In-Game: Using Rotate\(\) Function
+# In-Game: Using Transform.Rotate\(\) Function
 

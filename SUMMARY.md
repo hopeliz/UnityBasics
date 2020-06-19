@@ -60,17 +60,17 @@
 * [Handy Transform Shortcuts](translate-rotate-and-scale/handy-transform-shortcuts.md)
 * [Translate](translate-rotate-and-scale/translate/README.md)
   * [Positioning Game Objects in the Editor](translate-rotate-and-scale/translate/positioning.md)
-  * [In-Game: Using Translate\(\) Function](translate-rotate-and-scale/translate/using-translate.md)
+  * [Using the Transform.Translate\(\) Function](translate-rotate-and-scale/translate/using-translate.md)
   * [Updating Position Through Scripts](translate-rotate-and-scale/translate/updating-position.md)
 * [Rotate](translate-rotate-and-scale/rotate/README.md)
   * [Rotating Game Objects in the Editor](translate-rotate-and-scale/rotate/rotating.md)
-  * [In-Game: Using Rotate\(\) Function](translate-rotate-and-scale/rotate/using-rotate-function.md)
+  * [In-Game: Using Transform.Rotate\(\) Function](translate-rotate-and-scale/rotate/using-rotate-function.md)
   * [In-Game: Updating EulerAngles](translate-rotate-and-scale/rotate/updating-eulerangles.md)
-* [Common Issues: Rotation](translate-rotate-and-scale/rotation.md)
 * [Scale](translate-rotate-and-scale/scale/README.md)
   * [Resizing/Scaling Objects in the Editor](translate-rotate-and-scale/scale/scaling.md)
   * [In-Game: Updating Scale](translate-rotate-and-scale/scale/updating-scale.md)
 * [Controlling Speed](translate-rotate-and-scale/controlling-speed.md)
+* [Common Issues with Transforms](translate-rotate-and-scale/rotation.md)
 
 ## Materials
 

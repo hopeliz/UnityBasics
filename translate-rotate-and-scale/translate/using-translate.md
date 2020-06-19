@@ -1,2 +1,128 @@
-# In-Game: Using Translate\(\) Function
+# Using the Transform.Translate\(\) Function
+
+When the game is running, you will not be able to move around objects as you can within the editor, so one way to move objects smoothly is with the Transform.Translate\(\).
+
+It updates the position of the object and can be used incrementally to make the movement appear smooth.
+
+Here is an example of a player move script using those shortcuts and Transform.Translate\(\) to move a character when a key is pressed:
+
+```csharp
+using UnityEngine;
+
+public class PlayerMotor : MonoBehaviour
+{
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.Translate(0, 0, 1.0F);
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Translate(-1.0F, 0, 0);
+        }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.Translate(0, 0, -1.0F);
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Translate(1.0, 0, 0);
+        }
+    }
+}
+```
+
+### Controlling Speed
+
+Commands in the Update\(\) function run once per frame, meaning speed changes based on the computer's frame rate.
+
+Multiplying by Time.deltaTime adjusts the speed to be about the same, even with different frame rates. Adding a speed variable helps you adjust the speed it moves.
+
+Here's the same example with these adjustments:
+
+```csharp
+using UnityEngine;
+
+public class PlayerMotor : MonoBehaviour
+{
+    public float moveSpeed = 10;
+    
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.Translate(new Vector3(0, 0, 1.0F) * moveSpeed * Time.deltaTime);
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Translate(new Vector3(-1.0F, 0, 1.0F) * moveSpeed * Time.deltaTime);
+        }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.Translate(new Vector3(0, 0, -1.0F) * moveSpeed * Time.deltaTime);
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Translate(new Vector3(-1.0F, 0, 0) * moveSpeed * Time.deltaTime);
+        }
+    }
+}
+```
+
+{% page-ref page="../controlling-speed.md" %}
+
+### Vector3 Shortcuts
+
+Instead of remembering and typing a long piece of code like the one below:
+
+```csharp
+new Vector3(0, 1.0, 0)
+```
+
+Unity has short cuts like this one that you only have to remember a direction:
+
+```csharp
+Vector3.up
+```
+
+Here's the same example with these shortcuts:
+
+```csharp
+using UnityEngine;
+
+public class PlayerMotor : MonoBehaviour
+{
+    public float moveSpeed = 10;
+    
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
+        }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.Translate(Vector3.back * moveSpeed * Time.deltaTime);
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
+        }
+    }
+}
+```
 
