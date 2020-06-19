@@ -64,7 +64,7 @@
   * [Updating Position Through Scripts](translate-rotate-and-scale/translate/updating-position.md)
 * [Rotate](translate-rotate-and-scale/rotate/README.md)
   * [Rotating Game Objects in the Editor](translate-rotate-and-scale/rotate/rotating.md)
-  * [In-Game: Using Transform.Rotate\(\) Function](translate-rotate-and-scale/rotate/using-rotate-function.md)
+  * [Using the Transform.Rotate\(\) Function](translate-rotate-and-scale/rotate/using-rotate-function.md)
   * [In-Game: Updating EulerAngles](translate-rotate-and-scale/rotate/updating-eulerangles.md)
 * [Scale](translate-rotate-and-scale/scale/README.md)
   * [Resizing/Scaling Objects in the Editor](translate-rotate-and-scale/scale/scaling.md)
