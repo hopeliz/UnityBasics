@@ -23,13 +23,13 @@ void Start() {
 void Update() {
 
     // Example of updating position
-    cube.translate.position += new Vector3(1.0F, 0, 0) * speed * Time.deltaTime;
+    cube.transform.position += new Vector3(1.0F, 0, 0) * speed * Time.deltaTime;
 
     // Example of using Translate()
     cube.Translate(new Vector3(1.0F, 0, 0)) * speed * Time.deltaTime;
 
     // Example of using Vector3.Lerp()
-    cube.translate.position = Vector3.Lerp(cube.translate.position, destination, speed * Time.deltaTime);
+    cube.transform.position = Vector3.Lerp(cube.transform.position, destination, speed * Time.deltaTime);
 
 }
 ```
