@@ -44,7 +44,7 @@ Destroy(gameObject);
 ```
 
 {% hint style="danger" %}
-Deleting parent objects will delete their child objects. Child objects can be moved to another parent if needed. Read more about [Parenting](../../create/create-game-objects/parenting/).
+Deleting parent objects will delete their child objects. Child objects can be moved to another parent if needed. Read more about [Parenting](../../create/create-game-objects/parenting.md).
 {% endhint %}
 
 ### Avoiding Errors

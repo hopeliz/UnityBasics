@@ -1,10 +1,10 @@
 # Creating Custom Components and Scripts
 
-### Creating a Custom Component / Script Through the Inspector Tab
+## Creating a Custom Component / Script Through the Inspector Tab
 
 Sometimes, you have to make your own component. These are called Scripts and use C\# and Unity's libraries and classes. These built-in libraries and classes allow you to use very little script compared to coding everything by scratch.
 
-To add a custom component through the Inspector Tab, click the **Add Component** button.
+To add a custom component through the [Inspector Tab](../../the-unity-interface/the-tabs/inspector-tab.md), click the **Add Component** button.
 
 ![](../../.gitbook/assets/image%20%2816%29.png)
 
@@ -31,7 +31,7 @@ Type in the name of your script and you are absolutely sure that's what you want
 
 ![](../../.gitbook/assets/image%20%2831%29.png)
 
-The script will now appear in the Project Tab, in the Assets folder, the list of components, and in the Inspector Tab.
+The script will now appear in the [Project Tab](../../the-unity-interface/the-tabs/project-tab.md), in the Assets folder, the list of components, and in the Inspector Tab.
 
 ![](../../.gitbook/assets/image%20%2847%29.png)
 
@@ -60,7 +60,7 @@ Script names should:
 Not following these "rules" could break the script.
 {% endhint %}
 
-Press enter to confirm the name.
+Press the ENTER key to confirm the name.
 
 The script can now be edited in the IDE/code editor set up with Unity \(usually Visual Studio or MonoDevelop\).
 
@@ -72,7 +72,13 @@ Renaming scripts within the Project Tab will require additional renaming within 
 
 Please see the [Coding Basics](../../coding-basics/intro-to-scripts.md) section for more information on the actual scripting.
 
+{% hint style="warning" %}
+REMEMBER: Add the script to a game object in the scene. It will not work if it does not exist in the game.
+{% endhint %}
+
 {% page-ref page="../../select/components/" %}
+
+{% page-ref page="../../delete/components/" %}
 
 
 

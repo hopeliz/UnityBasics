@@ -11,7 +11,7 @@ Another way is to select your game object in the Hierarchy Tab, right-click with
 ![](../../.gitbook/assets/image%20%2841%29.png)
 
 {% hint style="danger" %}
-If you delete a parent object, the child objects will also be deleted. Read more about [Parenting](../../create/create-game-objects/parenting/).
+If you delete a parent object, the child objects will also be deleted. Read more about [Parenting](../../create/create-game-objects/parenting.md).
 {% endhint %}
 
 {% hint style="danger" %}

@@ -15,7 +15,7 @@ Below are ways you can update game objects in each of the default tabs.
 #### **Hierarchy Tab**
 
 * Click and drag game objects to order and organize them
-* Click and drag game objects to change to [create parent and child objects](../../create/create-game-objects/parenting/)
+* Click and drag game objects to change to [create parent and child objects](../../create/create-game-objects/parenting.md)
 * Rename game objects
 
        Options:  

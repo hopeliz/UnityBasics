@@ -10,7 +10,7 @@ Changes and additions made to game objects while in Play Mode will revert back t
 You can copy the component and its values in Play Mode, then paste the values or as a new component when no longer in Play Mode.
 {% endhint %}
 
-### Adding a Built-In Component
+## Adding a Built-In Component
 
 When you select a game object or asset, you will see the **Add Component** button at the end of the components in the [Inspector Tab](../../the-unity-interface/the-tabs/inspector-tab.md):
 
@@ -34,15 +34,15 @@ Click on the component and it will be added to your game object or asset, appear
 
 ![](../../.gitbook/assets/image%20%2894%29.png)
 
-### Duplicate, Copy, and Paste
+## Duplicate, Copy, and Paste
 
 ![](../../.gitbook/assets/image%20%2844%29.png)
 
-**Copying**
+### **Copying**
 
 You can right-click on any component and click Copy Component.
 
-**Pasting**
+### **Pasting**
 
 To paste a full component right-click in the Inspector Tab and click Paste Component As New.
 
@@ -53,6 +53,8 @@ If you are copying values from one object or asset to update another, click Past
 {% page-ref page="custom-components-and-scripts.md" %}
 
 {% page-ref page="../../select/components/" %}
+
+{% page-ref page="../../delete/components/" %}
 
 
 

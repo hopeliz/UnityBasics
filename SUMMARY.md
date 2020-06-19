@@ -20,12 +20,10 @@
 ## Create
 
 * [Creating Game Objects](create/create-game-objects/README.md)
-  * [Untitled](create/create-game-objects/untitled.md)
   * [Creating Game Objects](create/create-game-objects/editor-creating-game-objects.md)
   * [Spawning Objects](create/create-game-objects/spawning-objects.md)
   * [Unhiding/Hiding Objects During Gameplay](create/create-game-objects/unhiding-objects.md)
-  * [Parenting](create/create-game-objects/parenting/README.md)
-    * [Parenting Tricks](create/create-game-objects/parenting/parenting-tricks.md)
+  * [Parenting](create/create-game-objects/parenting.md)
 * [Creating Assets](create/create-assets.md)
 * [Creating Components and Scripts](create/create-scripts/README.md)
   * [Adding Components Using the Inspector Tab](create/create-scripts/using-inspector-tab.md)

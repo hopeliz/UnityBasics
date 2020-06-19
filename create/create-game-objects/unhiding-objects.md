@@ -1,6 +1,6 @@
 # Unhiding/Hiding Objects During Gameplay
 
-### Using SetActive\(bool value\)
+## Using SetActive\(bool value\)
 
 Use the script below to make a game object visible and its components available: 
 
@@ -22,11 +22,11 @@ Swap "this" with the variable name for a gameObject type.
 Scripts cannot access components of objects that are not active.
 {% endhint %}
 
-### Example Code
+## Example Code
 
 Examples of a game object called "thing" that appears when "F" is pressed and disappears when "X" is pressed:
 
-**Example 1** \(using a gameObject type\):
+### **Example 1** \(using a gameObject type\):
 
 ```csharp
 using UnityEngine;
@@ -48,7 +48,7 @@ public class AppearDisappear : MonoBehaviour
 }
 ```
 
-**Example 2** \(using a variable of another type\):
+### **Example 2** \(using a variable of another type\):
 
 ```csharp
 using UnityEngine;
@@ -74,7 +74,7 @@ public class AppearDisappear : MonoBehaviour
 **REMEMBER:** Hiding a parent object will hide its children.
 {% endhint %}
 
-### **Checking If Active**
+## **Checking If Active**
 
 This code can help if you want things to behave differently if an object is visible or not.
 
@@ -95,4 +95,10 @@ In the Inspector Tab, the checkbox next to the object's name controls the active
 {% hint style="warning" %}
 REMEMBER: Add the script to a game object in the scene. It will not work if it does not exist in the game.
 {% endhint %}
+
+{% page-ref page="../../select/update-game-objects/" %}
+
+{% page-ref page="../../delete/delete-game-objects/" %}
+
+
 

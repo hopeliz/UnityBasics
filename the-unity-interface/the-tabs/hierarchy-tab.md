@@ -18,7 +18,7 @@ Objects can "parent" other objects. The list of "child" or inner objects appears
 
 ![](../../.gitbook/assets/image%20%2870%29.png)
 
-**::** Learn more info about [parenting objects](../../create/create-game-objects/parenting/).
+**::** Learn more info about [parenting objects](../../create/create-game-objects/parenting.md).
 
 ## **Scene Name**
 

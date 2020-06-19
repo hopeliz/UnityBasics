@@ -14,35 +14,37 @@ Menus below may vary depending on what packages and plugins have been installed.
 Changes and additions made while in Play Mode will revert back to the values before playing.
 {% endhint %}
 
-**Method 1: Right-click in the Hierarchy Tab to get this dropdown:**
+### **Method 1: Right-click in the Hierarchy Tab to get this dropdown:**
 
 ![](../../.gitbook/assets/image%20%2857%29.png)
 
 The area starting with "Create Empty" is the list of game objects to choose from.
 
-**Method 2: Click on the Add Component dropdown menu \(it looks like a plus sign\):**
+### **Method 2: Click on the Add Component dropdown menu \(it looks like a plus sign\):**
 
 ![](../../.gitbook/assets/image%20%2845%29.png)
 
-**Method 3: Click on GameObject in the taskbar:**
+### **Method 3: Click on GameObject in the taskbar:**
 
 ![](../../.gitbook/assets/image%20%28115%29.png)
 
-**Method 4: Click the three-dot settings icon for the Inspector Window, then hover over "GameObject":**
+### **Method 4: Click the three-dot settings icon for the Inspector Window, then hover over "GameObject":**
 
 ![](../../.gitbook/assets/image%20%2823%29.png)
 
-### Duplicate, Copy, and Paste
+## Duplicate, Copy, and Paste
 
 If you have a game object selected in either the Inspector Tab or the Scene Tab, you can use the menu from Method 1 to duplicate, copy, and paste.
 
-**Shortcuts:**
+### **Shortcuts**
 
 Duplicate: CTRL + D  
 Copy: CTRL + C  
 Paste: CTRL + D
 
 {% page-ref page="../../select/update-game-objects/" %}
+
+{% page-ref page="../../delete/delete-game-objects/delete-in-editor.md" %}
 
 
 
