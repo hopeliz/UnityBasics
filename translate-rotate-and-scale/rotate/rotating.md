@@ -8,13 +8,13 @@ Here, we see the rotation's x, y, and z coordinates \(Euler angles\). For rotati
 
 Since you can change the view of your Scene Tab and move cameras with their own transform components, the best way to determine an axis is to move the object with the transform vectors and watch the numbers in the component OR change the numbers and watch the object in the Scene Tab.
 
-### Resetting the Coordinates
+### Resetting the Angles
 
-You'll notice when you add a new game object, it will often have the Euler angles that aren't 0,0,0. Right-click on the Transform component or click the three dots on the right of the component in the Inspector Tab to get this menu:
+You'll notice when you add a new game object, it will often have Euler angles that aren't 0,0,0. Right-click on the Transform component or click the three dots on the right of the component in the Inspector Tab to get this menu:
 
 ![](../../.gitbook/assets/image%20%28159%29.png)
 
-Here, **Reset** resets all the coordinates to 0,0,0 or you can click **Reset Rotation** for just the local rotation of the object in Euler angles.
+Here, **Reset** resets all the coordinates to 0,0,0 \(position and rotation\) and 1 x 1 x 1 \(scale\) or you can click **Reset Rotation** for just the local rotation of the object in Euler angles.
 
 {% hint style="info" %}
 This will only reset the object's local rotation/Euler angles relative to its parent object. To reset to the game's \(or global\) rotation of 0,0,0, move the object outside of any parent object in the Hierarchy Tab, reset the rotation, then put it back where it belongs. This also updates the local reset rotation to whatever new rotation the object has when placed back into the parent object.
@@ -32,7 +32,7 @@ This will make rotate vectors appear on the selected object in the [Scene Tab](.
 
 ![](../../.gitbook/assets/image%20%28167%29.png)
 
-You can click and drag on the red, green, or blue vectors to move the object along the x, y, or z Euler angles respectively. As you do so, you'll notice the numbers changing in the rotation property in the Transform component.
+You can click and drag on the red, green, or blue vectors to spin/rotate the object around the x, y, or z axes respectively. As you do so, you'll notice the numbers changing in the rotation property in the Transform component.
 
 ### Rotation Objects in the Inspector Tab
 

@@ -68,7 +68,7 @@
   * [In-Game: Updating EulerAngles](translate-rotate-and-scale/rotate/updating-eulerangles.md)
 * [Common Issues: Rotation](translate-rotate-and-scale/rotation.md)
 * [Scale](translate-rotate-and-scale/scale/README.md)
-  * [Editor: Scaling Objects](translate-rotate-and-scale/scale/scaling.md)
+  * [Resizing/Scaling Objects in the Editor](translate-rotate-and-scale/scale/scaling.md)
   * [In-Game: Updating Scale](translate-rotate-and-scale/scale/updating-scale.md)
 * [Controlling Speed](translate-rotate-and-scale/controlling-speed.md)
 

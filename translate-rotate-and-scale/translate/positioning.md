@@ -8,11 +8,11 @@ Here, we see the position's x, y, and z coordinates. Generally, the **x-axis** i
 
 ### Resetting the Coordinates
 
-You'll notice when you add a new game object, it will often have the coordinates that aren't 0,0,0. Right-click on the Transform component or click the three dots on the right of the component in the Inspector Tab to get this menu:
+You'll notice when you add a new game object, it will often have coordinates that aren't 0,0,0. Right-click on the Transform component or click the three dots on the right of the component in the Inspector Tab to get this menu:
 
 ![](../../.gitbook/assets/image%20%28159%29.png)
 
-Here, **Reset** resets all the coordinates to 0,0,0 or you can click **Reset Position** for just the local position of the object.
+Here, **Reset** resets all the coordinates to 0,0,0 \(position and rotation\) and 1 x 1 x 1 \(scale\) or you can click **Reset Position** for just the local position of the object.
 
 {% hint style="info" %}
 This will only reset the object's local position relative to its parent object. To reset to the game's \(or global\) position of 0,0,0, move the object outside of any parent object in the Hierarchy Tab, reset the position, then put it back where it belongs. This also updates the local reset position to whatever new position the object has when placed back into the parent object.
@@ -30,7 +30,7 @@ This will make translate vectors appear on the selected object in the [Scene Tab
 
 ![](../../.gitbook/assets/image%20%28156%29.png)
 
-You can click and drag on the red, green, or blue vectors to move the object along the x, y, or z coordinates respectively. As you do so, you'll notice the numbers changing in the position property in the Transform component.
+You can click and drag on the red, green, or blue vectors to move the object along the x, y, or z axes respectively. As you do so, you'll notice the numbers changing in the position property in the Transform component.
 
 ### Moving Objects in the Inspector Tab
 
