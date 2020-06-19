@@ -64,7 +64,6 @@
   * [Updating Position Through Scripts](translate-rotate-and-scale/translate/updating-position.md)
 * [Rotate](translate-rotate-and-scale/rotate/README.md)
   * [Editor: Rotating Game Objects](translate-rotate-and-scale/rotate/rotating.md)
-  * [Rotation vs. EulerAngles](translate-rotate-and-scale/rotate/rotation-eulerangles.md)
   * [In-Game: Using Rotate\(\) Function](translate-rotate-and-scale/rotate/using-rotate-function.md)
   * [In-Game: Updating EulerAngles](translate-rotate-and-scale/rotate/updating-eulerangles.md)
 * [Common Issues: Rotation](translate-rotate-and-scale/rotation.md)
