@@ -4,7 +4,7 @@ Every game object within a scene listed in the [Hierarchy Tab](../../the-unity-i
 
 ![](../../.gitbook/assets/image%20%28160%29.png)
 
-Here, we see the position's x, y, and z coordinates. Generally, the **x-axis** is left and right \(horizontal\), the **y-axis** is up and down, and the **z-axis** is forward and back and 0,0,0 is the center of the scene. Since you can change the view of your Scene Tab and move cameras with their own transform components, the best way to determine an axis is to move the object with the transform vectors and watch the numbers in the component OR change the numbers and watch the object in the Scene Tab.
+Here, we see the position's x, y, and z coordinates. Generally, the **x-axis** is left and right \(horizontal\), the **y-axis** is up and down \(vertical\), and the **z-axis** is forward and back and 0,0,0 is the center of the scene. Since you can change the view of your Scene Tab and move cameras with their own transform components, the best way to determine an axis is to move the object with the transform vectors and watch the numbers in the component OR change the numbers and watch the object in the Scene Tab.
 
 ### Resetting the Coordinates
 
@@ -20,7 +20,7 @@ This will only reset the object's local position relative to its parent object. 
 
 ### Move Objects in the Scene Tab
 
-Click the **Move Tool** at the top right of the editor.
+Click the **Move Tool** at the top left of the editor.
 
 ![](../../.gitbook/assets/image%20%28163%29.png)
 
@@ -30,7 +30,7 @@ This will make translate vectors appear on the selected object in the [Scene Tab
 
 ![](../../.gitbook/assets/image%20%28156%29.png)
 
-You can click and drag on the red, green, or blue vectors to move the object along the x, y, or z coordinates respectively. As you do so, you'll notice the numbers changing in the position property in the Transform coordinate.
+You can click and drag on the red, green, or blue vectors to move the object along the x, y, or z coordinates respectively. As you do so, you'll notice the numbers changing in the position property in the Transform component.
 
 ### Moving Objects in the Inspector Tab
 
