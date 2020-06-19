@@ -2,7 +2,7 @@
 
 During gameplay, you won't be able to click and drag on objects to update them, so here are some ways to access common properties through scripts.
 
-### Declaring Variables
+## Declaring Variables
 
 In your script, public variables can be declared at the top of the class before the Start\(\) function.
 
@@ -20,9 +20,9 @@ Once saved and added to a game object, the example will appear like this:
 
 This means the script is looking for specific types of components \(Game Object, Transform, and Rigidbody\) and took the scripts and turned the variable name into something more readable \(if the name is written in "camel" case\).
 
-### Assigning Variables
+## Assigning Variables
 
-**Using the Inspector Tab**
+### **Using the Inspector Tab**
 
 Click and drag the game objects you want to manipulate with the script into the proper fields OR clock on the circle/target icon to the right of the field to search for and select the game object. Clicking the target icon will only list objects that have the type of component required.
 
@@ -30,7 +30,7 @@ Once filled in, it will look similar to this:
 
 ![](../../.gitbook/assets/image%20%28117%29.png)
 
-**Using a Script**
+### **Using a Script**
 
 There are times when you need to get a component during gameplay that has changed or has been added that you can't click and drag into an editor field.
 
@@ -52,7 +52,7 @@ If there is a reference an object in the script and the Inspector field is empty
 _UnassignedReferenceException: The variable \_\_\_\_\_ of \_\_\_\_\_ has not been assigned. You probably need to assign the \_\_\_\_\_ variable of the \_\_\_\_\_ script in the inspector._
 {% endhint %}
 
-### Updating Values
+## Updating Values
 
 So now, the variable "rb" can be used with any Rigidbody functions.
 
@@ -71,7 +71,7 @@ Generally, you can start typing the name of the value you would like to update a
 
 ![](../../.gitbook/assets/image%20%28140%29.png)
 
-### More Info
+## More Info
 
 Some components are covered in these other sections:
 

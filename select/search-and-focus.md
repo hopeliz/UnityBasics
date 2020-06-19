@@ -1,6 +1,6 @@
 # Search and Focus
 
-### **Search Fields Everywhere!**
+## **Search Fields Everywhere!**
 
 Most tabs will have a search field at the top.
 
@@ -14,13 +14,13 @@ As you start to type, matching game objects, assets, components, labels, etc. wi
 | Scene Tab | Visible game objects |
 | Asset Store Tab | Items in the Asset Store |
 
-### **Focus**
+## **Focus**
 
 Sometimes, you select a game object in the Hierarchy tab, but it's off-screen in the Scene Tab or maybe you selected a game object in the Scene Tab, but lost where it was located in a Hierarchy Tab.
 
 Just press **F** to "focus"  or bring close/highlight the location of the selected game object. Press F while hovering over the tab you need the focus in.
 
-### Finding Assets
+## Finding Assets
 
 The three dots on the top right of the [Hierarchy Tab](../the-unity-interface/the-tabs/hierarchy-tab.md) can find and highlight the current scene in the Project Tab.
 

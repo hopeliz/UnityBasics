@@ -1,5 +1,7 @@
 # Update Components Using the Inspector Tab
 
+## Overview
+
 When you select a game object in the Hierarchy Tab or an asset in the Project Tab, the components that control the behavior and appearance are listed in the Inspector Tab.
 
 ![Example of components of a newly added Sphere game object.](../../.gitbook/assets/image%20%28142%29.png)
@@ -12,7 +14,7 @@ Changes made while in Play Mode will revert back to the values before playing.
 You can copy the component and its values in Play Mode, then paste the values or as a new component when no longer in Play Mode.
 {% endhint %}
 
-### Number Fields
+## Number Fields
 
 These fields uses **integers** and **floating point** numbers.
 
@@ -22,7 +24,7 @@ For number fields, you can also hover your cursor over the label \(eg. x, y, or 
 
 Some of these are displayed as specific ranges with a slider.
 
-### Object Fields
+## Object Fields
 
 These fields will often be "None" for their default followed by the type of component it is looking for. 
 
@@ -37,7 +39,7 @@ If there is a reference an object in the script and the Inspector field is empty
 _UnassignedReferenceException: The variable \_\_\_\_\_ of \_\_\_\_\_ has not been assigned. You probably need to assign the \_\_\_\_\_ variable of the \_\_\_\_\_ script in the inspector._
 {% endhint %}
 
-### **Checkboxes**
+## **Checkboxes**
 
 Checkboxes are fields that use booleans \(true or false, 1 or 0\).
 
@@ -45,11 +47,11 @@ Check for TRUE. Uncheck for FALSE.
 
 These fields are great for custom scripts to see if parts of scripts are acting in a specific way \(yes they are or no they aren't\) and when you want to test how something would behave under different switch-like circumstances.
 
-### Dropdown Menus
+## Dropdown Menus
 
 These are fields with a set list of choices where you can only use one at a time. Click to expand and select the desired value.
 
-### Color Picker
+## Color Picker
 
 These appear as a color box.
 
@@ -72,4 +74,10 @@ Note: HSV stands for Hue, Saturation, and Value and is another way that uses num
 The Hexadecimal field will translate "Hex Codes" often used in web development that are six-digit codes starting with a hashtag \# with each digit ranging from 0-9 or A-E.
 
 Close the color window when you are done.
+
+{% page-ref page="../../delete/delete-game-objects/delete-in-editor.md" %}
+
+{% page-ref page="../../create/create-scripts/using-inspector-tab.md" %}
+
+
 

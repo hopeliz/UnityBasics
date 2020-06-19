@@ -6,29 +6,29 @@ Trying to update the children of a prefab in a scene will give you this error:
 
 ![](../../.gitbook/assets/image%20%2840%29.png)
 
-### Accessing the Prefab Editor
+## Accessing the Prefab Editor
 
 There are a few ways to access the editor for a prefab object:
 
-**Through the Hierarchy Tab**
+### **Through the Hierarchy Tab**
 
 Click on the arrow to the right of the parent object's name to edit the prefab.
 
 ![](../../.gitbook/assets/image%20%2828%29.png)
 
-**Through the Project Tab**
+### **Through the Project Tab**
 
 Double-click on the prefab to edit.
 
 ![](../../.gitbook/assets/image%20%28146%29.png)
 
-**Through the Inspector Tab**
+### **Through the Inspector Tab**
 
 Click on the Open Prefab button to edit the selected prefab.
 
 ![](../../.gitbook/assets/image%20%2839%29.png)
 
-### **The Prefab Editor**
+## **The Prefab Editor**
 
 When you are editing a prefab, the Hierarchy shows the children objects and the Scene Tab shows a close up of the prefab with a solid background color.
 
@@ -38,7 +38,7 @@ Edit the game objects like you would any other game object.
 
 Changes here will update all instances of the prefab when you click the back arrow in the Hierarchy Tab.
 
-### Unpack a Prefab
+## Unpack a Prefab
 
 Maybe you only want to change one of the instances and not all. 
 
@@ -51,6 +51,8 @@ This will turn the prefab and its children gray, meaning they can be edited with
 {% hint style="warning" %}
 Updating prefab assets will not update the unpacked version of the prefab.
 {% endhint %}
+
+{% page-ref page="../../create/create-prefabs.md" %}
 
 
 

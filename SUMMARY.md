@@ -38,7 +38,6 @@
   * [Updating Game Objects in the Editor](select/update-game-objects/editor-selecting-objects.md)
   * [Updating Prefabs](select/update-game-objects/updating-prefabs.md)
 * [Updating Assets](select/updating-assets.md)
-* [Untitled](select/untitled.md)
 * [Updating Components](select/components/README.md)
   * [Update Components Using the Inspector Tab](select/components/using-the-inspector-tab.md)
   * [Accessing Components Through Scripts](select/components/accessing-attributes.md)
