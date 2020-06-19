@@ -1,8 +1,4 @@
----
-description: First steps
----
-
-# Getting Started
+# Getting Started with Unity
 
 **Download and install Unity Hub**  
 Unity is a game engine that you can download for free as a student and for personal use [here](https://store.unity.com/?_ga=2.219619545.1982751462.1590796351-1267817405.1590796351#plans-individual).

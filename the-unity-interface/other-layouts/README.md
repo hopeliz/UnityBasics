@@ -4,19 +4,19 @@ The tabs are built to be dragged around to form different configurations.
 
 The Layout dropdown at the top right of the screen will have built-in options or you can create your own.
 
-### Default Layout
+## Default Layout
 
 ![](../../.gitbook/assets/image%20%2881%29.png)
 
-### 4 Split Layout
+## 4 Split Layout
 
 ![](../../.gitbook/assets/image%20%28111%29.png)
 
-### Tall Layout
+## Tall Layout
 
 ![](../../.gitbook/assets/image%20%2812%29.png)
 
-### Wide Layout
+## Wide Layout
 
 ![](../../.gitbook/assets/image%20%2885%29.png)
 

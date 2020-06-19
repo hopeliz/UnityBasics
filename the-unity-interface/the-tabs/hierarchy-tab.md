@@ -8,7 +8,7 @@ This tab shows a list of game objects within your scene.
 
 Game objects are the objects in the actual game. They use assets listed in the [Project Tab](project-tab.md) to determine how the scene or game looks, sounds, and behaves. 
 
-### **Layout**
+## **Layout**
 
 Usually, this tab starts with a Main Camera and a Directional Light. 
 
@@ -20,7 +20,7 @@ Objects can "parent" other objects. The list of "child" or inner objects appears
 
 **::** Learn more info about [parenting objects](../../create/create-game-objects/parenting/).
 
-### **Scene Name**
+## **Scene Name**
 
 The current scene name is shown at the top of the tab.
 
@@ -32,7 +32,7 @@ Selected objects are highlighted blue by default. You can select more than one o
 
 ![](../../.gitbook/assets/image%20%2868%29.png)
 
-### **Hiding Objects**
+## **Hiding Objects**
 
 Sometimes, you'll want to hide an object from view. Hover your cursor over the space to the left of an object. Click the eye symbol to toggle the object's visibility in the Scene View. Clicking the eye to the left of the scene name will toggle visibility on and off for all objects.
 
@@ -44,7 +44,7 @@ Sometimes, you'll want to hide an object from view. Hover your cursor over the s
 
 **::** Learn more info about [hiding, disabling, and deleting objects](../../delete/delete-game-objects/delete-in-editor.md).
 
-### Finding and Selecting
+## Finding and Selecting
 
 Sometimes, you'll find yourself picking the wrong game object in the Scene View because of an overlap or how close it is to your intended game object. The pointy hand symbol that appears to the left of the object is a way to target whether an object can be selected in the Scene View. Clicking the symbol to the left of the scene name will toggle the ability to pick all the objects.
 
@@ -62,7 +62,7 @@ You can search for items using the search bar. Once you begin typing, the list w
 
 **::** Learn more info about [selecting objects](../../select/update-game-objects/editor-selecting-objects.md).
 
-### Menus
+## Menus
 
 Click on the three dots on the right of the scene name and the tab for menus of commands related to the tab and scene.
 

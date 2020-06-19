@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Getting Started](getting-started.md)
+* [Getting Started with Unity](getting-started.md)
 * [Helpful Shortcuts](helpful-shortcuts.md)
 
 ## The Unity Interface

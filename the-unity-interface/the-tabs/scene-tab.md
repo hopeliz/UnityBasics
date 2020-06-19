@@ -8,13 +8,15 @@ This tab shows your scene overall.
 
 **Note:** The viewpoint could look different on your computer.
 
-### Up Close
+## Up Close
 
 The default Scene Tab will have what they call a Skybox \(the environment that looks like a horizon, sky, and sun\) and Gizmos \(symbols representing non-physical objects\) for the Main Camera and the Directional Light.
 
 ![](../../.gitbook/assets/image%20%28106%29.png)
 
-### Movement and Viewpoint
+## Movement and Viewpoint
+
+### Changing the Viewpoint
 
 To rotate the view around the center of the scene, hold ALT and click and drag your mouse holding down the left-click button.
 
@@ -23,6 +25,8 @@ To rotate the scene view camera, click and drag your mouse holding down the righ
 To move the whole view, hold the scroll wheel on your mouse and drag the view.
 
 To zoom in and out, scroll the scroll wheel or hold ALT and click and drag your mouse holding down the right-click button.
+
+### Using the Scene Gizmo
 
 The thing in the top right of the tab is called the Scene Gizmo. It gives you a reference about which direction is x, y, or z.
 
@@ -36,7 +40,7 @@ Want a view directly from one of the directions? Click on the desired handle to 
 
 The lock symbol keeps the view from rotating. It will still allow you to move the whole view.
 
-### Options
+## Options
 
 The dropdown at the top left of the table provides more options for how to view things within the scene. The default Shading Mode is "Shaded." This tutorial will not go in-depth about these options. Please see the links for Unity's documentation.
 
@@ -82,13 +86,13 @@ The slider at the top adjusts the size of the visible gizmos.
 
 Please see the links to access the Unity documentation for more in-depth info about these options.
 
-### Search
+## Search
 
 When typing in a search term, the matching items will be listed in the Hierarchy Tab and the Scene Tab will appear to get whiter. Click the X to clear the search quickly.
 
 ![](../../.gitbook/assets/image%20%2849%29.png)
 
-### More Tools Outside of the Tab
+## More Tools Outside of the Tab
 
 These tools are available at the top left of the window in all layouts and are primarily used in the Scene Tab.
 

@@ -6,31 +6,31 @@ description: All the details of your assets and items
 
 One of the most important tabs, the Inspector shows all the components and attributes of a selected game object or Asset.
 
-### Default Layout
+## Default Layout
 
 The information in the Inspector Tab changes depending on what game objects and assets you have selected.
 
-_Example of a default sphere **game object** when selected in the Hierarchy Tab:_
+Example of a default sphere **game object** when selected in the Hierarchy Tab:
 
 ![](../../.gitbook/assets/image%20%28142%29.png)
 
-_Example of a default empty **game object** when selected in the Hierarchy Tab:_
+Example of a default empty game object when selected in the Hierarchy Tab:
 
 ![](../../.gitbook/assets/image%20%282%29.png)
 
-_Example of a Main Camera **game object** when selected in the Hierarchy Tab:_
+Example of a Main Camera **game object** when selected in the Hierarchy Tab:
 
 ![](../../.gitbook/assets/image%20%2898%29.png)
 
-_Example of a directional light **game object** when selected in the Hierarchy Tab:_
+Example of a directional light **game object** when selected in the Hierarchy Tab:
 
 ![](../../.gitbook/assets/image%20%2811%29.png)
 
-_Example of a material **asset** when selected in the Project Tab:_
+Example of a material **asset** when selected in the Project Tab:
 
 ![](../../.gitbook/assets/image%20%2866%29.png)
 
-### Game Object Header Information
+## Game Object Header Information
 
 ![Example header info for game objects](../../.gitbook/assets/image%20%2843%29.png)
 
@@ -51,7 +51,7 @@ Notes:
 
 **Layer \(Dropdown\)**  - Layers can help a script determine how elements interact with certain objects.
 
-### Asset Header Information
+## Asset Header Information
 
 ![Example header info for a material asset](../../.gitbook/assets/image%20%2896%29.png)
 
@@ -63,17 +63,17 @@ The header generally shows the following elements for selected assets:
 
 **Name** - This can be changed in the Project Tab or within the Assets folder
 
-**Connection to other assets** - Some assets use other assets \(materials use shaders\) and will have a a reference to it.
+**Connection to other assets** - Some assets use other assets \(materials use shaders\) and will have a reference to it.
 
 **Commands \(Buttons\)** - Open folders, prefabs, and scripts.
 
-### Transform Component
+## Transform Component
 
 You'll notice that every game object in your scene has a _Transform_ component that stores coordinates for the object's position, rotation, and scale.
 
 Check out the [Translate, Rotate, and Scale](../../translate-rotate-and-scale/intro-to-transforms.md) chapter for more information.
 
-### Components
+## Components
 
 Components are really just pieces of script that you can add, update, and remove from game objects. Many have default built-in components so you do not have to write them yourself. They are even accessible by other scripts!
 
@@ -89,7 +89,7 @@ Many components allow you to turn them off and on by using the checkbox to the l
 
 **Note:** Scripts will give an error if they are trying to access a component that has been turned off.
 
-### Add Component Button
+## Add Component Button
 
 ![](../../.gitbook/assets/image%20%2848%29.png)
 
@@ -97,7 +97,7 @@ At the bottom of the list of components, there's an "Add Component" button. This
 
 **::** Learn more info about [creating components and scripts](../../create/create-scripts/).
 
-### Extras for Assets
+## Extras for Assets
 
 Many assets have previews within the Inspector Tab at the bottom.
 
@@ -109,7 +109,7 @@ The blue "label" icon on the right allows you to label your assets with one or m
 
 For information on Asset Bundles, please see the [Unity documentation](https://docs.unity3d.com/ScriptReference/AssetBundle.html).
 
-### Still lost?
+## Still lost?
 
 Use the icons seen on the top right of components and parameters for Unity documentation, presets, and settings:
 

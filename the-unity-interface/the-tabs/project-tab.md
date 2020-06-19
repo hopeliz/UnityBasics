@@ -8,13 +8,13 @@ This tab shows the folders in the Asset folder of your project file and is where
 
 Assets are the files used like an artist's materials - they can be used multiple times on many game objects. The game objects are listed in the [Hierarchy Tab](hierarchy-tab.md).
 
-### Default Tab View
+## Default Tab View
 
 **Note:** This is in a shortened window.
 
 ![](../../.gitbook/assets/image%20%28124%29.png)
 
-### File Organization
+## File Organization
 
 All assets seen in this tab are located \(along with data files\) in the project's Asset folder. When you create folders here, they will also be created in that Asset folder. Clicking and dragging files \(textures, 3D models, audio, etc.\) into the Project Tab _creates a copy_ of the files in the Asset folder.
 
@@ -28,7 +28,7 @@ This makes it easier to find and create types of assets. This is just one way to
 1. You can usually move assets from one folder to another. Scripts are the only files that might need to be updated within items and scripts after moving.  
 2. When you drag a texture onto an object, a material is auto-created and put into an auto-created folder named "Materials" within the same folder as the texture.
 
-### Left Side
+## Left Side
 
 ![](../../.gitbook/assets/image%20%2884%29.png)
 
@@ -40,7 +40,7 @@ This makes it easier to find and create types of assets. This is just one way to
 
 **Assets Folder Structure** - The folders and subfolders can easily be accessed here. Click on the arrow on the left of a folder name to see the subfolders.
 
-### **Breadcrumbs and File Paths**
+## **Breadcrumbs and File Paths**
 
 ![](../../.gitbook/assets/image%20%2859%29.png)
 
@@ -52,13 +52,13 @@ The file path \(starting with the Assets folder\) is shown at the bottom of the 
 
 ![](../../.gitbook/assets/image%20%28126%29.png)
 
-### Search Bar
+## Search Bar
 
 ![](../../.gitbook/assets/image%20%2888%29.png)
 
 When you start typing in the search bar, assets with matching names will be listed. You can narrow your search using the filters just below the search bar. Clear your search by clicking the X on the right side of the search bar.
 
-### More Options
+## More Options
 
 ![](../../.gitbook/assets/image%20%28148%29.png)
 
@@ -74,7 +74,7 @@ When you start typing in the search bar, assets with matching names will be list
 
 **Toggle Hidden Folders** - The Packages folder's subfolders are hidden by default.
 
-### Zoom
+## Zoom
 
 ![](../../.gitbook/assets/image%20%2830%29.png)
 

@@ -4,6 +4,8 @@ description: What the user sees
 
 # Game Tab
 
+## Default View
+
 This tab shows what the player sees through one of the cameras in the scene.
 
 ![Example of the Game Tab \(or Game View\) of a scene with a single sphere game object added.](../../.gitbook/assets/image%20%2869%29.png)
@@ -12,7 +14,7 @@ The Game Scene will default to the view from the last camera added to the scene.
 
 Objects and views cannot be added, updated, or deleted in this tab for it is to show you the result of your actions in other tabs and what the player will ultimately see.
 
-### Tab Options
+## Tab Options
 
 ![](../../.gitbook/assets/image%20%2872%29.png)
 

@@ -6,7 +6,7 @@ description: Where you get feedback
 
 This tab provides helpful feedback such as errors, warnings, and messages.
 
-### Default Tab View
+## Default Tab View
 
 **Note:** This is in a shortened window.
 
@@ -18,7 +18,9 @@ Clicking on a message provides more information:
 
 ![Console with detailed information](../../.gitbook/assets/image%20%28127%29.png)
 
-**How to read that error:**
+### **Errors**
+
+**How to read the error above:**
 
 | What | Seen in Console Message |
 | :--- | :--- |
@@ -29,7 +31,7 @@ Clicking on a message provides more information:
 | File path of the script: | Assets/Scripts/SampleMessage.cs |
 | Line with error or error catch: | 18 |
 
-### Options
+## Options
 
 ![](../../.gitbook/assets/image%20%28128%29.png)
 
