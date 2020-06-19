@@ -2,7 +2,7 @@
 
 Having too many items in a game could slow down the computer and its frame rate. This is especially apparent in games where objects are created during gameplay.
 
-### The Destroy\(\) Function
+## The Destroy\(\) Function
 
 To remove a game object or components of a game object, use the Destroy\(\) function.
 
@@ -33,7 +33,7 @@ Example of deleting a rigidbody component on a game object:
 Destroy(thing.GetComponent<Rigidbody>());
 ```
 
-### Self-Destruction
+## Self-Destruction
 
 You can destroy the object the script is attached to. This is a great way of controlling prefabs that need to delete themselves.
 
@@ -47,7 +47,7 @@ Destroy(gameObject);
 Deleting parent objects will delete their child objects. Child objects can be moved to another parent if needed. Read more about [Parenting](../../create/create-game-objects/parenting.md).
 {% endhint %}
 
-### Avoiding Errors
+## Avoiding Errors
 
 You will get an error if you try to remove an object or component that is not there.
 
@@ -71,7 +71,11 @@ if (thing.GetComponent<Rigidbody>() != null)
 }
 ```
 
-### Related links
-
 {% page-ref page="../../select/components/accessing-attributes.md" %}
+
+{% page-ref page="../../create/create-scripts/custom-components-and-scripts.md" %}
+
+{% page-ref page="../../coding-basics/intro-to-scripts.md" %}
+
+
 

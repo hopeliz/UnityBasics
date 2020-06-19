@@ -1,6 +1,6 @@
 # Deleting and Disabling Objects in the Editor
 
-### Deleting Game Objects
+## Deleting Game Objects
 
 Game objects can be deleted easily within the Unity editor.
 
@@ -18,7 +18,7 @@ If you delete a parent object, the child objects will also be deleted. Read more
 Changes and additions made while in Play Mode will revert back to the values before playing.
 {% endhint %}
 
-### Disabling Game Objects
+## Disabling Game Objects
 
 Sometimes, you just want to disable a game object to use later or to test a scene without it. [Hiding objects in the Scene view](../../the-unity-interface/the-tabs/hierarchy-tab.md#hiding-objects) only hides it in this that tab.
 
@@ -30,5 +30,9 @@ A shortcut for this is **ALT + SHIFT + A**
 
 ![](../../.gitbook/assets/image%20%2843%29.png)
 
-\*\*\*\*
+{% page-ref page="../../create/create-game-objects/" %}
+
+{% page-ref page="../../select/update-game-objects/editor-selecting-objects.md" %}
+
+
 

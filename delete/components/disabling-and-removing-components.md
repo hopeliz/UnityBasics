@@ -2,7 +2,7 @@
 
 You won't have access to the checkbox and menus in the editor while the game is playing, but you might want to turn on and off or remove components.
 
-### **Enabling and Disabling Components**
+## **Enabling and Disabling Components**
 
 In the examples below, the following variables are used:
 
@@ -25,13 +25,13 @@ Example of turning off the collider on a game object:
 thing.GetComponent<Collider>().enabled = false;
 ```
 
-### Removing Components
+## Removing Components
 
 Use the Destroy\(\) function to remove components. Go to the link below for more information.
 
 {% page-ref page="../delete-game-objects/destroy-function.md" %}
 
-### Avoiding Errors
+## Avoiding Errors
 
 You will get an error if you try to enable, disable, or remove a component that is not there.
 
@@ -46,9 +46,9 @@ if (thing.GetComponent<Rigidbody>() != null)
 }
 ```
 
-### Related links
-
 {% page-ref page="../../select/components/accessing-attributes.md" %}
+
+{% page-ref page="../../create/create-scripts/custom-components-and-scripts.md" %}
 
 
 

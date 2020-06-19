@@ -2,7 +2,7 @@
 
 You can...
 
-[Delete or remove components in the Unity Editor](in-editor-disabling-and-removing.md)
+[Delete or remove components in the Unity editor](in-editor-disabling-and-removing.md)
 
 [Disable or remove components during gameplay](disabling-and-removing-components.md)
 

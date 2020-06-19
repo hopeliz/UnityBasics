@@ -71,6 +71,10 @@ Generally, you can start typing the name of the value you would like to update a
 
 ![](../../.gitbook/assets/image%20%28140%29.png)
 
+{% page-ref page="../../delete/delete-game-objects/destroy-function.md" %}
+
+{% page-ref page="../../create/create-scripts/custom-components-and-scripts.md" %}
+
 ## More Info
 
 Some components are covered in these other sections:
