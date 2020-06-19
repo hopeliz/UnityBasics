@@ -84,8 +84,6 @@ public class PlayerMotor : MonoBehaviour
 }
 ```
 
-{% page-ref page="../controlling-speed.md" %}
-
 ### Vector3 Shortcuts
 
 Instead of remembering and typing a long piece of code like the one below:
@@ -94,7 +92,7 @@ Instead of remembering and typing a long piece of code like the one below:
 new Vector3(0, 1.0, 0)
 ```
 
-Unity has short cuts like this one that you only have to remember a direction:
+Unity has [shortcuts](../handy-transform-shortcuts.md) like this one that you only have to remember a direction:
 
 ```csharp
 Vector3.up
