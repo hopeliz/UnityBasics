@@ -2,7 +2,7 @@
 
 Primitives \(shapes\) usually have a Collider component by default based on their shape, but you will need to add them to other objects \(including empty ones\) if needed.
 
-![Example of a Box Collider component in the Inspector Tab](../../.gitbook/assets/image%20%28158%29.png)
+![Example of a Box Collider component in the Inspector Tab](../../.gitbook/assets/image%20%28161%29.png)
 
 ### Editing the Collider
 
@@ -12,9 +12,9 @@ Click on the Edit Collider button to make the collider and handers visible in th
 
 Click and drag the green dots to adjust the size and shape or type in the values within the component in the Inspector Tab.
 
-![Example of how a collider can be a different size than the object](../../.gitbook/assets/image%20%28157%29.png)
+![Example of how a collider can be a different size than the object](../../.gitbook/assets/image%20%28158%29.png)
 
-![Example of a collider without a visible object](../../.gitbook/assets/image%20%28159%29.png)
+![Example of a collider without a visible object](../../.gitbook/assets/image%20%28162%29.png)
 
 ### Triggers
 

@@ -59,7 +59,7 @@
 * [Intro to Transforms](translate-rotate-and-scale/intro-to-transforms.md)
 * [Handy Transform Shortcuts](translate-rotate-and-scale/handy-transform-shortcuts.md)
 * [Translate](translate-rotate-and-scale/translate/README.md)
-  * [Editor: Positioning Game Objects](translate-rotate-and-scale/translate/positioning.md)
+  * [Positioning Game Objects in the Editor](translate-rotate-and-scale/translate/positioning.md)
   * [In-Game: Using Translate\(\) Function](translate-rotate-and-scale/translate/using-translate.md)
   * [Updating Position Through Scripts](translate-rotate-and-scale/translate/updating-position.md)
 * [Rotate](translate-rotate-and-scale/rotate/README.md)
