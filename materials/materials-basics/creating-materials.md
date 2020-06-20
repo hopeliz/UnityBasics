@@ -1,6 +1,6 @@
 # Creating and Applying Materials
 
-### Creating a Material Asset
+## Creating a Material Asset
 
 Since materials can be used on multiple game objects, it is an [asset created](../../create/create-assets.md) and stored in the Assets folder and [Project Tab](../../the-unity-interface/the-tabs/project-tab.md).
 
@@ -22,17 +22,17 @@ When the asset is selected, the [Inspector Tab](../../the-unity-interface/the-ta
 
 ![Properties for a standard material called &quot;Wood Material&quot;](../../.gitbook/assets/image%20%28145%29.png)
 
-### **Applying the Material**
+## **Applying the Material**
 
 This can be done before or after updating the properties. Many developers add the material first to see how the game object will look as they mess with the material options.
 
 To apply the material, simply click and drag the material onto the game object in the Scene Tab, Hierarchy Tab, or \(if selected\) into the Inspector Tab.
 
-### **Common Properties to Play With**
+## **Common Properties to Play With**
 
 These properties are listed in the order I find myself using the most often.
 
-**Color**
+### **Color**
 
 ![](../../.gitbook/assets/image%20%28119%29.png)
 
@@ -40,7 +40,7 @@ Click on the color picker to choose the color or input color values. Click on th
 
 {% page-ref page="../../select/components/using-the-inspector-tab.md" %}
 
-**Textures**
+### **Textures**
 
 Click on the circle/target icon to the left of "Albedo." A window will appear listing your available textures - those in your Asset folder and a few built-in options.
 
@@ -60,7 +60,7 @@ What it looks like on a cube in the scene:
 
 ![](../../.gitbook/assets/image%20%28139%29.png)
 
-**Emission**
+### **Emission**
 
 Materials appearing to glow use the Emission property.
 
@@ -80,13 +80,13 @@ What it looks like on a cube in the scene:
 
 ![](../../.gitbook/assets/image%20%28136%29.png)
 
-**Metallic**
+### **Metallic**
 
 This property can make reflective materials.
 
 ![Default settings](../../.gitbook/assets/image%20%2864%29.png)
 
-Example of a material using a white albedo and max  Metallic setting of 1:
+Example of a material using a white albedo and max Metallic setting of 1:
 
 ![](../../.gitbook/assets/image%20%2829%29.png)
 
@@ -102,15 +102,15 @@ What it looks like on a cube in the scene:
 
 ![This is so metallic and smooth, it reflects the skybox to the point of looking transparent.](../../.gitbook/assets/image%20%28137%29.png)
 
-**Normal and Height Maps**
+### **Normal and Height Maps**
 
 Normal and height maps are a type of texture that looks similar to the main albedo texture that is colored in a way to convert the texture into having the appearance of detailed depth. These are used in more advanced texturing and material techniques that allow developers to create super detailed scenes with very basic shapes.
 
-**Occlusion**
+### **Occlusion**
 
 Occlusion tells the program what NOT to show. This property can be a texture to help add another layer of detail, similar to Normal and Height maps.
 
-**Tiling and Offset**
+### **Tiling and Offset**
 
 ![](../../.gitbook/assets/image%20%2834%29.png)
 
@@ -128,15 +128,15 @@ What it looks like on the cube object in the scene:
 Similar to enlarging lower quality images, lower-quality textures will look kinda crappy when zooming in \(tiling less than 1\). If you plan to use parts of a texture, try to find images that are larger.
 {% endhint %}
 
-**Rendering Mode**
+### **Rendering Mode**
 
 ![](../../.gitbook/assets/image%20%28103%29.png)
 
 This mode is where you can make a material render in different ways, including transparent.
 
-**Shaders**
+### **Shaders**
 
 ![](../../.gitbook/assets/image%20%2824%29.png)
 
-As mentioned above, Shaders are powerful code that can tell the computer exactly how a surface or material should appear. In fact, "Standard," is the shader all these properties are part of. Standar is a good place to start, but some tutorials might tell you to choose another. 
+As mentioned above, Shaders are powerful code that can tell the computer exactly how a surface or material should appear. In fact, "Standard," is the shader all these properties are part of. Standard is a good place to start, but some tutorials might tell you to choose another. 
 
