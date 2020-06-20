@@ -1,10 +1,12 @@
 # Collider Component Overview
 
+## Overview
+
 Primitives \(shapes\) usually have a Collider component by default based on their shape, but you will need to add them to other objects \(including empty ones\) if needed.
 
 ![Example of a Box Collider component in the Inspector Tab](../../.gitbook/assets/image%20%28161%29.png)
 
-### Editing the Collider
+## Editing the Collider
 
 Click on the Edit Collider button to make the collider and handers visible in the Scene Tab.
 
@@ -16,7 +18,7 @@ Click and drag the green dots to adjust the size and shape or type in the values
 
 ![Example of a collider without a visible object](../../.gitbook/assets/image%20%28162%29.png)
 
-### Triggers
+## Triggers
 
 By default, the collider makes the object be treated as a solid object. Although the default shape and size are the same as the game object, this can be made larger and exist without the mesh, so objects will hit the collider and not go through.
 
@@ -24,7 +26,7 @@ Checking the Is Trigger checkbox turns the collider into a trigger, meaning othe
 
 {% page-ref page="accessing-through-code.md" %}
 
-### Physic Materials
+## Physic Materials
 
 When you [create a Physic Material asset](../../create/create-assets.md), you can adjust the Bounciness and Friction of the collider.
 

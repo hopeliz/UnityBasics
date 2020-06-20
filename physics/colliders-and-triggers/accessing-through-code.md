@@ -1,5 +1,7 @@
 # Accessing Colliders Through Scripts
 
+## Overview
+
 Colliders can be [accessed like any other component](../../select/components/accessing-attributes.md).
 
 Example of storing the Collider component in a variable:
@@ -16,7 +18,7 @@ void Start() {
 Although the collider components are named "Box Collider" or "Capsule Collider" etc. in the editor, the component can be referenced as "Collider" in the script.
 {% endhint %}
 
-### Trigger Events When Touching / Stop Touching
+## Trigger Events When Touching / Stop Touching
 
 Here is a script that runs code when objects touch or stop touching \(put this after the ending bracket of Update\(\) but before the ending bracket of the class\):
 
@@ -54,7 +56,7 @@ public void OnCollisionExit(Collision collision)
 
 In this example, the colliding object's tag is checked so the code only runs when that specific object\(s\) collide with the object this script is attached to. The if statements can be updated to look at the name, layer, etc. This if statement keeps the code from running when other objects collide or are inside the object.
 
-### Trigger Events When Entering, Staying, and Exiting a "Trigger"
+## Trigger Events When Entering, Staying, and Exiting a "Trigger"
 
 Here is a script that runs code when objects enter, stay, or exit a collider that has the Is Trigger checkbox checked  \(put this after the ending bracket of Update\(\) but before the ending bracket of the class\):
 
@@ -92,11 +94,17 @@ public void OnTriggerEnter(Collider other)
 
 In this example, the entering object's tag is checked so the code only runs when that specific object\(s\) enter, stay, and exit the collider of the object this script is attached to. The if statements can be updated to look at the name, layer, etc. This if statement keeps the code from running when other objects are inside the object.
 
-### Updating the Collider Component within the Script
+## Updating the Collider Component within the Script
 
 You can update whether or not the collider is a trigger with this code:
 
 ```csharp
 gameObject.GetComponent<Collider>().isTrigger = true;
 ```
+
+## Related Links
+
+{% page-ref page="../../select/components/accessing-attributes.md" %}
+
+
 
