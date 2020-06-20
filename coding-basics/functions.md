@@ -2,7 +2,7 @@
 
 Functions are sets of code that can be ran multiple times.
 
-### **Parts of a Function**
+## **Parts of a Function**
 
 Let's look at the code for creating and _calling_ a function:
 
@@ -27,7 +27,7 @@ public void MakeRed() {
 
 **curly brackets { }** - hold the **code** to run when the function is _called._
 
-### Calling a Function
+## Calling a Function
 
 The code within the brackets of a function only runs when it's called in other code that is running.
 
@@ -38,7 +38,7 @@ Example calling MakeRed\(\) within another function, including Start\(\) or Upda
 MakeRed();
 ```
 
-### Function Scope
+## Function Scope
 
 Scope determines how a function can be used. They are **private** by default, but adding the scope when creating a function helps developers read code quickly.
 
@@ -55,7 +55,7 @@ Example:
 gameObject.GetComponent<Example>().MakeRed();
 ```
 
-### Function Type
+## Function Type
 
 Generally, functions _return_ a value. Functions can be created to determine a value or object and then the function name can be used as a variable with that information. The type needs to be placed before the function name. The "return" keyword is then used at the end of the function's code to provide the value.
 
@@ -92,11 +92,11 @@ This is one of the messages that prints to the console:
 
 Please see the [list of types in the variable section](variables.md#variable-types).
 
-### Function Naming Conventions and Rules
+## Function Naming Conventions and Rules
 
 Generally, function names can be almost anything. However, there are some strict rules and some good practices.
 
-**Strict Rules**
+### **Strict Rules**
 
 1. User-defined names cannot match keywords used within the script \(i.e. bool, public, for, return, etc.\).
 2. Function names cannot match those within the same script with the same number of arguments.
@@ -104,12 +104,12 @@ Generally, function names can be almost anything. However, there are some strict
 4. No spaces.
 5. No special characters.
 
-**Conventions and Best Practices** 
+### **Conventions and Best Practices** 
 
 1. Use descriptive action names. Functions DO things and look similar to object constructors that create objects \(such as Color\), so having a verb in the name helps developers read the code.
 2. Use "Pascal casing" for function names. This is where the first letter in each word in the function name is capitalized. Examples: MakeRed, PickRandomObject, DetermineDirection, etc. The Unity editor will convert this into friendly component labels within the Inspector Tab.
 
-### Arguments
+## Arguments
 
 Arguments are values passed into the function to get different desired results based on those values.
 

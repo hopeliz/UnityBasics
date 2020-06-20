@@ -1,12 +1,12 @@
 # Conditionals \(If / Then / Else\)
 
-### **If, Then, Otherwise**
+## **If, Then, Otherwise**
 
 Most code can be boiled down to "If this is true, do this."
 
 First, let's look at how to compare values to see if something is true.
 
-### **Comparison Operators**
+## **Comparison Operators**
 
 | Operator | Name | Example |
 | :--- | :--- | :--- |
@@ -22,7 +22,7 @@ First, let's look at how to compare values to see if something is true.
 When comparing using an equals sign, remember to use two equal signs. Using only one tells the program to store/overwrite a variable instead of comparing it.
 {% endhint %}
 
-### Using Comparison Operators
+## Using Comparison Operators
 
 An **if statement** asks if a comparison is TRUE.
 
@@ -105,7 +105,7 @@ There can be multiple else if statements.
 
 **Note:** Each comparison goes in order, so if a comparison is true in the first if statement, it does not get checked in the else if and else statements that follow. Code outside of the if/else if/else statement will be applied to all cases.
 
-### Switch / Case Statements
+## Switch / Case Statements
 
 Using else if statements can get tedious, especially when you are comparing something to a specific number or string.
 

@@ -2,7 +2,7 @@
 
 Variables are ways to tell the computer to get certain information through using a word instead of having to type out a lengthy command each time.
 
-### Parts of a Variable
+## Parts of a Variable
 
 Let's look at the code for _declaring_ and _assigning_ a simple variable:
 
@@ -22,7 +22,7 @@ public int count = 0;
 
 **; \(semi-colon\)** - the end of the command.
 
-### Declaring vs. Assigning
+## Declaring vs. Assigning
 
 **Declaring** a variable is stating the scope, type, and name.
 
@@ -42,15 +42,17 @@ Variables only can be declared once, but they can be assigned and updated when n
 **Best Practice:** When possible, always assign a value or object to your declared variables, even if that is zero or null.
 {% endhint %}
 
-### Variable Scope
+## Variable Scope
 
 Scope determines how a variable can be used. They are **private** by default, but adding the scope when declaring a variable helps developers read code quickly.
+
+### Public vs. Private Variables
 
 **Public** variables allow users to see and sometimes update what information the variable represents. You can make a variable public by typing "public" before the variable type when declaring a variable for a script \(at the top and outside of the functions\). Public variables are also accessible by other scripts.
 
 **Private** variables allow the script to reuse a variable, but it will not be visible within the Unity editor's Inspector Tab nor will it be able to be accessed by other scripts.
 
-**Global vs. Local Variables**
+### **Global vs. Local Variables**
 
 In most scripts, you will declare variables just above the Start\(\) function. This makes the variable a **global** variable accessible by the functions within the script as well as other scripts accessing it \(as long as it's public\).
 
@@ -58,7 +60,7 @@ Variables declared inside of any function or loop are **local** variables, used 
 
 Unless it is a temporary variable \(such as to keep track of something within a loop only until the loop is finished\) or if it is a name used differently in multiple functions, it's best to make variables as global as possible.
 
-### Variable Types
+## Variable Types
 
 Here is a list of common types, how to use them in declarations, and their descriptions:
 
@@ -79,11 +81,11 @@ The difference between the type in a variable declaration and using the same wor
 Declaring the variable's object type will start with an uppercase letter. Accessing a component of a game object will use the word that starts with a lowercase letter.
 {% endhint %}
 
-### Variable Naming Conventions and Rules
+## Variable Naming Conventions and Rules
 
 Generally, variable names can be almost anything. However, there are some strict rules and some good practices.
 
-**Strict Rules**
+### **Strict Rules**
 
 1. User-defined names cannot match keywords used within the script \(i.e. bool, public, for, return, etc.\).
 2. Variable names cannot match those within the same scope.
@@ -91,14 +93,14 @@ Generally, variable names can be almost anything. However, there are some strict
 4. No spaces.
 5. No special characters.
 
-**Conventions and Best Practices** 
+### **Conventions and Best Practices** 
 
 1. Use descriptive names. Some programming languages use single letters, but Unity is built to take longer descriptive names to help scripts be read by multiple developers.
 2. Use "camel casing" for variable names. This is where the first letter is lowercase and other words within the variable name have the first letter capitalized. Examples: moveSpeed, objectToAppear, bluePlayerCollider, etc. The Unity editor will convert this into friendly labels within the Inspector Tab.
 3. Avoid reusing variable names in function arguments, even if they are local variables. It makes code easier to troubleshoot.
 4. Constant variable names should be in all caps and use underscores between words to signify that they are constants. Examples: BOILING, MAX\_TEMP, TOO\_HIGH, etc.
 
-### Assigning Variables
+## Assigning Variables
 
 The information to be stored into a variable should always appear **to the right** of the equal sign.
 

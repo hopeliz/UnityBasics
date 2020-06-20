@@ -1,6 +1,6 @@
 # Arrays
 
-### Arrays and Lists
+## Arrays and Lists
 
 Many games and experiences created in Unity have repeated items that need to be grouped for organization, easy access, and control.
 
@@ -8,7 +8,7 @@ Arrays are lists of elements that can be sorted, searched, counted, etc.
 
 The **index** of an array is the location of the element in the list, **starting with zero**. The index of an element in an array is always an **integer**.
 
-### Why Use Arrays?
+## Why Use Arrays?
 
 Imagine you had a game where you had a large pile of cubes that the player can pick up and manipulate, but you want to control each individually. Putting them all in an empty game object and controlling that parent game object will affect all of them.
 
@@ -90,7 +90,7 @@ for (int i = 0; i < cubes.Length; i++)
 Since arrays start with zero, make sure for loop control values \(usually _i_ for index\) are tested to be LESS THAN the array length.
 {% endhint %}
 
-### **Lists**
+## **Lists**
 
 Lists are similar to arrays, but have a little more flexibility with it comes to updating the objects and values within them.
 
@@ -126,7 +126,7 @@ Since arrays start with zero, make sure for loop control values \(usually _i_ fo
 
 **listName.Sort\(\)** - Sorts the list alphabetically.
 
-### Using Unity's Built-in Functions
+## Using Unity's Built-in Functions
 
 Many built-in functions in Unity return arrays.
 
@@ -143,7 +143,7 @@ parentObject.GetComponentsInChildren<Transform>()[3].Translate(Vector3.up);
 GetComponentsInChildren&lt;&gt;\(\) will return the parent object as well if the component exists in the parent object.
 {% endhint %}
 
-### Helpful Tutorials
+## Helpful Tutorials
 
 [Click here for a helpful tutorial by the creators of Unity about how to use lists and dictionaries within Unity](https://learn.unity.com/tutorial/lists-and-dictionaries#)
 

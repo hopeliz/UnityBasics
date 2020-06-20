@@ -1,12 +1,14 @@
 # Loops
 
+## Overview
+
 Loops are great for repeating the same command or comparison for multiple items, so they are often used with arrays.
 
 A loop tells the program to run a piece of code multiple times. The number of times is set based on the conditions you set.
 
 The most common loops in Unity are For Loops.
 
-### For Loops
+## For Loops
 
 For loops basically say, “run this code for this many times.”
 
