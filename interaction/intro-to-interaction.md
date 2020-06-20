@@ -28,7 +28,5 @@ See the links below for coding specific scenarios:
 
 {% page-ref page="mouse-controls.md" %}
 
-{% page-ref page="game-controllers.md" %}
-
 See more detail about user interaction in the [Unity documentation](https://docs.unity3d.com/Manual/Input.html).
 

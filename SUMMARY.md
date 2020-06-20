@@ -93,7 +93,6 @@
 * [Interaction Basics](interaction/intro-to-interaction.md)
 * [Keyboard Controls](interaction/keyboard-controls.md)
 * [Mouse Controls](interaction/mouse-controls.md)
-* [Game Controllers](interaction/game-controllers.md)
 
 ## Coding Basics
 
