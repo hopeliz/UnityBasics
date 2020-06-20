@@ -1,5 +1,7 @@
 # Updating Position Through Script Code
 
+## Overview
+
 When the game is running, you will not be able to move around objects as you can within the editor, so one way to change an object's position is by updating the object's position coordinates.
 
 The position is a vector3 variable with read-only parts, so you cannot update just one axis at a time through transform.position.y = 1.0F or something similar. You need to use the keyword new followed by a complete Vector3. Here's an example:
@@ -11,7 +13,7 @@ transform.postion = new Vector3(1.0F, 0, 0);
 
 Here, the object moves to \(1,0,0\). If it starts at \(0,0,0\), it appears to jump to the right in one frame and stays there until moved again.
 
-### Moving Objects by Updating the Position Smoothly Through Code
+## Moving Objects by Updating the Position Smoothly Through Code
 
 {% hint style="info" %}
 Moving objects this way is generally OK, but you might run into issues if you use it for player movement. For those situations, use Transform.Translate\(\) instead.

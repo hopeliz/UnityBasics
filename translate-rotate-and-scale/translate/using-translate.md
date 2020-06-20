@@ -1,5 +1,7 @@
 # Using the Transform.Translate\(\) Function
 
+## Overview
+
 When the game is running, you will not be able to move around objects as you can within the editor, so one way to move objects smoothly is with the Transform.Translate\(\) function.
 
 It updates the position of the object and can be used incrementally to make the movement appear smooth.
@@ -40,7 +42,7 @@ public class PlayerMotor : MonoBehaviour
 }
 ```
 
-### Controlling Speed
+## Controlling Speed
 
 Commands in the Update\(\) function run once per frame, meaning speed changes based on the computer's frame rate.
 
@@ -84,7 +86,7 @@ public class PlayerMotor : MonoBehaviour
 }
 ```
 
-### Vector3 Shortcuts
+## Vector3 Shortcuts
 
 Instead of remembering and typing a long piece of code like the one below:
 

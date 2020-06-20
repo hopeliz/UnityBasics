@@ -1,13 +1,13 @@
 # Handy Transform Shortcuts
 
-**Quickly access the controls \(instead of clicking the buttons\):**
+## **Quickly access the controls \(instead of clicking the buttons\):**
 
 W = Translate  
 E = Rotate  
 R = Scale  
 T = All Three
 
-**Shortcuts in code:**
+## **Shortcuts in code:**
 
 ```csharp
 Vector3.left;          // Equivalent to Vector3(-1, 0, 0)

@@ -1,6 +1,6 @@
 # Scale
 
-### Scale
+## Scale
 
 Scale is the size of an object in the game. The scale coordinates in the Transform component show the object's local scale from its center unless otherwise specified by the developer.
 

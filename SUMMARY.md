@@ -65,7 +65,7 @@
   * [Using the Transform.Rotate\(\) Function](translate-rotate-and-scale/rotate/using-rotate-function.md)
 * [Scale](translate-rotate-and-scale/scale/README.md)
   * [Resizing/Scaling Objects in the Editor](translate-rotate-and-scale/scale/scaling.md)
-  * [In-Game: Updating Scale](translate-rotate-and-scale/scale/updating-scale.md)
+  * [Updating Scale Through Script Code](translate-rotate-and-scale/scale/updating-scale.md)
 * [Controlling Speed](translate-rotate-and-scale/controlling-speed.md)
 * [Common Issues with Transforms](translate-rotate-and-scale/rotation.md)
 
