@@ -42,7 +42,9 @@ Click on the color picker to choose the color or input color values. Click on th
 
 ### **Textures**
 
-Click on the circle/target icon to the left of "Albedo." A window will appear listing your available textures - those in your Asset folder and a few built-in options.
+Textures are 2D images that gets wrapped around objects with the material they are attached to. 
+
+To add a main texture, click on the circle/target icon to the left of "Albedo." A window will appear listing your available textures - those in your Asset folder and a few built-in options.
 
 ![Wood is a texture I added to the Asset folder. The other textures are built-in to most projects.](../../.gitbook/assets/image%20%2835%29.png)
 
@@ -50,7 +52,7 @@ Double-click or select the asset and close the window. The texture will appear i
 
 ![](../../.gitbook/assets/image%20%2825%29.png)
 
-Using a texture with a color other than white could effect the look of your material.
+Using a texture with a color other than white could affect the look of your material.
 
 With the current texture and color, the preview of the texture at the bottom of the Inspector Tab looks like this:
 

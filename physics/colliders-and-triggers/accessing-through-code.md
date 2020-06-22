@@ -4,14 +4,22 @@
 
 Colliders can be [accessed like any other component](../../select/components/accessing-attributes.md).
 
-Example of storing the Collider component in a variable:
+Example of storing a Collider component in a variable:
 
 ```csharp
 public Collider thingCollider;
+```
 
-void Start() {
-    thingCollider = gameObject.GetComponent<Collider>();
-}
+In the Inspector Tab, the object with the script attached will have the component for the script and this property:
+
+![](../../.gitbook/assets/image%20%28171%29.png)
+
+You can click and drag an object with a collider into the field or click the circle target icon on the right to select from a list.
+
+If you want to have collider of the object the script is attached to be stored, use this script in the Start\(\) function:
+
+```csharp
+thingCollider = gameObject.GetComponent<Collider>();
 ```
 
 {% hint style="info" %}
