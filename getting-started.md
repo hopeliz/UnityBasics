@@ -11,7 +11,7 @@ Open Unity Hub and click on Installs.
 
 ![](.gitbook/assets/image%20%28134%29.png)
 
-This is where you can upload the latest version of Unity by clicking the "Add" button and access past installed versions to avoid breaking older projects.
+This is where you can download and install the latest version of Unity. Click the "Add" button to do this. You can also access previously installed versions to avoid breaking older projects.
 
 **Create a new unity project**  
 Go to Projects and click on the new button. The Projects section also provides a list of past projects for quick access and reference.
