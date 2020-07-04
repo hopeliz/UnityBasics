@@ -1,10 +1,10 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Getting Started with Unity](getting-started.md)
+* [Getting Started with Unity Software](getting-started.md)
 * [Helpful Shortcuts](helpful-shortcuts.md)
 
-## The Unity Interface
+## The Unity Software Interface <a id="the-unity-interface"></a>
 
 * [The Default Interface](the-unity-interface/the-default-interface.md)
 * [The Tabs](the-unity-interface/the-tabs/README.md)

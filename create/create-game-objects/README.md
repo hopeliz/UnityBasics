@@ -4,7 +4,7 @@ Game objects are the objects in the actual game and they appear in the [Hierarch
 
 You can...
 
-[Create game objects in the Unity editor](editor-creating-game-objects.md)
+[Create game objects using the Unity Editor](editor-creating-game-objects.md)
 
 [Create game objects during gameplay using a script](spawning-objects.md)
 
