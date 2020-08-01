@@ -9,24 +9,27 @@ Examples:
 ```csharp
 // Define public global variables
 // These will appear in the Inspector tab
+public GameObject cube;
 public float speed = 3.5F;
 public Vector3 destination;
 
 // Only runs once
-void Start() {
+void Start()
+{
 
     // Initialize the destination location
-    destination = new Vector3(20.0, 0, 0);
+    destination = new Vector3(20.0F, 0, 0);
 }
 
 // Runs each frame
-void Update() {
+void Update()
+{
 
     // Example of updating position
     cube.transform.position += new Vector3(1.0F, 0, 0) * speed * Time.deltaTime;
 
     // Example of using Translate()
-    cube.Translate(new Vector3(1.0F, 0, 0)) * speed * Time.deltaTime;
+    cube.transform.Translate(new Vector3(1.0F, 0, 0) * speed * Time.deltaTime);
 
     // Example of using Vector3.Lerp()
     cube.transform.position = Vector3.Lerp(cube.transform.position, destination, speed * Time.deltaTime);
