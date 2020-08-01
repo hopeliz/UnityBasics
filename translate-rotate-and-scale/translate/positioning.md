@@ -34,11 +34,19 @@ This will make translate vectors appear on the selected object in the [Scene Tab
 
 You can click and drag on the red, green, or blue vectors to move the object along the x, y, or z axes respectively. As you do so, you'll notice the numbers changing in the position property in the Transform component.
 
+![Click and drag an arrow to move thr object along the axis.](../../.gitbook/assets/movetoolhandles_01.gif)
+
+Use the squares where the axes intersect to move an object along two axes at once.
+
+![](../../.gitbook/assets/movetoolhandles_02.gif)
+
 ## Moving Objects in the Inspector Tab
 
 Just like in all components with number properties, you can adjust numbers by clicking and dragging your cursor over the property name. You must first hover over the property name \(X, Y, or Z\) to make arrows appear around the cursor. Once your cursor moves out of frame, it will reenter on the other side. The numbers should increase and decrease and you should notice the object moving in the Scene Tab.
 
 In the Transform component, you can also type in the exact coordinates you need. The object will appear there.
+
+![](../../.gitbook/assets/translateinspectortab.gif)
 
 
 
