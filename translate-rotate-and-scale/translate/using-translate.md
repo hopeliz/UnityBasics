@@ -62,25 +62,25 @@ public class PlayerMotor : MonoBehaviour
         // Press W to move the object forward
         if (Input.GetKey(KeyCode.W))
         {
-            transform.Translate(new Vector3(0, 0, 1.0F) * moveSpeed * Time.deltaTime));
+            transform.Translate(new Vector3(0, 0, 1.0F) * moveSpeed * Time.deltaTime);
         }
         
         // Press A to move the object to the left
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Translate(new Vector3(-1.0F, 0, 1.0F) * moveSpeed * Time.deltaTime));
+            transform.Translate(new Vector3(-1.0F, 0, 1.0F) * moveSpeed * Time.deltaTime);
         }
 
         // Press S to move the object backward
         if (Input.GetKey(KeyCode.S))
         {
-            transform.Translate(new Vector3(0, 0, -1.0F) * moveSpeed * Time.deltaTime));
+            transform.Translate(new Vector3(0, 0, -1.0F) * moveSpeed * Time.deltaTime);
         }
 
         // Press D to move the object to the right
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Translate(new Vector3(-1.0F, 0, 0) * moveSpeed * Time.deltaTime));
+            transform.Translate(new Vector3(-1.0F, 0, 0) * moveSpeed * Time.deltaTime);
         }
     }
 }

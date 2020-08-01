@@ -13,6 +13,10 @@ transform.eulerAngles = new Vector3(0, 90.0F, 0);
 
 Here, the object rotates right by 90 degrees, making it face right. If it starts at \(0,0,0\), it appears to jump to facing right in one frame and stays in that direction until it's rotated again.
 
+After rotating, the Transform component will look like this in the Inspector Tab:
+
+![](../../.gitbook/assets/image%20%28174%29.png)
+
 ## Rotating Objects by Updating the Euler Angles Smoothly Through Code
 
 {% hint style="warning" %}
