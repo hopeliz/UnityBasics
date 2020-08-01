@@ -15,7 +15,7 @@ Here, the object rotates right by 90 degrees, making it face right. If it starts
 
 After rotating, the Transform component will look like this in the Inspector Tab:
 
-![](../../.gitbook/assets/image%20%28174%29.png)
+![](../../.gitbook/assets/image%20%28175%29.png)
 
 ## Rotating Objects by Updating the Euler Angles Smoothly Through Code
 

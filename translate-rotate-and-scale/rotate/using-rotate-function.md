@@ -44,19 +44,19 @@ using UnityEngine;
 public class PlayerMotor : MonoBehaviour
 {
     public float moveSpeed = 10;
-    
+
     void Update()
     {
         // Press Left Arrow to rotate the object left/counter-clockwise
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Rotate(new Vector3(0, -1.0F, 0), * moveSpeed * Time.deltaTime);
+            transform.Rotate(new Vector3(0, -1.0F, 0) * moveSpeed * Time.deltaTime);
         }
 
         // Press Right Arrow to move the object right/clockwise
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.Rotate(new Vector3(0, 1.0F, 0), * moveSpeed * Time.deltaTime);
+            transform.Rotate(new Vector3(0, 1.0F, 0) * moveSpeed * Time.deltaTime);
         }
     }
 }
