@@ -46,7 +46,7 @@ Just like in all components with number properties, you can adjust numbers by cl
 
 In the Transform component, you can also type in the exact coordinates you need. The object will appear there.
 
-![](../../.gitbook/assets/translateinspectortab.gif)
+![Click and drag left and right over the axis label to update the value or type in coordinates.](../../.gitbook/assets/translateinspectortab.gif)
 
 
 
