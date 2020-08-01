@@ -34,11 +34,23 @@ This will make scaling vectors appear on the selected object in the [Scene Tab](
 
 ![](../../.gitbook/assets/image%20%28168%29.png)
 
-You can click and drag on the red, green, or blue vectors to grow and shrink the object along the x, y, or z axes respectively. As you do so, you'll notice the numbers changing in the scale property in the Transform component.
+You can click and drag on the red, green, or blue vectors \(colored blocks\) to grow and shrink the object along the x, y, or z axes respectively. As you do so, you'll notice the numbers changing in the scale property in the Transform component.
+
+![Click and drag a colored block to resize the object along the axis.](../../.gitbook/assets/scaletoolhandles_01.gif)
+
+Click and drag where the axes intersect to resize the entire object.
+
+![](../../.gitbook/assets/scaletoolhandles_02.gif)
 
 ## Resizing Objects in the Inspector Tab
 
 Just like in all components with number properties, you can adjust numbers by clicking and dragging your cursor over the property name. You must first hover over the property name \(X, Y, or Z\) to make arrows appear around the cursor. Once your cursor moves out of frame, it will reenter on the other side. The numbers should increase and decrease and you should notice the object growing and shrinking in the Scene Tab.
 
 In the Transform component, you can also type in the exact size in game units you need. The object's size will match.
+
+![Click and drag left and right over the axis label to update the value or type in coordinates.](../../.gitbook/assets/scaleinspectortab.gif)
+
+{% hint style="warning" %}
+Make sure all values for Scale are positive to avoid errors.
+{% endhint %}
 
