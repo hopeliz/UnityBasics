@@ -36,9 +36,13 @@ This will make rotate vectors appear on the selected object in the [Scene Tab](.
 
 You can click and drag on the red, green, or blue vectors to spin/rotate the object around the x, y, or z axes respectively. As you do so, you'll notice the numbers changing in the rotation property in the Transform component.
 
+![Click and drag a circle to rotate the object along the axis.](../../.gitbook/assets/rotatetoolhandles_01.gif)
+
 ## Rotation Objects in the Inspector Tab
 
 Just like in all components with number properties, you can adjust numbers by clicking and dragging your cursor over the property name. You must first hover over the property name \(X, Y, or Z\) to make arrows appear around the cursor. Once your cursor moves out of frame, it will reenter on the other side. The numbers should increase and decrease and you should notice the object moving in the Scene Tab.
 
 In the Transform component, you can also type in the exact angles you need. The object's rotation will match.
+
+![Click and drag left and right over the axis label to update the value or type in coordinates.](../../.gitbook/assets/rotateinspectortab.gif)
 

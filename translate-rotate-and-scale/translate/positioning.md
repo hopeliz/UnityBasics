@@ -34,7 +34,7 @@ This will make translate vectors appear on the selected object in the [Scene Tab
 
 You can click and drag on the red, green, or blue vectors to move the object along the x, y, or z axes respectively. As you do so, you'll notice the numbers changing in the position property in the Transform component.
 
-![Click and drag an arrow to move thr object along the axis.](../../.gitbook/assets/movetoolhandles_01.gif)
+![Click and drag an arrow to move the object along the axis.](../../.gitbook/assets/movetoolhandles_01.gif)
 
 Use the squares where the axes intersect to move an object along two axes at once.
 
