@@ -1,4 +1,4 @@
-# Creating Game Objects
+# Creating Game Objects in the Editor
 
 There are several ways you can create or add game objects using the Unity Editor.
 

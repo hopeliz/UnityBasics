@@ -20,7 +20,8 @@
 ## Create
 
 * [Creating Game Objects](create/create-game-objects/README.md)
-  * [Creating Game Objects](create/create-game-objects/editor-creating-game-objects.md)
+  * [3D Primitives](create/create-game-objects/3d-primitives.md)
+  * [Creating Game Objects in the Editor](create/create-game-objects/editor-creating-game-objects.md)
   * [Spawning Objects](create/create-game-objects/spawning-objects.md)
   * [Unhiding/Hiding Objects During Gameplay](create/create-game-objects/unhiding-objects.md)
   * [Parenting](create/create-game-objects/parenting.md)

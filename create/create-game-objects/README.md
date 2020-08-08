@@ -2,6 +2,8 @@
 
 Game objects are the objects in the actual game and they appear in the [Hierarchy Tab](../../the-unity-interface/the-tabs/hierarchy-tab.md).
 
+Some examples of Game Objects include [3D primitives](3d-primitives.md), cameras, lights, and particle systems.
+
 You can...
 
 [Create game objects using the Unity Editor](editor-creating-game-objects.md)
