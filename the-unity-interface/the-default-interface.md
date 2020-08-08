@@ -6,9 +6,9 @@ When opening a new project for the first time, you will see the Default Layout.
 
 ![](../.gitbook/assets/image%20%28114%29.png)
 
-This layout provides the most common tabs used and in a configuration good for smaller screens.
+This layout provides the most common tabs used and in a configuration good for smaller screens. Additional tabs can be added through the Window menu in the taskbar.
 
-The tabs are as follows:
+The tabs of the default layout are as follows:
 
 ## **Hierarchy Tab**
 
