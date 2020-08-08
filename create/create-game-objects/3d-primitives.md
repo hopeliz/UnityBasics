@@ -1,6 +1,6 @@
 # 3D Primitives
 
-3D Primitives are the most basic 3D shapes available in Unity.
+**3D Primitives** are the most basic 3D shapes available in Unity.
 
 They include:
 
