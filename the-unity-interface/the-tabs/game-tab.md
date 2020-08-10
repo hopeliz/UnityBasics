@@ -2,17 +2,17 @@
 description: What the user sees
 ---
 
-# Game Tab
+# Game Window
 
 ## Default View
 
-This tab shows what the player sees through one of the cameras in the scene.
+This window shows what the player sees through one of the cameras in the scene.
 
-![Example of the Game Tab \(or Game View\) of a scene with a single sphere game object added.](../../.gitbook/assets/image%20%2869%29.png)
+![Example of the Game View of a scene with a single sphere game object added.](../../.gitbook/assets/image%20%2869%29.png)
 
-The Game Scene will default to the view from the last camera added to the scene. For new scenes, this will be the Main Camera.
+The Game window will default to the view from the last camera added to the scene. For new scenes, this will be the Main Camera.
 
-Objects and views cannot be added, updated, or deleted in this tab for it is to show you the result of your actions in other tabs and what the player will ultimately see.
+Objects and assets cannot be added, updated, or deleted in this window. It is to show you the result of your actions in other tabs and what the player will ultimately see.
 
 ## Tab Options
 
@@ -22,11 +22,11 @@ Objects and views cannot be added, updated, or deleted in this tab for it is to 
 
 **Aspect Ratio \(Dropdown\)** - The default is "Free Aspect."
 
-**Scale** - The Game Tab defaults to what the player sees. Use the slider to zoom in.
+**Scale** - The Game window defaults to what the player sees. Use the slider to zoom in.
 
 ![](../../.gitbook/assets/image%20%2887%29.png)
 
-**Maximize on Play** - When this is turned on, it will make the Game Tab take up the whole Unity window.
+**Maximize on Play** - When this is turned on, it will make the Game window take up the whole Unity window.
 
 **Mute Audio**
 
@@ -34,5 +34,5 @@ Objects and views cannot be added, updated, or deleted in this tab for it is to 
 
 ![](../../.gitbook/assets/image%20%2865%29.png)
 
-**Gizmos** - Off by default in the Game Tab, they can be turned on. The dropdown provides more options on how they appear in the Tab.
+**Gizmos** - Off by default in the Game view, they can be turned on. The dropdown provides more options on how they appear in the window.
 

@@ -2,11 +2,11 @@
 description: Where the items in your scene go
 ---
 
-# Hierarchy Tab
+# Hierarchy Window
 
-This tab shows a list of game objects within your scene.
+This window shows a text list of game objects within your scene.
 
-Game objects are the objects in the actual game. They use assets listed in the [Project Tab](project-tab.md) to determine how the scene or game looks, sounds, and behaves. 
+Game objects are the objects in the actual game. They use assets listed in the [Project Window](project-tab.md) to determine how the scene or game looks, sounds, and behaves. 
 
 ## **Layout**
 
@@ -22,7 +22,7 @@ Objects can "parent" other objects. The list of "child" or inner objects appears
 
 ## **Scene Name**
 
-The current scene name is shown at the top of the tab.
+The current scene name is shown at the top of the window.
 
 An asterisk or \* at the end of the scene name means changes have been made, but have not been saved. Saving the file removes the asterisk.
 

@@ -8,12 +8,12 @@
 
 * [The Default Interface](the-unity-interface/the-default-interface.md)
 * [The Windows \(Tabs\)](the-unity-interface/the-tabs/README.md)
-  * [Hierarchy Tab](the-unity-interface/the-tabs/hierarchy-tab.md)
-  * [Scene Tab](the-unity-interface/the-tabs/scene-tab.md)
-  * [Project Tab](the-unity-interface/the-tabs/project-tab.md)
-  * [Inspector Tab](the-unity-interface/the-tabs/inspector-tab.md)
-  * [Game Tab](the-unity-interface/the-tabs/game-tab.md)
-  * [Console Tab](the-unity-interface/the-tabs/console-tab.md)
+  * [Hierarchy Window](the-unity-interface/the-tabs/hierarchy-tab.md)
+  * [Scene Window](the-unity-interface/the-tabs/scene-tab.md)
+  * [Project Window](the-unity-interface/the-tabs/project-tab.md)
+  * [Inspector Window](the-unity-interface/the-tabs/inspector-tab.md)
+  * [Game Window](the-unity-interface/the-tabs/game-tab.md)
+  * [Console Window](the-unity-interface/the-tabs/console-tab.md)
 * [Other Layouts](the-unity-interface/other-layouts/README.md)
   * [Create a Custom Layout](the-unity-interface/other-layouts/create-a-custom-layout.md)
 

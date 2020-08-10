@@ -2,11 +2,11 @@
 description: Where you get feedback
 ---
 
-# Console Tab
+# Console Window
 
-This tab provides helpful feedback such as errors, warnings, and messages.
+This window provides helpful feedback such as errors, warnings, and messages.
 
-## Default Tab View
+## Default View
 
 **Note:** This is in a shortened window.
 

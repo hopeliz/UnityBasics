@@ -2,15 +2,15 @@
 description: A way to see all of your scene
 ---
 
-# Scene Tab
+# Scene Window
 
-This tab shows your scene overall.
+This window shows your scene overall.
 
 **Note:** The viewpoint could look different on your computer.
 
 ## Up Close
 
-The default Scene Tab will have what they call a Skybox \(the environment that looks like a horizon, sky, and sun\) and Gizmos \(symbols representing non-physical objects\) for the Main Camera and the Directional Light.
+The default Scene window will have what they call a Skybox \(the environment that looks like a horizon, sky, and sun\) and Gizmos \(symbols representing non-physical objects\) for the Main Camera and the Directional Light.
 
 ![](../../.gitbook/assets/image%20%28106%29.png)
 
@@ -42,7 +42,7 @@ The lock symbol keeps the view from rotating. It will still allow you to move th
 
 ## Options
 
-The dropdown at the top left of the table provides more options for how to view things within the scene. The default Shading Mode is "Shaded." This tutorial will not go in-depth about these options. Please see the links for Unity's documentation.
+The dropdown at the top left of the window provides more options for how to view things within the scene. The default Shading Mode is "Shaded." This tutorial will not go in-depth about these options. Please see the links for Unity's documentation.
 
 ![](../../.gitbook/assets/image%20%2838%29.png)
 
@@ -88,13 +88,13 @@ Please see the links to access the Unity documentation for more in-depth info ab
 
 ## Search
 
-When typing in a search term, the matching items will be listed in the Hierarchy Tab and the Scene Tab will appear to get whiter. Click the X to clear the search quickly.
+When typing in a search term, the matching items will be listed in the Hierarchy window and the Scene window will appear to get whiter. Click the X to clear the search quickly.
 
 ![](../../.gitbook/assets/image%20%2849%29.png)
 
 ## More Tools Outside of the Tab
 
-These tools are available at the top left of the window in all layouts and are primarily used in the Scene Tab.
+These tools are available at the top left of the window in all layouts and are primarily used in the Scene window.
 
 ![](../../.gitbook/assets/image%20%28138%29.png)
 
@@ -115,4 +115,6 @@ These tools are available at the top left of the window in all layouts and are p
 **Center/Pivot Toggle** - For parenting objects, this allows you to choose between rotating on an axis that goes through the parenting object or the center of all the objects together
 
 **Global/Local Toggle** - Choose whether to change the values locally \(in relation to a parent object\) or globally \(in relation to the scene\)
+
+**::** Learn more info about [Transform, Rotate, and Scale](../../translate-rotate-and-scale/intro-to-transforms.md).
 

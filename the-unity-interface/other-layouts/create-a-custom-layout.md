@@ -1,16 +1,10 @@
 # Create a Custom Layout
 
-To create a custom layout, **click and drag** tabs around the screen.
+To create a custom layout, **click and drag** windows by their around the screen. Additional windows can be found and added under the Window menu in the task bar.
 
-They will snap to edges or appear in the same space as another tab.
+They will snap to edges or appear in the same space as another window.
 
-Click and drag on the borders between tab windows to resize them.
-
-## Finding a Tab / Window
-
-Don't see a needed tab?
-
-Find it under Window in the taskbar and open it. It will appear as a tab to be moved and resized.
+Click and drag on the borders between windows to resize them.
 
 ## **Saving a Layout**
 

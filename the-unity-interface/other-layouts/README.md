@@ -1,6 +1,6 @@
 # Other Layouts
 
-The tabs are built to be dragged around to form different configurations. 
+The windows are built to be dragged around by their tabs to form different configurations. 
 
 The Layout dropdown at the top right of the screen will have built-in options or you can create your own.
 

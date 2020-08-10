@@ -2,31 +2,31 @@
 description: All the details of your assets and items
 ---
 
-# Inspector Tab
+# Inspector Window
 
-One of the most important tabs, the Inspector shows all the components and attributes of a selected game object or Asset.
+One of the most important windows, the Inspector shows all the components and attributes of a selected game object or Asset.
 
 ## Default Layout
 
-The information in the Inspector Tab changes depending on what game objects and assets you have selected.
+The information in the Inspector window changes depending on what game objects and assets you have selected.
 
-Example of a default sphere **game object** when selected in the Hierarchy Tab:
+Example of a default sphere **game object** when selected in the Hierarchy window:
 
 ![](../../.gitbook/assets/image%20%28142%29.png)
 
-Example of a default empty game object when selected in the Hierarchy Tab:
+Example of a default empty game object when selected in the Hierarchy window:
 
 ![](../../.gitbook/assets/image%20%282%29.png)
 
-Example of a Main Camera **game object** when selected in the Hierarchy Tab:
+Example of a Main Camera **game object** when selected in the Hierarchy window:
 
 ![](../../.gitbook/assets/image%20%2898%29.png)
 
-Example of a directional light **game object** when selected in the Hierarchy Tab:
+Example of a directional light **game object** when selected in the Hierarchy window:
 
 ![](../../.gitbook/assets/image%20%2811%29.png)
 
-Example of a material **asset** when selected in the Project Tab:
+Example of a material **asset** when selected in the Project window:
 
 ![](../../.gitbook/assets/image%20%2866%29.png)
 
@@ -43,7 +43,7 @@ Notes:
 - Shortcut:   ALT + SHIFT + A  
 - Scripts trying to access inactive objects will give you an error.
 
-**Game object name** - Can be updated within the Inspector Tab
+**Game object name** - Can be updated within the Inspector window
 
 **Static \(checkbox\)** - Whether the object is Static and the type of static. Click on "Static" to see more options.
 
@@ -61,7 +61,7 @@ The header generally shows the following elements for selected assets:
 
 **Icon / Preview** representing the type of asset
 
-**Name** - This can be changed in the Project Tab or within the Assets folder
+**Name** - This can be changed in the Project window or within the Assets folder
 
 **Connection to other assets** - Some assets use other assets \(materials use shaders\) and will have a reference to it.
 
@@ -79,11 +79,11 @@ Components are really just pieces of script that you can add, update, and remove
 
 Components will not be covered in depth here, so please use the Unity documentation for specific details.
 
-Let's look at some common elements of a component as it appears in the Inspector Tab:
+Let's look at some common elements of a component as it appears in the Inspector window:
 
 ![A built-in Mesh Renderer component, default for most visible game objects](../../.gitbook/assets/image%20%28110%29.png)
 
-Components can pile up in the Inspector Tab, so there are dropdown toggle triangles on the left. You can use these to collapse the entire component or sections of attributes.
+Components can pile up in the Inspector window, so there are dropdown toggle triangles on the left. You can use these to collapse the entire component or sections of attributes.
 
 Many components allow you to turn them off and on by using the checkbox to the left of the component name.
 
@@ -99,7 +99,7 @@ At the bottom of the list of components, there's an "Add Component" button. This
 
 ## Extras for Assets
 
-Many assets have previews within the Inspector Tab at the bottom.
+Many assets have previews within the Inspector window at the bottom.
 
 ![](../../.gitbook/assets/image%20%285%29.png)
 
