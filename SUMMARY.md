@@ -7,7 +7,7 @@
 ## The Unity Software Interface <a id="the-unity-interface"></a>
 
 * [The Default Interface](the-unity-interface/the-default-interface.md)
-* [The Tabs](the-unity-interface/the-tabs/README.md)
+* [The Windows \(Tabs\)](the-unity-interface/the-tabs/README.md)
   * [Hierarchy Tab](the-unity-interface/the-tabs/hierarchy-tab.md)
   * [Scene Tab](the-unity-interface/the-tabs/scene-tab.md)
   * [Project Tab](the-unity-interface/the-tabs/project-tab.md)
