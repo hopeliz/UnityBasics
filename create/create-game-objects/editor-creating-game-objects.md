@@ -14,7 +14,7 @@ Menus below may vary depending on what packages and plugins have been installed.
 Changes and additions made while in Play Mode will revert back to the values before playing.
 {% endhint %}
 
-### **Method 1: Right-click in the Hierarchy Tab to get this dropdown:**
+### **Method 1: Right-click in the Hierarchy window to get this dropdown:**
 
 ![](../../.gitbook/assets/image%20%2857%29.png)
 
@@ -28,13 +28,13 @@ The area starting with "Create Empty" is the list of game objects to choose from
 
 ![](../../.gitbook/assets/image%20%28115%29.png)
 
-### **Method 4: Click the three-dot settings icon for the Inspector Window, then hover over "GameObject":**
+### **Method 4: Click the three-dot settings icon for the Inspector window, then hover over "GameObject":**
 
 ![](../../.gitbook/assets/image%20%2823%29.png)
 
 ## Duplicate, Copy, and Paste
 
-If you have a game object selected in either the Inspector Tab or the Scene Tab, you can use the menu from Method 1 to duplicate, copy, and paste.
+If you have a game object selected in either the Inspector window or the Scene window, you can use the menu from Method 1 to duplicate, copy, and paste.
 
 ### **Shortcuts**
 

@@ -84,11 +84,11 @@ this.gameObject.activeSelf
 
 It is read-only \(you cannot directly change this value\) and will return true if active and false if not.
 
-In the Hierarchy Tab, hidden / inactive objects will appear grayed out:
+In the Hierarchy window, hidden / inactive objects will appear grayed out:
 
 ![](../../.gitbook/assets/image%20%28130%29.png)
 
-In the Inspector Tab, the checkbox next to the object's name controls the active state of the object. Example of an inactive object:
+In the Inspector window, the checkbox next to the object's name controls the active state of the object. Example of an inactive object:
 
 ![](../../.gitbook/assets/image%20%28105%29.png)
 

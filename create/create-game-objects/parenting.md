@@ -16,7 +16,7 @@ In the example above:
 
 Certain aspects applied to a parent object affect its children. The most common are transform controls \(Translate, Rotate, and Scale\), its active state, and visibility.
 
-If Fruit is moved or resized or hidden, it affects all the child objects the same way.
+In the example above, if Fruit is moved or resized or hidden, it affects all the child objects the same way.
 
 However, aspects affecting the object individually \(scripts, mesh, colliders, etc.\) do not change its child objects.
 
@@ -33,7 +33,7 @@ When a game object is created on its own, the Transform values are global values
 This is why sometimes, rotating child objects within the game scene looks funny. Be careful about changing values - especially scale - of parenting objects.
 
 {% hint style="info" %}
-To help avoid issues, be sure to "reset" or "zero out" new empty game objects by right-clicking on the Transform component in the Inspector Tab and clicking "reset."
+To help avoid issues, be sure to "reset" or "zero out" new empty game objects by right-clicking on the Transform component in the Inspector window and clicking "reset."
 {% endhint %}
 
 {% hint style="danger" %}

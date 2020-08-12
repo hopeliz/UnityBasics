@@ -33,7 +33,7 @@ This is helpful when you want to create several in a loop, changing copies indiv
 Many game artists use the Instantiate\(\) function with [prefabs](../create-prefabs.md) so they don't need to spawn each part individually.
 
 {% hint style="info" %}
-Prefabs for the Instantiate\(\) function are selected from or dragged from the Project Tab instead of the Hierarchy Tab.
+Prefabs for the Instantiate\(\) function are selected from or dragged from the Project window instead of the Hierarchy window.
 {% endhint %}
 
 ## Example Code
@@ -57,7 +57,7 @@ public class SpawnThing : MonoBehaviour
 }
 ```
 
-In your Hierarchy Tab, the spawned copies will appear as clones:
+In your Hierarchy window, the spawned copies will appear as clones:
 
 ![](../../.gitbook/assets/image%20%28101%29.png)
 
