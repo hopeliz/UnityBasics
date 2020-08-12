@@ -1,6 +1,6 @@
 # Create a Custom Layout
 
-To create a custom layout, **click and drag** windows by their around the screen. Additional windows can be found and added under the Window menu in the task bar.
+To create a custom layout, **click and drag** windows by their around the screen. Additional windows can be found and added under the Window menu in the taskbar.
 
 They will snap to edges or appear in the same space as another window.
 

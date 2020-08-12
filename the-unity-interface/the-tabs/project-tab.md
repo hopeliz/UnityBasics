@@ -6,7 +6,7 @@ description: Where all your assets go
 
 This window shows the folders in the Asset folder of your project file and is where all of your assets \(materials, scripts, sounds, prefabs, etc.\) can be accessed.
 
-Assets are the files used like an artist's materials - they can be used multiple times on many game objects. The game objects are listed in the [Hierarchy Window](hierarchy-tab.md).
+Assets are the files used like an artist's materials - they can be used multiple times on many game objects. The game objects are listed in the [Hierarchy ](hierarchy-tab.md)window.
 
 ## Default Tab View
 

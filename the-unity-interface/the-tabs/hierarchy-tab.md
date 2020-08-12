@@ -6,7 +6,7 @@ description: Where the items in your scene go
 
 This window shows a text list of game objects within your scene.
 
-Game objects are the objects in the actual game. They use assets listed in the [Project Window](project-tab.md) to determine how the scene or game looks, sounds, and behaves. 
+Game objects are the objects in the actual game. They use assets listed in the [Project](project-tab.md) window to determine how the scene or game looks, sounds, and behaves. 
 
 ## **Layout**
 

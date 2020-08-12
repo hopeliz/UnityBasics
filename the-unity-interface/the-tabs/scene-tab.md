@@ -60,7 +60,7 @@ The dropdown at the top left of the window provides more options for how to view
 
 ![](../../.gitbook/assets/image%20%2851%29.png)
 
-**Hidden Objects** - When objects are hidden in the [Hierarchy Tab](hierarchy-tab.md), the count shows here. Clicking this symbol in the Scene Tab toggles the visibility of the hidden objects. They will remain listed as hidden within the Hierarchy Tab.
+**Hidden Objects** - When objects are hidden in the [Hierarchy ](hierarchy-tab.md)window, the count shows here. Clicking this symbol in the Scene Tab toggles the visibility of the hidden objects. They will remain listed as hidden within the Hierarchy Tab.
 
 **Grid Options** - Adjust how and if the grid is visible in the Scene Tab
 

@@ -4,7 +4,7 @@ description: Where you get feedback
 
 # Console Window
 
-This window provides helpful feedback such as errors, warnings, and messages.
+The console provides helpful feedback such as errors, warnings, and messages.
 
 ## Default View
 
