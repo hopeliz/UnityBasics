@@ -10,19 +10,19 @@ Trying to update the children of a prefab in a scene will give you this error:
 
 There are a few ways to access the editor for a prefab object:
 
-### **Through the Hierarchy Tab**
+### **Through the Hierarchy Window**
 
 Click on the arrow to the right of the parent object's name to edit the prefab.
 
 ![](../../.gitbook/assets/image%20%2828%29.png)
 
-### **Through the Project Tab**
+### **Through the Project Window**
 
 Double-click on the prefab to edit.
 
 ![](../../.gitbook/assets/image%20%28146%29.png)
 
-### **Through the Inspector Tab**
+### **Through the Inspector Window**
 
 Click on the Open Prefab button to edit the selected prefab.
 
@@ -30,13 +30,13 @@ Click on the Open Prefab button to edit the selected prefab.
 
 ## **The Prefab Editor**
 
-When you are editing a prefab, the Hierarchy shows the children objects and the Scene Tab shows a close up of the prefab with a solid background color.
+When you are editing a prefab, the Hierarchy window shows the children objects and the Scene window shows a close up of the prefab with a solid background color.
 
 ![](../../.gitbook/assets/image%20%28116%29.png)
 
 Edit the game objects like you would any other game object.
 
-Changes here will update all instances of the prefab when you click the back arrow in the Hierarchy Tab.
+Changes here will update all instances of the prefab when you click the back arrow in the Hierarchy window.
 
 ## Unpack a Prefab
 

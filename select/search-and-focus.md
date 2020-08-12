@@ -6,23 +6,23 @@ Most tabs will have a search field at the top.
 
 As you start to type, matching game objects, assets, components, labels, etc. will appear depending on the tab you are searching in.
 
-| Tab | What it searches |
+| Window | What it searches |
 | :--- | :--- |
-| Hierarchy Tab | Game objects within the scene |
-| Project Tab | Assets within a project |
-| Inspector Tab's  Add Component button | Components and Scripts |
-| Scene Tab | Visible game objects |
-| Asset Store Tab | Items in the Asset Store |
+| Hierarchy | Game objects within the scene |
+| Project | Assets within a project |
+| Inspector: Add Component button | Components and Scripts |
+| Scene | Visible game objects |
+| Asset Store | Items in the Asset Store |
 
 ## **Focus**
 
-Sometimes, you select a game object in the Hierarchy tab, but it's off-screen in the Scene Tab or maybe you selected a game object in the Scene Tab, but lost where it was located in a Hierarchy Tab.
+Sometimes, you select a game object in the Hierarchy, but it's off-screen in the Scene view or maybe you selected a game object in the Scene view, you but lost where it was located in the Hierarchy window.
 
-Just press **F** to "focus"  or bring close/highlight the location of the selected game object. Press F while hovering over the tab you need the focus in.
+Just press **F** to "focus" or bring close/highlight the location of the selected game object while hovering over the window you need the focus in.
 
 ## Finding Assets
 
-The three dots on the top right of the [Hierarchy Tab](../the-unity-interface/the-tabs/hierarchy-tab.md) can find and highlight the current scene in the Project Tab.
+The three dots on the top right of the [Hierarchy window](../the-unity-interface/the-tabs/hierarchy-tab.md) can find and highlight the current scene in the Project window.
 
-Double-clicking on a message, warning, or error in the [Console Tab](../the-unity-interface/the-tabs/console-tab.md) will find and highlight the script giving the message and sometimes the related game object.
+Double-clicking on a message, warning, or error in the [Console](../the-unity-interface/the-tabs/console-tab.md) will find and highlight the script giving the message and sometimes the related game object.
 

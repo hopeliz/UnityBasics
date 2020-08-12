@@ -27,7 +27,7 @@
   * [Parenting](create/create-game-objects/parenting.md)
 * [Creating Assets](create/create-assets.md)
 * [Creating Components and Scripts](create/create-scripts/README.md)
-  * [Adding Components Using the Inspector Tab](create/create-scripts/using-inspector-tab.md)
+  * [Adding Components in the Inspector window](create/create-scripts/using-inspector-tab.md)
   * [Creating Custom Components and Scripts](create/create-scripts/custom-components-and-scripts.md)
 * [Creating Prefabs](create/create-prefabs.md)
 
@@ -40,7 +40,7 @@
   * [Updating Prefabs](select/update-game-objects/updating-prefabs.md)
 * [Updating Assets](select/updating-assets.md)
 * [Updating Components](select/components/README.md)
-  * [Update Components Using the Inspector Tab](select/components/using-the-inspector-tab.md)
+  * [Update Components in the Inspector](select/components/using-the-inspector-tab.md)
   * [Accessing Components Through Scripts](select/components/accessing-attributes.md)
 
 ## Delete

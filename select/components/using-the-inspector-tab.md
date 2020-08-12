@@ -1,8 +1,8 @@
-# Update Components Using the Inspector Tab
+# Update Components in the Inspector
 
 ## Overview
 
-When you select a game object in the Hierarchy Tab or an asset in the Project Tab, the components that control the behavior and appearance are listed in the Inspector Tab.
+When you select a game object in the Hierarchy window or an asset in the Project window, the components that control the behavior and appearance are listed in the Inspector window.
 
 ![Example of components of a newly added Sphere game object.](../../.gitbook/assets/image%20%28142%29.png)
 
@@ -28,9 +28,9 @@ Some of these are displayed as specific ranges with a slider.
 
 These fields will often be "None" for their default followed by the type of component it is looking for. 
 
-There are two ways to update these in the Inspector Tab:
+There are two ways to update these in the Inspector:
 
-1. Click and drag objects from the Hierarchy Tab or Project Tab into the field
+1. Click and drag objects from the Hierarchy or Project window into the field
 2. Click on the circle/target icon to the right of the field for a list of objects and assets that match the required type.
 
 {% hint style="warning" %}

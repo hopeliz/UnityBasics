@@ -1,10 +1,10 @@
 # Creating Custom Components and Scripts
 
-## Creating a Custom Component / Script Through the Inspector Tab
+## Creating a Custom Component / Script Through the Inspector window
 
 Sometimes, you have to make your own component. These are called Scripts and use C\# and Unity's libraries and classes. These built-in libraries and classes allow you to use very little script compared to coding everything by scratch.
 
-To add a custom component through the [Inspector Tab](../../the-unity-interface/the-tabs/inspector-tab.md), click the **Add Component** button.
+To add a custom component through the [Inspector window](../../the-unity-interface/the-tabs/inspector-tab.md), click the **Add Component** button.
 
 ![](../../.gitbook/assets/image%20%2816%29.png)
 
@@ -31,7 +31,7 @@ Type in the name of your script and you are absolutely sure that's what you want
 
 ![](../../.gitbook/assets/image%20%2831%29.png)
 
-The script will now appear in the [Project Tab](../../the-unity-interface/the-tabs/project-tab.md), in the Assets folder, the list of components, and in the Inspector Tab.
+The script will now appear in the [Project window](../../the-unity-interface/the-tabs/project-tab.md), in the Assets folder, the list of components, and in the Inspector Tab.
 
 ![](../../.gitbook/assets/image%20%2847%29.png)
 
@@ -45,7 +45,7 @@ Please see the [Coding Basics](../../coding-basics/intro-to-scripts.md) section 
 
 ### Creating a Script Through the Project Tab
 
-Add a C\# Script using the Assets &gt; Create menu or right-clicking within the Project Tab.
+Add a C\# Script using the Assets &gt; Create menu or right-clicking in the Project window.
 
 This will create a script asset within the current folder with the name highlighted ready to change. 
 
@@ -67,7 +67,7 @@ The script can now be edited in the IDE/code editor set up with Unity \(usually 
 After editing, the script will need to be added to the game object or asset for it to run.
 
 {% hint style="danger" %}
-Renaming scripts within the Project Tab will require additional renaming within the script. The script will not automatically update.
+Renaming scripts in the Project window will require additional renaming within the script. The script will not automatically update.
 {% endhint %}
 
 Please see the [Coding Basics](../../coding-basics/intro-to-scripts.md) section for more information on the actual scripting.

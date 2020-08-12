@@ -14,7 +14,7 @@ For an example, I made a weird character out of four different spheres with four
 
 ![Hierarchy Tab view](../.gitbook/assets/image%20%28125%29.png)
 
-To make a prefab, take the parent object in the Hierarchy Tab and drag it into the Project Tab.
+To make a prefab, click and drag the parent object in the Hierarchy window into the Project window.
 
 This creates a prefab asset that can be used multiple times, updated easily, spawned during gameplay, etc.
 

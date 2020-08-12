@@ -18,7 +18,7 @@ Once saved and added to a game object, the example will appear like this:
 
 ![](../../.gitbook/assets/image%20%2820%29.png)
 
-This means the script is looking for specific types of components \(Game Object, Transform, and Rigidbody\) and took the scripts and turned the variable name into something more readable \(if the name is written in "camel" case\).
+This means the script is looking for specific types of components \(GameObject, Transform, and Rigidbody\) and took the scripts and turned the variable name into something more readable \(if the name is written in "camel" case\).
 
 ## Assigning Variables
 
