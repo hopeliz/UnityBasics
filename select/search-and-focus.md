@@ -2,9 +2,9 @@
 
 ## **Search Fields Everywhere!**
 
-Most tabs will have a search field at the top.
+Most windows will have a search field at the top.
 
-As you start to type, matching game objects, assets, components, labels, etc. will appear depending on the tab you are searching in.
+As you start to type, matching game objects, assets, components, labels, etc. will appear depending on the window you are searching in.
 
 | Window | What it searches |
 | :--- | :--- |
@@ -22,7 +22,7 @@ Just press **F** to "focus" or bring close/highlight the location of the selecte
 
 ## Finding Assets
 
-The three dots on the top right of the [Hierarchy window](../the-unity-interface/the-tabs/hierarchy-tab.md) can find and highlight the current scene in the Project window.
+The three dots on the top right of the [Hierarchy](../the-unity-interface/the-tabs/hierarchy-tab.md) window can find and highlight the current scene in the Project window.
 
 Double-clicking on a message, warning, or error in the [Console](../the-unity-interface/the-tabs/console-tab.md) will find and highlight the script giving the message and sometimes the related game object.
 
