@@ -2,9 +2,9 @@
 
 ## Assets Overview
 
-Assets are the files that are available for use in a project and they appear in the [Project window](../the-unity-interface/the-tabs/project-tab.md).
+Assets are the files that are available for use in a project and they appear in the [Project ](../the-unity-interface/the-tabs/project-tab.md)window.
 
-Assets are meant to be used for one or more game objects and information, values, and components can be seen in the [Inspector window](../the-unity-interface/the-tabs/inspector-tab.md) when an asset is selected.
+Assets are meant to be used for one or more game objects and information, values, and components can be seen in the [Inspector](../the-unity-interface/the-tabs/inspector-tab.md) window when an asset is selected.
 
 ## **Where Asset Files are Created**
 

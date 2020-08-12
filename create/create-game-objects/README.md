@@ -1,6 +1,6 @@
 # Creating Game Objects
 
-**Game objects** are the objects in the actual game and they appear in the [Hierarchy window](../../the-unity-interface/the-tabs/hierarchy-tab.md). They are comprised of a series of [components](../create-scripts/) that determine how the objects appear, move, and react to physics within the scene.
+**Game objects** are the objects in the actual game and they appear in the [Hierarchy](../../the-unity-interface/the-tabs/hierarchy-tab.md) window. They are comprised of a series of [components](../create-scripts/) that determine how the objects appear, move, and react to physics within the scene.
 
 Some examples of game objects include [3D primitives](3d-primitives.md), cameras, lights, and particle systems.
 
