@@ -25,9 +25,9 @@ Example of deleting a game object of a transform:
 Destroy(thingTransform.gameObject);
 ```
 
-The Destroy\(\) function can also delete components \(colliders, rigidbody, scripts, etc.\).
+The Destroy\(\) function can also delete components \(colliders, Rigidbody, scripts, etc.\).
 
-Example of deleting a rigidbody component on a game object:
+Example of deleting a Rigidbody component on a game object:
 
 ```csharp
 Destroy(thing.GetComponent<Rigidbody>());
@@ -62,7 +62,7 @@ if (thing != null)
 }
 ```
 
-Example of checking for a rigidbody component:
+Example of checking for a Rigidbody component:
 
 ```csharp
 if (thing.GetComponent<Rigidbody>() != null)

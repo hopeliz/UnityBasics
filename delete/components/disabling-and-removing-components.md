@@ -37,7 +37,7 @@ You will get an error if you try to enable, disable, or remove a component that 
 
 You can check to see if a component is there by using this script.
 
-Example of checking for a rigidbody component:
+Example of checking for a Rigidbody component:
 
 ```csharp
 if (thing.GetComponent<Rigidbody>() != null)
