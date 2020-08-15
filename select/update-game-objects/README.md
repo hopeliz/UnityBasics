@@ -2,7 +2,7 @@
 
 You can...
 
-[Update game objects in the Unity Editor](editor-selecting-objects.md)
+[Update game objects in the Unity editor](editor-selecting-objects.md)
 
 [Update prefabs](updating-prefabs.md)
 

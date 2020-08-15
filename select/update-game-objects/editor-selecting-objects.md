@@ -10,7 +10,7 @@ You can copy the component attached to a game object and its values in Play Mode
 
 ## Different Tabs for Different Features
 
-Below are ways you can update game objects in each of the default tabs.
+Below are ways you can update game objects in each of the default windows.
 
 ### **Hierarchy Window**
 
@@ -52,7 +52,7 @@ For detailed information about ways to update the position, rotation, and scale 
 
 ## Adding Assets to Game Objects
 
-Some assets such as materials and scripts can be added to game objects by clicking the asset and dragging it onto the object in the Hierarchy or Scene tabs. If the object is selected and showing in the Inspector, you can click and drag some assets into the Inspector Tab to add it.
+Some assets such as materials and scripts can be added to game objects by clicking the asset and dragging it onto the object in the Hierarchy or Scene windows. If the object is selected and showing in the Inspector, you can click and drag some assets into the Inspector window to add it.
 
 {% page-ref page="../../create/create-game-objects/" %}
 

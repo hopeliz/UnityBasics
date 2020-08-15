@@ -2,7 +2,7 @@
 
 ## Overview
 
-When you select a game object in the Hierarchy window or an asset in the Project window, the components that control the behavior and appearance are listed in the Inspector window.
+When you select a game object in the Hierarchy or an asset in the Project window, the components that control the behavior and appearance are listed in the Inspector.
 
 ![Example of components of a newly added Sphere game object.](../../.gitbook/assets/image%20%28142%29.png)
 
@@ -21,6 +21,8 @@ These fields uses **integers** and **floating point** numbers.
 You can type directly into the field. Press Enter or click off the field to confirm.
 
 For number fields, you can also hover your cursor over the label \(eg. x, y, or z\) to show a double arrow symbol. Click and drag it left or right to adjust the value incrementally.
+
+![Example of updating the Transform component](../../.gitbook/assets/translateinspectortab.gif)
 
 Some of these are displayed as specific ranges with a slider.
 
@@ -61,7 +63,7 @@ Click the dropper icon to select a color visible on the screen.
 
 Click on the swatch to open the Color window. Select the hue you want from the outer ring, then the value of the color \(lightness/darkness/tint\) in the square.
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/pickcolor_01.gif)
 
 RGBA \(red, green, blue, and alpha\) values can be added manually in the number fields. Alpha controls the opacity, but only some Materials can be transparent.
 
@@ -69,7 +71,7 @@ Although the default is RGB 0-1.0, there are other options in the dropdown:
 
 ![](../../.gitbook/assets/image%20%28144%29.png)
 
-Note: HSV stands for Hue, Saturation, and Value and is another way that uses numerical values to create a visual color.
+**Note:** HSV stands for Hue, Saturation, and Value and is another way that uses numerical values to create a visual color.
 
 The Hexadecimal field will translate "Hex Codes" often used in web development that are six-digit codes starting with a hashtag \# with each digit ranging from 0-9 or A-E.
 

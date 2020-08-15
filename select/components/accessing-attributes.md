@@ -16,19 +16,21 @@ public Rigidbody rb;
 
 Once saved and added to a game object, the example will appear like this:
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%28178%29.png)
 
 This means the script is looking for specific types of components \(GameObject, Transform, and Rigidbody\) and took the scripts and turned the variable name into something more readable \(if the name is written in "camel" case\).
 
 ## Assigning Variables
 
-### **Using the Inspector Tab**
+### **Using the Inspector**
 
 Click and drag the game objects you want to manipulate with the script into the proper fields OR clock on the circle/target icon to the right of the field to search for and select the game object. Clicking the target icon will only list objects that have the type of component required.
 
+![](../../.gitbook/assets/addingobjecttoscripts_01.gif)
+
 Once filled in, it will look similar to this:
 
-![](../../.gitbook/assets/image%20%28117%29.png)
+![](../../.gitbook/assets/image%20%28179%29.png)
 
 ### **Using a Script**
 
