@@ -8,13 +8,13 @@ Primitives \(shapes\) usually have a Collider component by default based on thei
 
 ## Editing the Collider
 
-Click on the Edit Collider button to make the collider and handers visible in the Scene window.
+Click on the **Edit Collider** button to make the collider and handers visible in the Scene window.
 
 ![](../../.gitbook/assets/image%20%28155%29.png)
 
 Click and drag the green dots to adjust the size and shape or type in the values within the component in the Inspector.
 
-![Example of how a collider can be a different size than the object](../../.gitbook/assets/image%20%28158%29.png)
+![](../../.gitbook/assets/colliders_01.gif)
 
 ![Example of a collider without a visible object](../../.gitbook/assets/image%20%28162%29.png)
 
