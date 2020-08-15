@@ -6,7 +6,7 @@ description: All the details of your assets and items
 
 One of the most important windows, the Inspector shows all the components and attributes of a selected game object or Asset.
 
-## Default Layout
+## Default View
 
 The information in the Inspector window changes depending on what game objects and assets you have selected.
 
