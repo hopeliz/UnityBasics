@@ -10,7 +10,7 @@
 | CTRL+S | Save Scene/File | Scenes/Files with an asterisk have not been saved |
 | CTRL+C | Copy |  |
 | CTRL+V | Paste |  |
-| CTRL+D | Duplicate | Only in Unity tabs |
+| CTRL+D | Duplicate | Only in Unity windows |
 | CTRL+X | Cut | Removes item\(s\) and adds to the clipboard to be pasted |
 | F | [Focus](select/search-and-focus.md#focus) | Focuses in tab the cursor is in |
 | ALT+SHIFT+A | Toggle selected item\(s\) availability |  |
