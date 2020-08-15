@@ -2,7 +2,7 @@
 
 ## Overview
 
-Every game object within a scene listed in the [Hierarchy Tab](../../the-unity-interface/the-tabs/hierarchy-tab.md) has a Transform component shown in the [Inspector Tab](../../the-unity-interface/the-tabs/inspector-tab.md):
+Every game object within a scene listed in the [Hierarchy](../../the-unity-interface/the-tabs/hierarchy-tab.md) window has a Transform component shown in the [Inspector](../../the-unity-interface/the-tabs/inspector-tab.md):
 
 ![](../../.gitbook/assets/image%20%28160%29.png)
 
@@ -10,7 +10,7 @@ Here, we see the position's x, y, and z coordinates. Generally, the **x-axis** i
 
 ## Resetting the Coordinates
 
-You'll notice when you add a new game object, it will often have coordinates that aren't \(0,0,0\). Right-click on the Transform component or click the three dots on the right of the component in the Inspector Tab to get this menu:
+You'll notice when you add a new game object, it will often have coordinates that aren't \(0,0,0\). Right-click on the Transform component or click the three dots on the right of the component in the Inspector window to get this menu:
 
 ![](../../.gitbook/assets/image%20%28159%29.png)
 
@@ -28,7 +28,7 @@ Click the **Move Tool** at the top left of the editor.
 
 A quick way to select this is to press the **W key** on your keyboard.
 
-This will make translate vectors appear on the selected object in the [Scene Tab](../../the-unity-interface/the-tabs/scene-tab.md):
+This will make translate vectors appear on the selected object in the [Scene](../../the-unity-interface/the-tabs/scene-tab.md) window:
 
 ![](../../.gitbook/assets/image%20%28156%29.png)
 
@@ -40,9 +40,9 @@ Use the squares where the axes intersect to move an object along two axes at onc
 
 ![](../../.gitbook/assets/movetoolhandles_02.gif)
 
-## Moving Objects in the Inspector Tab
+## Moving Objects Using the Inspector
 
-Just like in all components with number properties, you can adjust numbers by clicking and dragging your cursor over the property name. You must first hover over the property name \(X, Y, or Z\) to make arrows appear around the cursor. Once your cursor moves out of frame, it will reenter on the other side. The numbers should increase and decrease and you should notice the object moving in the Scene Tab.
+Just like in all components with number properties, you can adjust numbers by clicking and dragging your cursor over the property name. You must first hover over the property name \(X, Y, or Z\) to make arrows appear around the cursor. Once your cursor moves out of frame, it will reenter on the other side. The numbers should increase and decrease and you should notice the object moving in the Scene window.
 
 In the Transform component, you can also type in the exact coordinates you need. The object will appear there.
 

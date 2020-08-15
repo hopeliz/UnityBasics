@@ -86,7 +86,7 @@ public class PlayerMotor : MonoBehaviour
 }
 ```
 
-After adding the script to an object, this is how it will appear in the Inspector Tab. The Move Speed will default to what is in the script and you can update it through the Inspector Tab through typing in a value or clicking and dragging left and right over the "Move Speed" label.
+After adding the script to an object, this is how it will appear in the Inspector window when the object is selected. The Move Speed will default to what is in the script and you can update it through the Inspector through typing in a value or clicking and dragging left and right over the "Move Speed" label.
 
 ![](../../.gitbook/assets/image%20%28174%29.png)
 

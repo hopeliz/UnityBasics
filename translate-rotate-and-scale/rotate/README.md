@@ -2,7 +2,7 @@
 
 ## Rotation
 
-Rotation is the direction an object is facing. This is not in relation to the camera, but an overall coordinate system of the game \(global rotation\) or of the object's parent object \(local rotation\). The rotation coordinates in the Transform component show the object's local rotation in Euler angles unless it is not in a parent object.
+Rotation is the direction an object is facing. This is not in relation to the camera, but an overall coordinate system of the game \(global rotation\) or of the object's [parent](../../create/create-game-objects/parenting.md) object \(local rotation\). The rotation coordinates in the Transform component show the object's local rotation in Euler angles unless it is not in a parent object.
 
 ## Rotation vs. Euler Angles
 
