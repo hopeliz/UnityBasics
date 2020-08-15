@@ -1,6 +1,6 @@
 # Creating Game Objects in the Editor
 
-There are several ways you can create or add game objects using the Unity Editor.
+There are several ways you can create or add game objects using the Unity editor.
 
 {% hint style="warning" %}
 Depending on what is selected and where you click, new game objects could appear offset from the origin \(0, 0, 0\). See the [Positioning Game Objects](../../translate-rotate-and-scale/translate/positioning.md) chapter for more information.

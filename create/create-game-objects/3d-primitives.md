@@ -49,7 +49,7 @@ They include:
   </tbody>
 </table>
 
-Each primitive has the following components \(seen in the Inspector window\):
+Each primitive has the following components \(seen in the Inspector\):
 
 * Transform
 * Mesh Filter

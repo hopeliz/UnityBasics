@@ -27,7 +27,7 @@
   * [Parenting](create/create-game-objects/parenting.md)
 * [Creating Assets](create/create-assets.md)
 * [Creating Components and Scripts](create/create-scripts/README.md)
-  * [Adding Components in the Inspector window](create/create-scripts/using-inspector-tab.md)
+  * [Adding Components in the Inspector](create/create-scripts/using-inspector-tab.md)
   * [Creating Custom Components and Scripts](create/create-scripts/custom-components-and-scripts.md)
 * [Creating Prefabs](create/create-prefabs.md)
 

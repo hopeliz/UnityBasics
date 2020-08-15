@@ -1,4 +1,4 @@
-# Adding Components in the Inspector window
+# Adding Components in the Inspector
 
 {% hint style="info" %}
 Menus below may vary depending on what packages and plugins have been installed.
@@ -12,7 +12,7 @@ You can copy the component and its values in Play Mode, then paste the values or
 
 ## Adding a Built-In Component
 
-When you select a game object or asset, you will see the **Add Component** button at the end of the components in the [Inspector window](../../the-unity-interface/the-tabs/inspector-tab.md):
+When you select a game object or asset, you will see the **Add Component** button at the end of the components in the [Inspector](../../the-unity-interface/the-tabs/inspector-tab.md):
 
 ![](../../.gitbook/assets/image%20%2816%29.png)
 
@@ -24,7 +24,7 @@ It starts with categories. Once you click on a category such as Physics, it will
 
 ![](../../.gitbook/assets/image%20%2883%29.png)
 
-The search field is powerful, showing you components matching your search term as you type it in.
+The search field is powerful, showing components matching your search term as you type it in.
 
 ![](../../.gitbook/assets/image%20%28100%29.png)
 

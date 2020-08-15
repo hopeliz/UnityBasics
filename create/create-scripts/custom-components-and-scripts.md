@@ -1,10 +1,10 @@
 # Creating Custom Components and Scripts
 
-## Creating a Custom Component / Script Through the Inspector window
+## Creating a Custom Component / Script Through the Inspector
 
 Sometimes, you have to make your own component. These are called Scripts and use C\# and Unity's libraries and classes. These built-in libraries and classes allow you to use very little script compared to coding everything by scratch.
 
-To add a custom component through the [Inspector window](../../the-unity-interface/the-tabs/inspector-tab.md), click the **Add Component** button.
+To add a custom component through the [Inspector](../../the-unity-interface/the-tabs/inspector-tab.md), click the **Add Component** button.
 
 ![](../../.gitbook/assets/image%20%2816%29.png)
 
@@ -31,7 +31,7 @@ Type in the name of your script and you are absolutely sure that's what you want
 
 ![](../../.gitbook/assets/image%20%2831%29.png)
 
-The script will now appear in the [Project window](../../the-unity-interface/the-tabs/project-tab.md), in the Assets folder, the list of components, and in the Inspector Tab.
+The script will now appear in the [Project ](../../the-unity-interface/the-tabs/project-tab.md)window, in the Assets folder, the list of components, and in the Inspector.
 
 ![](../../.gitbook/assets/image%20%2847%29.png)
 

@@ -1,6 +1,6 @@
 # Unhiding/Hiding Objects During Gameplay
 
-## Using SetActive\(bool value\)
+## Using SetActive\(\)
 
 Use the script below to make a game object visible and its components available: 
 
@@ -74,7 +74,7 @@ public class AppearDisappear : MonoBehaviour
 **REMEMBER:** Hiding a parent object will hide its children.
 {% endhint %}
 
-## **Checking If Active**
+## **Checking If the Game Object is Active**
 
 This code can help if you want things to behave differently if an object is visible or not.
 
