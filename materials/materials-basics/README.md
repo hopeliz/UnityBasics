@@ -2,7 +2,7 @@
 
 ## Overview
 
-his section will cover the basics of materials to get you started. Please check out the Unity documentation and Resources page for more information.
+This section will cover the basics of materials to get you started. Please check out [Unity's documentation](https://docs.unity3d.com/Manual/Shaders.html) for more information.
 
 Materials are assets that are applied to visible game objects that determine the object's texture, color, and other attributes programmed within its _shader_. Shaders will not be covered in this guide, but they can be coded using HLSL and tools like Shader Graph, available in some Unity project types.
 
@@ -10,7 +10,7 @@ Materials are assets that are applied to visible game objects that determine the
 
 When you create a primitive object \(sphere, cube, etc.\), it will have a default material.
 
-![How the Material component appears in the Inspector Tab when the object is selected.](../../.gitbook/assets/image%20%2833%29.png)
+![How the Material component appears in the Inspector when the object is selected.](../../.gitbook/assets/image%20%2833%29.png)
 
 If you click the triangle on the left to twirl down the properties, you'll notice they're grayed out.
 

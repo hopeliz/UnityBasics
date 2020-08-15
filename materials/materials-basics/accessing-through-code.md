@@ -21,7 +21,7 @@ public Color selectedColor;
 public Texture2D woodTexture;
 ```
 
-In the Inspector Tab, it appears like this, ready for game objects and assets with or of certain types:
+In the Inspector, it appears like this, ready for game objects and assets with or of certain types:
 
 ![](../../.gitbook/assets/image%20%2880%29.png)
 

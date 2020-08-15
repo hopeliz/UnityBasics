@@ -2,23 +2,25 @@
 
 ## Creating a Material Asset
 
-Since materials can be used on multiple game objects, it is an [asset created](../../create/create-assets.md) and stored in the Assets folder and [Project Tab](../../the-unity-interface/the-tabs/project-tab.md).
+Since materials can be used on multiple game objects, it is an [asset created](../../create/create-assets.md) and it appears in the [Project ](../../the-unity-interface/the-tabs/project-tab.md)window and stored in the Assets folder.
 
-Right-click in the Project Tab or click on Assets in the taskbar.
+Right-click in the Project window or click on Assets in the taskbar.
 
 Select **Create &gt; Material**.
 
 ![](../../.gitbook/assets/image%20%2862%29.png)
 
-This will create a new asset in the tab in the current folder:
+This will create a new asset in the Project window in the current folder:
 
 ![](../../.gitbook/assets/image%20%2879%29.png)
 
-Name your material and press Enter to confirm.
+Name your material and press the Enter/Return key to confirm.
 
+{% hint style="info" %}
 **Note:** Unlike scripts, renaming a material is safe and will update editor references to it.
+{% endhint %}
 
-When the asset is selected, the [Inspector Tab](../../the-unity-interface/the-tabs/inspector-tab.md) will show its properties.
+When the asset is selected, the [Inspector ](../../the-unity-interface/the-tabs/inspector-tab.md)will show its properties.
 
 ![Properties for a standard material called &quot;Wood Material&quot;](../../.gitbook/assets/image%20%28145%29.png)
 
@@ -26,11 +28,11 @@ When the asset is selected, the [Inspector Tab](../../the-unity-interface/the-ta
 
 This can be done before or after updating the properties. Many developers add the material first to see how the game object will look as they mess with the material options.
 
-To apply the material, simply click and drag the material onto the game object in the Scene Tab, Hierarchy Tab, or \(if selected\) into the Inspector Tab.
+To apply the material, simply click and drag the material onto the game object in the Scene window, Hierarchy window, or \(if selected\) into the Inspector.
 
 ## **Common Properties to Play With**
 
-These properties are listed in the order I find myself using the most often.
+These properties are listed in the order you'll find yourself using the most often.
 
 ### **Color**
 
@@ -42,7 +44,7 @@ Click on the color picker to choose the color or input color values. Click on th
 
 ### **Textures**
 
-Textures are 2D images that gets wrapped around objects with the material they are attached to. 
+Textures are 2D images that get wrapped around objects with the material they are attached to. 
 
 To add a main texture, click on the circle/target icon to the left of "Albedo." A window will appear listing your available textures - those in your Asset folder and a few built-in options.
 
@@ -54,7 +56,7 @@ Double-click or select the asset and close the window. The texture will appear i
 
 Using a texture with a color other than white could affect the look of your material.
 
-With the current texture and color, the preview of the texture at the bottom of the Inspector Tab looks like this:
+With the current texture and color, the preview of the texture at the bottom of the Inspector window looks like this:
 
 ![](../../.gitbook/assets/image%20%2876%29.png)
 
@@ -72,7 +74,7 @@ Click the checkbox to see more options.
 
 ![](../../.gitbook/assets/image%20%2819%29.png)
 
-This property can glow based on a color or a texture. The Tiling and Offset is for tweaking textures. HDR colors have an intensity setting to contribute to it's "light source" appearance.
+This property can glow based on a color or a texture. The Tiling and Offset are for tweaking textures. HDR colors have an intensity setting to contribute to it's "light source" appearance.
 
 Example of a material named "Glow" with a black albedo color and bright green HDR emission color:
 
@@ -88,7 +90,7 @@ This property can make reflective materials.
 
 ![Default settings](../../.gitbook/assets/image%20%2864%29.png)
 
-Example of a material using a white albedo and max Metallic setting of 1:
+Example of a material using a white albedo and maximum Metallic setting of 1:
 
 ![](../../.gitbook/assets/image%20%2829%29.png)
 
@@ -96,7 +98,7 @@ What it looks like on a cube in the scene:
 
 ![](../../.gitbook/assets/image%20%2855%29.png)
 
-Example of a material using a white albedo and max Metallic and Smoothness settings of 1:
+Example of a material using a white albedo and maximum Metallic and Smoothness settings of 1:
 
 ![](../../.gitbook/assets/image%20%2871%29.png)
 
