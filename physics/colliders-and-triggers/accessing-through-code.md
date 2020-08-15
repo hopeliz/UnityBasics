@@ -10,7 +10,7 @@ Example of storing a Collider component in a variable:
 public Collider thingCollider;
 ```
 
-In the Inspector Tab, the object with the script attached will have the component for the script and this property:
+In the Inspector, the object with the script attached will have the component for the script and this property:
 
 ![](../../.gitbook/assets/image%20%28171%29.png)
 

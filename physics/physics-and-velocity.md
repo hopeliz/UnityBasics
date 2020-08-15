@@ -2,7 +2,7 @@
 
 **Issue:**
 
-When using a script to move or reposition an already moving object with a rigidbody component, the object continues to move.
+When using a script to move or reposition an already moving object with a Rigidbody component, the object continues to move.
 
 **Solution:**
 
