@@ -44,7 +44,7 @@ Here, you can update how many items to store in the variable "cubes." Once you p
 
 ![](../.gitbook/assets/image%20%2874%29.png)
 
-Add your objects and values like you would for other parts of the component:
+Add your objects and values as you would for other parts of the component:
 
 ![](../.gitbook/assets/image%20%28113%29.png)
 

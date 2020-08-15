@@ -1,6 +1,6 @@
 # Functions
 
-Functions are sets of code that can be ran multiple times.
+Functions are sets of code that can be run multiple times.
 
 ## **Parts of a Function**
 

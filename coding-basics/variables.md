@@ -50,7 +50,7 @@ Scope determines how a variable can be used. They are **private** by default, bu
 
 **Public** variables allow users to see and sometimes update what information the variable represents. You can make a variable public by typing "public" before the variable type when declaring a variable for a script \(at the top and outside of the functions\). Public variables are also accessible by other scripts.
 
-**Private** variables allow the script to reuse a variable, but it will not be visible within the Unity editor's Inspector Tab nor will it be able to be accessed by other scripts.
+**Private** variables allow the script to reuse a variable, but it will not be visible within the Unity editor's Inspector window nor will it be able to be accessed by other scripts.
 
 ### **Global vs. Local Variables**
 
