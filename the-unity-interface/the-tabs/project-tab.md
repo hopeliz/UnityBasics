@@ -8,7 +8,7 @@ This window shows the folders in the Asset folder of your project file and is wh
 
 Assets are the files used like an artist's materials - they can be used multiple times on many game objects. The game objects are listed in the [Hierarchy ](hierarchy-tab.md)window.
 
-## Default Tab View
+## Default View
 
 **Note:** This is in a shortened window.
 
@@ -80,9 +80,7 @@ When you start typing in the search bar, assets with matching names will be list
 
 The zoom control on the bottom right will "zoom" in and out of the files, showing large previews down to a list of names.
 
-![Default size](../../.gitbook/assets/image%20%281%29.png)
+![Zooming in and out in the Project window](../../.gitbook/assets/assetzoom_01.gif)
 
-![Zoomed all the way in](../../.gitbook/assets/image%20%286%29.png)
 
-![Zoomed all the way out](../../.gitbook/assets/image%20%28102%29.png)
 
