@@ -20,7 +20,7 @@ Changes and additions made while in Play Mode will revert back to the values bef
 
 ## Disabling Game Objects
 
-Sometimes, you just want to disable a game object to use later or to test a scene without it. [Hiding objects in the Scene view](../../the-unity-interface/the-tabs/hierarchy-tab.md#hiding-objects) only hides it in this that window.
+Sometimes, you just want to disable a game object to use later or to test a scene without it. [Hiding objects in the Scene view](../../the-unity-interface/the-tabs/hierarchy-tab.md#hiding-objects) only hides it in that window.
 
 To disable and enable objects, select the object in the Hierarchy or Scene window.
 
