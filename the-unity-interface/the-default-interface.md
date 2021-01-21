@@ -28,7 +28,7 @@ This window shows your scene overall. You can move around game objects and chang
 
 ## **Project Window**
 
-This tab shows the files and folders in the Assets folder of your project and is where all of your assets \(materials, scripts, sounds, prefabs, etc.\) can be accessed.
+This window shows the files and folders in the Assets folder of your project and is where all of your assets \(materials, scripts, sounds, prefabs, etc.\) can be accessed.
 
 ![](../.gitbook/assets/default-projectx.jpg)
 

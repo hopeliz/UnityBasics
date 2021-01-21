@@ -47,7 +47,7 @@ Notes:
 
 **Static \(checkbox\)** - Whether the object is Static and the type of static. Click on "Static" to see more options.
 
-**Tag** **\(Dropdown\)** - Tags can be added or selected from a list to help organization and access through a script.
+**Tag** **\(Dropdown\)** - Tags can be added or selected from a list to help with organization and access through a script.
 
 **Layer \(Dropdown\)**  - Layers can help a script determine how elements interact with certain objects.
 
