@@ -1,12 +1,12 @@
-# Using the Transform.Translate\(\) Function
+# Using the Transform.Translate() Function
 
 ## Overview
 
-When the game is running, you will not be able to move around objects as you can within the editor, so one way to move objects smoothly is with the Transform.Translate\(\) function.
+When the game is running, you will not be able to move around objects as you can within the editor, so one way to move objects smoothly is with the Transform.Translate() function.
 
 It updates the position of the object and can be used incrementally to make the movement appear smooth.
 
-Here is an example of a player move script using Transform.Translate\(\) to move a character when a key is pressed:
+Here is an example of a player move script using Transform.Translate() to move a character when a key is pressed:
 
 ```csharp
 using UnityEngine;
@@ -44,7 +44,7 @@ public class PlayerMotor : MonoBehaviour
 
 ## Controlling Speed
 
-Commands in the Update\(\) function run once per frame, meaning speed changes based on the computer's frame rate.
+Commands in the Update() function run once per frame, meaning speed changes based on the computer's frame rate.
 
 Multiplying by Time.deltaTime adjusts the speed to be about the same, even with different frame rates. Adding a speed variable helps you adjust the speed it moves.
 
@@ -88,7 +88,7 @@ public class PlayerMotor : MonoBehaviour
 
 After adding the script to an object, this is how it will appear in the Inspector window when the object is selected. The Move Speed will default to what is in the script and you can update it through the Inspector through typing in a value or clicking and dragging left and right over the "Move Speed" label.
 
-![](../../.gitbook/assets/image%20%28174%29.png)
+![](<../../.gitbook/assets/image (175).png>)
 
 ## Vector3 Shortcuts
 
@@ -141,6 +141,4 @@ public class PlayerMotor : MonoBehaviour
     }
 }
 ```
-
-
 

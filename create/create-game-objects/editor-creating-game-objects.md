@@ -3,7 +3,7 @@
 There are several ways you can create or add game objects using the Unity editor.
 
 {% hint style="warning" %}
-Depending on what is selected and where you click, new game objects could appear offset from the origin \(0, 0, 0\). See the [Positioning Game Objects](../../translate-rotate-and-scale/translate/positioning.md) chapter for more information.
+Depending on what is selected and where you click, new game objects could appear offset from the origin (0, 0, 0). See the [Positioning Game Objects](../../translate-rotate-and-scale/translate/positioning.md) chapter for more information.
 {% endhint %}
 
 {% hint style="info" %}
@@ -16,21 +16,21 @@ Changes and additions made while in Play Mode will revert back to the values bef
 
 ### **Method 1: Right-click in the Hierarchy window to get this dropdown:**
 
-![](../../.gitbook/assets/image%20%2857%29.png)
+![](<../../.gitbook/assets/image (70).png>)
 
 The area starting with "Create Empty" is the list of game objects to choose from.
 
-### **Method 2: Click on the Add Component dropdown menu \(it looks like a plus sign\):**
+### **Method 2: Click on the Add Component dropdown menu (it looks like a plus sign):**
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](<../../.gitbook/assets/image (71).png>)
 
 ### **Method 3: Click on GameObject in the taskbar:**
 
-![](../../.gitbook/assets/image%20%28115%29.png)
+![](<../../.gitbook/assets/image (72).png>)
 
 ### **Method 4: Click the three-dot settings icon for the Inspector window, then hover over "GameObject":**
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](<../../.gitbook/assets/image (73).png>)
 
 ## Duplicate, Copy, and Paste
 
@@ -38,13 +38,15 @@ If you have a game object selected in either the Inspector window or the Scene w
 
 ### **Shortcuts**
 
-Duplicate: CTRL + D  
-Copy: CTRL + C  
+Duplicate: CTRL + D\
+Copy: CTRL + C\
 Paste: CTRL + D
 
-{% page-ref page="../../select/update-game-objects/" %}
+{% content-ref url="../../select/update-game-objects/" %}
+[update-game-objects](../../select/update-game-objects/)
+{% endcontent-ref %}
 
-{% page-ref page="../../delete/delete-game-objects/delete-in-editor.md" %}
-
-
+{% content-ref url="../../delete/delete-game-objects/delete-in-editor.md" %}
+[delete-in-editor.md](../../delete/delete-game-objects/delete-in-editor.md)
+{% endcontent-ref %}
 

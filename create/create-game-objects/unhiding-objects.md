@@ -1,6 +1,6 @@
 # Unhiding/Hiding Objects During Gameplay
 
-## Using SetActive\(\)
+## Using SetActive()
 
 Use the script below to make a game object visible and its components available: 
 
@@ -26,7 +26,7 @@ Scripts cannot access components of objects that are not active.
 
 Examples of a game object called "thing" that appears when "F" is pressed and disappears when "X" is pressed:
 
-### **Example 1** \(using a gameObject type\):
+### **Example 1** (using a gameObject type):
 
 ```csharp
 using UnityEngine;
@@ -48,7 +48,7 @@ public class AppearDisappear : MonoBehaviour
 }
 ```
 
-### **Example 2** \(using a variable of another type\):
+### **Example 2 **(using a variable of another type):
 
 ```csharp
 using UnityEngine;
@@ -71,7 +71,7 @@ public class AppearDisappear : MonoBehaviour
 ```
 
 {% hint style="danger" %}
-**REMEMBER:** Hiding a parent object will hide its children.
+**REMEMBER: **Hiding a parent object will hide its children.
 {% endhint %}
 
 ## **Checking If the Game Object is Active**
@@ -82,23 +82,25 @@ This code can help if you want things to behave differently if an object is visi
 this.gameObject.activeSelf
 ```
 
-It is read-only \(you cannot directly change this value\) and will return true if active and false if not.
+It is read-only (you cannot directly change this value) and will return true if active and false if not.
 
 In the Hierarchy window, hidden / inactive objects will appear grayed out:
 
-![](../../.gitbook/assets/image%20%28130%29.png)
+![](<../../.gitbook/assets/image (76).png>)
 
 In the Inspector window, the checkbox next to the object's name controls the active state of the object. Example of an inactive object:
 
-![](../../.gitbook/assets/image%20%28105%29.png)
+![](<../../.gitbook/assets/image (77).png>)
 
 {% hint style="warning" %}
 REMEMBER: Add the script to a game object in the scene. It will not work if it does not exist in the game.
 {% endhint %}
 
-{% page-ref page="../../select/update-game-objects/" %}
+{% content-ref url="../../select/update-game-objects/" %}
+[update-game-objects](../../select/update-game-objects/)
+{% endcontent-ref %}
 
-{% page-ref page="../../delete/delete-game-objects/" %}
-
-
+{% content-ref url="../../delete/delete-game-objects/" %}
+[delete-game-objects](../../delete/delete-game-objects/)
+{% endcontent-ref %}
 

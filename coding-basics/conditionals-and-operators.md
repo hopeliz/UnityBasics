@@ -1,4 +1,4 @@
-# Conditionals \(If / Then / Else\)
+# Conditionals (If / Then / Else)
 
 ## **If, Then, Otherwise**
 
@@ -8,15 +8,15 @@ First, let's look at how to compare values to see if something is true.
 
 ## **Comparison Operators**
 
-| Operator | Name | Example |
-| :--- | :--- | :--- |
-| == | Equals | x == y |
-| === | Equals \(exact\) | x === y |
-| != | Does Not Equal | x != y |
-| &gt; | Greater Than | x &gt; y |
-| &lt; | Lesser Than | x &lt; y |
-| &gt;= | Greater Than or Equal To | x &gt;= y |
-| &lt;= | Lesser Than or Equal To | x &lt;= y |
+| Operator | Name                     | Example |
+| -------- | ------------------------ | ------- |
+| ==       | Equals                   | x == y  |
+| ===      | Equals (exact)           | x === y |
+| !=       | Does Not Equal           | x != y  |
+| >        | Greater Than             | x > y   |
+| <        | Lesser Than              | x < y   |
+| >=       | Greater Than or Equal To | x >= y  |
+| <=       | Lesser Than or Equal To  | x <= y  |
 
 {% hint style="danger" %}
 When comparing using an equals sign, remember to use two equal signs. Using only one tells the program to store/overwrite a variable instead of comparing it.
@@ -48,7 +48,7 @@ if (x < 24) { }
 if (x >= 23) { }
 ```
 
-You might want the program to so something by default or when the comparison is false. Use an **if/else statement** by using the keyword "else" followed by commands in curly brackets:
+You might want the program to so something by default or when the comparison is false. Use an **if/else statement **by using the keyword "else" followed by commands in curly brackets:
 
 ```csharp
 if (true)
@@ -103,7 +103,7 @@ else
 
 There can be multiple else if statements. 
 
-**Note:** Each comparison goes in order, so if a comparison is true in the first if statement, it does not get checked in the else if and else statements that follow. Code outside of the if/else if/else statement will be applied to all cases.
+**Note: **Each comparison goes in order, so if a comparison is true in the first if statement, it does not get checked in the else if and else statements that follow. Code outside of the if/else if/else statement will be applied to all cases.
 
 ## Switch / Case Statements
 
@@ -146,4 +146,3 @@ switch (fruit)
         break;
 }
 ```
-

@@ -1,6 +1,6 @@
 # Intro to Scripts
 
-Scripts are a way to create custom components that control the properties and interaction with game objects. Unity uses C\# plus its own library of code so developers don't have to type everything from scratch.
+Scripts are a way to create custom components that control the properties and interaction with game objects. Unity uses C# plus its own library of code so developers don't have to type everything from scratch.
 
 ## Default Script
 
@@ -25,25 +25,25 @@ public class Example2 : MonoBehaviour
 }
 ```
 
-**using UnityEngine** - this is one of the libraries that hold code making accessing game objects and components easier. Do not remove this!
+**using UnityEngine **- this is one of the libraries that hold code making accessing game objects and components easier. Do not remove this!
 
-**public class** - tells the program this script is accessible by other scrips and the code within this .cs file is a "class" ... think of it as saying this script is a full component that can be added and removed from game objects.
+**public class **- tells the program this script is accessible by other scrips and the code within this .cs file is a "class" ... think of it as saying this script is a full component that can be added and removed from game objects.
 
 **Example2** - the name of the script. This shows as "Example2.cs" in the Assets folder and "Example 2" in the Inspector.
 
 **: MonoBehaviour** - built-in parent class that tells the program how to handle the component. All the code for the component should exist inside the brackets that follow.
 
-## Start\(\) **Function**
+## Start()** Function**
 
-Unity provides a helpful comment here. The code within the curly brackets after Start\(\) runs **only once** and on the **first frame**.
+Unity provides a helpful comment here. The code within the curly brackets after Start() runs **only once** and on the **first frame**.
 
-This is similar to the setup\(\) function s found in some other programming languages.
+This is similar to the setup() function s found in some other programming languages.
 
-## Update\(\) Function
+## Update() Function
 
-Just as the comment says, the code within the curly brackets after Update\(\) will run **once per frame** - for many computers, that could mean 60 times a second!
+Just as the comment says, the code within the curly brackets after Update() will run **once per frame** - for many computers, that could mean 60 times a second!
 
-This is similar to loop\(\) or draw\(\) in some other programming languages.
+This is similar to loop() or draw() in some other programming languages.
 
 ## Adding Custom Code
 
@@ -53,7 +53,7 @@ The biggest thing to remember when accessing parts of your game and game objects
 
 **Examples:**
 
-Game Object &gt; Component &gt; Property &gt; Value/Function
+Game Object > Component > Property > Value/Function
 
 ```csharp
 gameObject.GetComponent<Renderer>().material.color = new Color(1.0F, 0, 0, 1.0F);
@@ -65,17 +65,25 @@ print(gameObject.name);
 
 Please see the following sections for more information about the elements used in coding:
 
-{% page-ref page="variables.md" %}
+{% content-ref url="variables.md" %}
+[variables.md](variables.md)
+{% endcontent-ref %}
 
-{% page-ref page="conditionals-and-operators.md" %}
+{% content-ref url="conditionals-and-operators.md" %}
+[conditionals-and-operators.md](conditionals-and-operators.md)
+{% endcontent-ref %}
 
-{% page-ref page="arrays.md" %}
+{% content-ref url="arrays.md" %}
+[arrays.md](arrays.md)
+{% endcontent-ref %}
 
-{% page-ref page="iterators-and-loops.md" %}
+{% content-ref url="iterators-and-loops.md" %}
+[iterators-and-loops.md](iterators-and-loops.md)
+{% endcontent-ref %}
 
-{% page-ref page="functions.md" %}
-
-
+{% content-ref url="functions.md" %}
+[functions.md](functions.md)
+{% endcontent-ref %}
 
 
 

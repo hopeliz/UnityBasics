@@ -4,11 +4,11 @@ Use a script and the **Input** class to determine what key is pressed on the key
 
 ### Types of Direct Keyboard Input
 
-**Input.GetKey\(\)** - Returns true each frame the key within the parentheses is pressed. This is great for moving objects.
+**Input.GetKey() **- Returns true each frame the key within the parentheses is pressed. This is great for moving objects.
 
-**Input.GetKeyDown\(\)** - Returns true only on the first frame the key within the parentheses is pressed. This is best for switches and buttons.
+**Input.GetKeyDown()** - Returns true only on the first frame the key within the parentheses is pressed. This is best for switches and buttons.
 
-**Input.GetKeyUp\(\)** - Returns true on the frame the key within the parentheses is released.
+**Input.GetKeyUp()** - Returns true on the frame the key within the parentheses is released.
 
 Inside the parentheses, you want to use the **KeyCode** class to access the key you want.
 
@@ -54,9 +54,9 @@ public class PlayerMotor : MonoBehaviour
 ```
 
 {% hint style="info" %}
-**Common Issue:** The object that should continuously move only moves a tiny bit and only when the player continues to tap the key.  
-  
-**Solution:** You might be using GetKeyDown\(\) which only runs for one frame. Try using GetKey\(\) instead.
+**Common Issue:** The object that should continuously move only moves a tiny bit and only when the player continues to tap the key.\
+\
+**Solution: **You might be using GetKeyDown() which only runs for one frame. Try using GetKey() instead.
 {% endhint %}
 
 ### Using the Input Manager
@@ -99,6 +99,4 @@ public class PlayerMotor : MonoBehaviour
     }
 }
 ```
-
-
 

@@ -12,11 +12,11 @@ public Rigidbody thingRb;
 
 In the Inspector, the object with the script attached will have the component for the script and this property:
 
-![](../../.gitbook/assets/image%20%28170%29.png)
+![](<../../.gitbook/assets/image (173).png>)
 
 You can click and drag an object with a Rigidbody component into the field or click the circle target icon on the right to select from a list.
 
-If you want to have Rigidbody component of the object the script is attached to be stored, use this script in the Start\(\) function:
+If you want to have Rigidbody component of the object the script is attached to be stored, use this script in the Start() function:
 
 ```csharp
 thingRb = gameObject.GetComponent<Rigidbody>();
@@ -43,4 +43,3 @@ thingRb.mass = 10;
 thingRb.velocity = new Vector3(0, 0, 0);
 thingRb.angularVelocity = new Vector3(0, 0, 0);
 ```
-

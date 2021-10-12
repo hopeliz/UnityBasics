@@ -9,4 +9,3 @@ You can...
 [Resize/scale an object within the Unity editor](scaling.md)
 
 [Resize/scale an object during gameplay by directly updating its local scale](updating-scale.md)
-

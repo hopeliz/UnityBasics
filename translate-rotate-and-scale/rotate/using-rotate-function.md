@@ -1,12 +1,12 @@
-# Using the Transform.Rotate\(\) Function
+# Using the Transform.Rotate() Function
 
 ## Overview
 
-When the game is running, you will not be able to rotate objects as you can within the editor, so one way to rotate objects smoothly is with the Transform.Rotate\(\) function.
+When the game is running, you will not be able to rotate objects as you can within the editor, so one way to rotate objects smoothly is with the Transform.Rotate() function.
 
 It updates the Euler angles of the object and can be used incrementally to make the movement appear smooth.
 
-Here is an example of a player rotate script using Transform.Rotate\(\) to rotate a character when a key is pressed:
+Here is an example of a player rotate script using Transform.Rotate() to rotate a character when a key is pressed:
 
 ```csharp
 using UnityEngine;
@@ -32,7 +32,7 @@ public class PlayerRotate : MonoBehaviour
 
 ## Controlling Speed
 
-Commands in the Update\(\) function run once per frame, meaning speed changes based on the computer's frame rate.
+Commands in the Update() function run once per frame, meaning speed changes based on the computer's frame rate.
 
 Multiplying by Time.deltaTime adjusts the speed to be about the same, even with different frame rates. Adding a speed variable helps you adjust the speed it moves.
 
@@ -101,4 +101,3 @@ public class PlayerMotor : MonoBehaviour
     }
 }
 ```
-

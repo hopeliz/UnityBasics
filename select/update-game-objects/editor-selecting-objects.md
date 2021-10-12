@@ -16,12 +16,11 @@ Below are ways you can update game objects in each of the default windows.
 
 * Click and drag game objects to order and organize them
 * Click and drag game objects to change to [create parent and child objects](../../create/create-game-objects/parenting.md)
-* Rename game objects
+*   Rename game objects
 
-       Options:  
-            1. Click once to make the name editable  
-            2. Right-click or use the taskbar GameObject menu
-
+         Options:\
+              1\. Click once to make the name editable\
+              2\. Right-click or use the taskbar GameObject menu
 * Change the [visibility](../../the-unity-interface/the-tabs/hierarchy-tab.md#hiding-objects) in the Scene view
 * Change whether or not the object can be [selected](../../the-unity-interface/the-tabs/hierarchy-tab.md#finding-and-selecting) within the Scene view
 
@@ -42,23 +41,29 @@ Below are ways you can update game objects in each of the default windows.
 * Click and drag assets to objects in the Hierarchy or Scene windows
 * Click and drag assets to components and scripts
 * Update materials
-* Update assets used by game objects \(such as materials\)
+* Update assets used by game objects (such as materials)
 
 ## Updating Transforms
 
 For detailed information about ways to update the position, rotation, and scale of game objects, please see the following section:
 
-{% page-ref page="../../translate-rotate-and-scale/intro-to-transforms.md" %}
+{% content-ref url="../../translate-rotate-and-scale/intro-to-transforms.md" %}
+[intro-to-transforms.md](../../translate-rotate-and-scale/intro-to-transforms.md)
+{% endcontent-ref %}
 
 ## Adding Assets to Game Objects
 
 Some assets such as materials and scripts can be added to game objects by clicking the asset and dragging it onto the object in the Hierarchy or Scene windows. If the object is selected and showing in the Inspector, you can click and drag some assets into the Inspector window to add it.
 
-{% page-ref page="../../create/create-game-objects/" %}
+{% content-ref url="../../create/create-game-objects/" %}
+[create-game-objects](../../create/create-game-objects/)
+{% endcontent-ref %}
 
-{% page-ref page="../../delete/delete-game-objects/" %}
+{% content-ref url="../../delete/delete-game-objects/" %}
+[delete-game-objects](../../delete/delete-game-objects/)
+{% endcontent-ref %}
 
-{% page-ref page="../../delete/delete-game-objects/delete-in-editor.md" %}
-
-
+{% content-ref url="../../delete/delete-game-objects/delete-in-editor.md" %}
+[delete-in-editor.md](../../delete/delete-game-objects/delete-in-editor.md)
+{% endcontent-ref %}
 

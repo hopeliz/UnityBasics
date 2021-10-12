@@ -4,52 +4,16 @@
 
 They include:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Primitive Name</th>
-      <th style="text-align:left">Collider</th>
-      <th style="text-align:left">Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Cube</td>
-      <td style="text-align:left">Box Collider</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Sphere</td>
-      <td style="text-align:left">Sphere Collider</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Capsule</td>
-      <td style="text-align:left">Capsule Collider</td>
-      <td style="text-align:left">Y-scale is x 2</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Cylinder</td>
-      <td style="text-align:left">Capsule Collider</td>
-      <td style="text-align:left">Y-scale is x 2</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Plane</td>
-      <td style="text-align:left">Mesh Collider</td>
-      <td style="text-align:left">
-        <p>X-scale and Z-scale is x 10</p>
-        <p>Visible only on one side by default</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Quad</td>
-      <td style="text-align:left">Mesh Collider</td>
-      <td style="text-align:left">Visible only on one side by default</td>
-    </tr>
-  </tbody>
-</table>
+| Primitive Name | Collider         | Notes                                                                        |
+| -------------- | ---------------- | ---------------------------------------------------------------------------- |
+| Cube           | Box Collider     |                                                                              |
+| Sphere         | Sphere Collider  |                                                                              |
+| Capsule        | Capsule Collider | Y-scale is x 2                                                               |
+| Cylinder       | Capsule Collider | Y-scale is x 2                                                               |
+| Plane          | Mesh Collider    | <p>X-scale and Z-scale is x 10</p><p>Visible only on one side by default</p> |
+| Quad           | Mesh Collider    | Visible only on one side by default                                          |
 
-Each primitive has the following components \(seen in the Inspector\):
+Each primitive has the following components (seen in the Inspector):
 
 * Transform
 * Mesh Filter
@@ -57,7 +21,7 @@ Each primitive has the following components \(seen in the Inspector\):
 * Collider
 * Material
 
-{% page-ref page="editor-creating-game-objects.md" %}
-
-
+{% content-ref url="editor-creating-game-objects.md" %}
+[editor-creating-game-objects.md](editor-creating-game-objects.md)
+{% endcontent-ref %}
 

@@ -8,21 +8,21 @@ Materials are assets that are applied to visible game objects that determine the
 
 ## Default Material
 
-When you create a primitive object \(sphere, cube, etc.\), it will have a default material.
+When you create a primitive object (sphere, cube, etc.), it will have a default material.
 
-![How the Material component appears in the Inspector when the object is selected.](../../.gitbook/assets/image%20%2833%29.png)
+![How the Material component appears in the Inspector when the object is selected.](<../../.gitbook/assets/image (117).png>)
 
 If you click the triangle on the left to twirl down the properties, you'll notice they're grayed out.
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](<../../.gitbook/assets/image (118).png>)
 
 Depending on your lighting, this default material will appear similar to this:
 
-![](../../.gitbook/assets/image%20%28108%29.png)
+![](<../../.gitbook/assets/image (119).png>)
 
 In the next section, we'll look at using the Unity editor to create and add materials to game objects.
 
-{% page-ref page="creating-materials.md" %}
-
-
+{% content-ref url="creating-materials.md" %}
+[creating-materials.md](creating-materials.md)
+{% endcontent-ref %}
 

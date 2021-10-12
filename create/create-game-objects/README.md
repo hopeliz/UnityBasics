@@ -13,4 +13,3 @@ You can...
 [Create game objects during gameplay using a script](spawning-objects.md)
 
 [Unhide hidden objects to make them appear](unhiding-objects.md)
-

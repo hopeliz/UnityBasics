@@ -4,7 +4,7 @@
 
 Parenting is where game objects can exist within other objects. The object containing other objects is the "parent" object and the objects within are "child" objects, referred to as "children."
 
-![](../../.gitbook/assets/image%20%2877%29.png)
+![](<../../.gitbook/assets/image (80).png>)
 
 In the example above:
 
@@ -14,11 +14,11 @@ In the example above:
 
 ## **Behaviors**
 
-Certain aspects applied to a parent object affect its children. The most common are transform controls \(Translate, Rotate, and Scale\), its active state, and visibility.
+Certain aspects applied to a parent object affect its children. The most common are transform controls (Translate, Rotate, and Scale), its active state, and visibility.
 
 In the example above, if Fruit is moved or resized or hidden, it affects all the child objects the same way.
 
-However, aspects affecting the object individually \(scripts, mesh, colliders, etc.\) do not change its child objects.
+However, aspects affecting the object individually (scripts, mesh, colliders, etc.) do not change its child objects.
 
 If Fruit had a script to trigger a noise, only that object creates the noise.
 
@@ -72,7 +72,7 @@ Below is an example of accessing the Collider of a child object and putting it i
 Collider childCollider = transform.GetComponentInChildren<Collider>();
 ```
 
-Usually, there will be multiple children, so the code to return or create a list or an array of components in child objects to access them individually, use transform.GetComponent**s**InChildren&lt;Component&gt; then access them using an index value.
+Usually, there will be multiple children, so the code to return or create a list or an array of components in child objects to access them individually, use transform.GetComponent**s**InChildren\<Component> then access them using an index value.
 
 ```csharp
 Collider[] childColliders = transform.GetComponentsInChildren<Collider>();
@@ -80,14 +80,13 @@ Collider[] childColliders = transform.GetComponentsInChildren<Collider>();
 
 ## **Why Use This?**
 
-**Organization**  
-Grouping similar objects can help you hide, move, etc. a certain type by manipulating one object.
+**Organization**\
+****Grouping similar objects can help you hide, move, etc. a certain type by manipulating one object.
 
-**Tying Together Behavior**  
-A great example of this are games that use a camera that follows a character. One way to do this is to make the camera a child object of the character so when the character moves, the camera moves, maintaining its offset without extra coding.
+**Tying Together Behavior**\
+****A great example of this are games that use a camera that follows a character. One way to do this is to make the camera a child object of the character so when the character moves, the camera moves, maintaining its offset without extra coding.
 
-**Easy Access**  
+**Easy Access**\
 Similar to organizing, you can use a script to access only items inside a specific object instead of looking through all the game objects.
 
 There are many other reasons to discover, but those are the top ones! 
-

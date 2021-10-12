@@ -8,7 +8,7 @@ Just select your game object in the [Hierarchy](../../the-unity-interface/the-ta
 
 Another way is to select your game object in the Hierarchy, right-click within the tab, and select **Delete**.
 
-![](../../.gitbook/assets/image%20%2841%29.png)
+![](<../../.gitbook/assets/image (115).png>)
 
 {% hint style="danger" %}
 If you delete a parent object, the child objects will also be deleted. Read more about [Parenting](../../create/create-game-objects/parenting.md).
@@ -28,11 +28,13 @@ In the Inspector window, click the checkbox next to the name of the game object 
 
 A shortcut for this is **ALT + SHIFT + A**
 
-![](../../.gitbook/assets/image%20%2843%29.png)
+![](<../../.gitbook/assets/image (44).png>)
 
-{% page-ref page="../../create/create-game-objects/" %}
+{% content-ref url="../../create/create-game-objects/" %}
+[create-game-objects](../../create/create-game-objects/)
+{% endcontent-ref %}
 
-{% page-ref page="../../select/update-game-objects/editor-selecting-objects.md" %}
-
-
+{% content-ref url="../../select/update-game-objects/editor-selecting-objects.md" %}
+[editor-selecting-objects.md](../../select/update-game-objects/editor-selecting-objects.md)
+{% endcontent-ref %}
 

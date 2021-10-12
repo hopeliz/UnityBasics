@@ -21,8 +21,8 @@ Avoid using Transform.lossyScale. It controls the global scale of an object, so 
 
 **Example codes:**
 
-* _Each example should be placed within the Update\(\) or FixedUpdate\(\) function so that it runs once per frame_
-* _Each example grows the object it is attached to along the y-axis \(gets taller from the center\)_
+* _Each example should be placed within the Update() or FixedUpdate() function so that it runs once per frame_
+* _Each example grows the object it is attached to along the y-axis (gets taller from the center)_
 
 ```csharp
 transform.localScale += new Vector3(0, 1.0F, 0) * Time.deltaTime;
@@ -32,7 +32,7 @@ The code above:
 
 1. Accesses the object's transform and then its local scale in game units
 2. Uses the += shortcut to add values to itself
-3. _new Vector3\(float x, float y, float z\)_ is a way to tell it to add the matching variables
+3. _new Vector3(float x, float y, float z)_ is a way to tell it to add the matching variables
 4. _Time.deltaTime_ adjusts for varying computer [speeds](../controlling-speed.md)
 
 ```csharp
@@ -43,6 +43,5 @@ The code above:
 
 1. Accesses the object's transform and then its local scale in game units
 2. Uses the += shortcut to add values to itself
-3. _Vector3.up_ is a [shortcut](../handy-transform-shortcuts.md) for Vector3\(0.0F, 1.0F, 0.0F\);
+3. _Vector3.up_ is a [shortcut](../handy-transform-shortcuts.md) for Vector3(0.0F, 1.0F, 0.0F);
 4. _Time.deltaTime_ adjusts for varying computer speeds
-

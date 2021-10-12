@@ -7,4 +7,3 @@ You can...
 [Update prefabs](updating-prefabs.md)
 
 [Access and update properties of game objects during gameplay](../components/accessing-attributes.md)
-

@@ -11,18 +11,18 @@ The position is a vector3 variable with read-only parts, so you cannot update ju
 transform.postion = new Vector3(1.0F, 0, 0);
 ```
 
-Here, the object moves to \(1,0,0\). If it starts at \(0,0,0\), it appears to jump to the right in one frame and stays there until moved again.
+Here, the object moves to (1,0,0). If it starts at (0,0,0), it appears to jump to the right in one frame and stays there until moved again.
 
 ## Moving Objects by Updating the Position Smoothly Through Code
 
 {% hint style="info" %}
-Moving objects this way is generally OK, but you might run into issues if you use it for player movement. For those situations, use Transform.Translate\(\) instead.
+Moving objects this way is generally OK, but you might run into issues if you use it for player movement. For those situations, use Transform.Translate() instead.
 {% endhint %}
 
 **Example codes:**
 
-* _Each example should be placed within the Update\(\) or FixedUpdate\(\) function so that it runs once per frame_
-* _Each example moves the object it is attached to in the positive direction of the x-axis \(right\)_
+* _Each example should be placed within the Update() or FixedUpdate() function so that it runs once per frame_
+* _Each example moves the object it is attached to in the positive direction of the x-axis (right)_
 
 ```csharp
 // Moves the object continuously along the x-axis
@@ -33,7 +33,7 @@ The code above:
 
 1. Accesses the object's transform and then its position
 2. Uses the += shortcut to add values to itself
-3. _new Vector3\(float x, float y, float z\)_ is a way to tell it to add the matching variables
+3. _new Vector3(float x, float y, float z)_ is a way to tell it to add the matching variables
 4. _Time.deltaTime_ adjusts for varying computer [speeds](../controlling-speed.md)
 
 ```csharp
@@ -45,6 +45,5 @@ The code above:
 
 1. Accesses the object's transform and then its position
 2. Uses the += shortcut to add values to itself
-3. _Vector3.right_ is a [shortcut](../handy-transform-shortcuts.md) for Vector3\(1.0F, 0.0F, 0.0F\);
+3. _Vector3.right_ is a [shortcut](../handy-transform-shortcuts.md) for Vector3(1.0F, 0.0F, 0.0F);
 4. _Time.deltaTime_ adjusts for varying computer speeds
-

@@ -27,9 +27,11 @@ thing.GetComponent<Collider>().enabled = false;
 
 ## Removing Components
 
-Use the Destroy\(\) function to remove components. Go to the link below for more information.
+Use the Destroy() function to remove components. Go to the link below for more information.
 
-{% page-ref page="../delete-game-objects/destroy-function.md" %}
+{% content-ref url="../delete-game-objects/destroy-function.md" %}
+[destroy-function.md](../delete-game-objects/destroy-function.md)
+{% endcontent-ref %}
 
 ## Avoiding Errors
 
@@ -46,9 +48,11 @@ if (thing.GetComponent<Rigidbody>() != null)
 }
 ```
 
-{% page-ref page="../../select/components/accessing-attributes.md" %}
+{% content-ref url="../../select/components/accessing-attributes.md" %}
+[accessing-attributes.md](../../select/components/accessing-attributes.md)
+{% endcontent-ref %}
 
-{% page-ref page="../../create/create-scripts/custom-components-and-scripts.md" %}
-
-
+{% content-ref url="../../create/create-scripts/custom-components-and-scripts.md" %}
+[custom-components-and-scripts.md](../../create/create-scripts/custom-components-and-scripts.md)
+{% endcontent-ref %}
 

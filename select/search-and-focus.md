@@ -6,13 +6,13 @@ Most windows will have a search field at the top.
 
 As you start to type, matching game objects, assets, components, labels, etc. will appear depending on the window you are searching in.
 
-| Window | What it searches |
-| :--- | :--- |
-| Hierarchy | Game objects within the scene |
-| Project | Assets within a project |
-| Inspector: Add Component button | Components and Scripts |
-| Scene | Visible game objects |
-| Asset Store | Items in the Asset Store |
+| Window                          | What it searches              |
+| ------------------------------- | ----------------------------- |
+| Hierarchy                       | Game objects within the scene |
+| Project                         | Assets within a project       |
+| Inspector: Add Component button | Components and Scripts        |
+| Scene                           | Visible game objects          |
+| Asset Store                     | Items in the Asset Store      |
 
 ## **Focus**
 
@@ -25,4 +25,3 @@ Just press **F** to "focus" or bring close/highlight the location of the selecte
 The three dots on the top right of the [Hierarchy](../the-unity-interface/the-tabs/hierarchy-tab.md) window can find and highlight the current scene in the Project window.
 
 Double-clicking on a message, warning, or error in the [Console](../the-unity-interface/the-tabs/console-tab.md) will find and highlight the script giving the message and sometimes the related game object.
-

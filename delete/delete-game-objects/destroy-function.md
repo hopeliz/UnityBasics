@@ -1,10 +1,10 @@
-# Using the Destroy\(\) Function
+# Using the Destroy() Function
 
 Having too many items in a game could slow down the computer and its frame rate. This is especially apparent in games where objects are created during gameplay.
 
-## The Destroy\(\) Function
+## The Destroy() Function
 
-To remove a game object or components of a game object, use the Destroy\(\) function.
+To remove a game object or components of a game object, use the Destroy() function.
 
 In the examples below, the following variables are used:
 
@@ -25,7 +25,7 @@ Example of deleting a game object of a transform:
 Destroy(thingTransform.gameObject);
 ```
 
-The Destroy\(\) function can also delete components \(colliders, Rigidbody, scripts, etc.\).
+The Destroy() function can also delete components (colliders, Rigidbody, scripts, etc.).
 
 Example of deleting a Rigidbody component on a game object:
 
@@ -71,11 +71,15 @@ if (thing.GetComponent<Rigidbody>() != null)
 }
 ```
 
-{% page-ref page="../../select/components/accessing-attributes.md" %}
+{% content-ref url="../../select/components/accessing-attributes.md" %}
+[accessing-attributes.md](../../select/components/accessing-attributes.md)
+{% endcontent-ref %}
 
-{% page-ref page="../../create/create-scripts/custom-components-and-scripts.md" %}
+{% content-ref url="../../create/create-scripts/custom-components-and-scripts.md" %}
+[custom-components-and-scripts.md](../../create/create-scripts/custom-components-and-scripts.md)
+{% endcontent-ref %}
 
-{% page-ref page="../../coding-basics/intro-to-scripts.md" %}
-
-
+{% content-ref url="../../coding-basics/intro-to-scripts.md" %}
+[intro-to-scripts.md](../../coding-basics/intro-to-scripts.md)
+{% endcontent-ref %}
 

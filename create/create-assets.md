@@ -22,17 +22,17 @@ To access menus, either click "Assets" in the taskbar or right-click in the Proj
 
 **Default Menu**
 
-![](../.gitbook/assets/image%20%2878%29.png)
+![](<../.gitbook/assets/image (82).png>)
 
 **Secondary Create menu:**
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](<../.gitbook/assets/image (81).png>)
 
 ## Click-and-Drag Method for Existing Files
 
 Often, you'll have elements outside of your Unity project that you would like to add as an Asset. It's super easy to do.
 
-Navigate to and open the folder where you want to add Assets in either the Unity editor or in your computer's file management \(e.g. Windows Explorer\).
+Navigate to and open the folder where you want to add Assets in either the Unity editor or in your computer's file management (e.g. Windows Explorer).
 
 **Method 1:** Select, click, and drag the files you want to add into the Project window. This will automatically make a **COPY** within your Asset folder. This is great for not accidentally losing assets when moving projects from folder to folder, but not so great for very large files on a small hard drive.
 
@@ -44,11 +44,11 @@ You can use these short cuts with assets selected in the Project window. DO NOT 
 
 ### **Shortcuts**
 
-Duplicate: CTRL + D  
-Copy: CTRL + C  
+Duplicate: CTRL + D\
+Copy: CTRL + C\
 Paste: CTRL + D
 
-{% page-ref page="../select/updating-assets.md" %}
-
-
+{% content-ref url="../select/updating-assets.md" %}
+[updating-assets.md](../select/updating-assets.md)
+{% endcontent-ref %}
 

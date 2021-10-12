@@ -6,7 +6,7 @@ Many games and experiences created in Unity have repeated items that need to be 
 
 Arrays are lists of elements that can be sorted, searched, counted, etc.
 
-The **index** of an array is the location of the element in the list, **starting with zero**. The index of an element in an array is always an **integer**.
+The **index** of an array is the location of the element in the list,** starting with zero**. The index of an element in an array is always an **integer**.
 
 ## Why Use Arrays?
 
@@ -30,27 +30,27 @@ Instead, use an array!
 public Transform[] cubes;
 ```
 
-Adding the square brackets \[\] at the end of the variable type tells the program this is a list of this type of variable.
+Adding the square brackets \[] at the end of the variable type tells the program this is a list of this type of variable.
 
 In the Inspector, this looks like this:
 
-![](../.gitbook/assets/image%20%28150%29.png)
+![](<../.gitbook/assets/image (147).png>)
 
 Twirl down the triangle to reveal more values:
 
-![](../.gitbook/assets/image%20%2846%29.png)
+![](<../.gitbook/assets/image (148).png>)
 
 Here, you can update how many items to store in the variable "cubes." Once you put in the number, fields will appear for objects and values:
 
-![](../.gitbook/assets/image%20%2874%29.png)
+![](<../.gitbook/assets/image (149).png>)
 
 Add your objects and values as you would for other parts of the component:
 
-![](../.gitbook/assets/image%20%28113%29.png)
+![](<../.gitbook/assets/image (150).png>)
 
 You'll notice the are a numbered list of "elements." The number for the element is the _index_ of the array.
 
-To access an object or value in an element, use the name of the array and the index inside square brackets \[\]:
+To access an object or value in an element, use the name of the array and the index inside square brackets \[]:
 
 ```csharp
 // Moving only the third listed cube forward
@@ -80,14 +80,16 @@ for (int i = 0; i < cubes.Length; i++)
 }
 ```
 
-{% page-ref page="iterators-and-loops.md" %}
+{% content-ref url="iterators-and-loops.md" %}
+[iterators-and-loops.md](iterators-and-loops.md)
+{% endcontent-ref %}
 
 ### Common Array Functions and Properties
 
 **arrayName.Length** - Provides the size of an array determined by the code, not the number of assigned indexes. Used mostly as a test value in for loops.
 
 {% hint style="info" %}
-Since arrays start with zero, make sure for loop control values \(usually _i_ for index\) are tested to be LESS THAN the array length.
+Since arrays start with zero, make sure for loop control values (usually _i _for index) are tested to be LESS THAN the array length.
 {% endhint %}
 
 ## **Lists**
@@ -117,14 +119,14 @@ for (int i = 0; i < cubes.Capacity; i++)
 **listName.Capacity** - Provides the size of a list. Used mostly as a test value in for loops.
 
 {% hint style="info" %}
-Since arrays start with zero, make sure for loop control values \(usually _i_ for index\) are tested to be LESS THAN the list capacity.
+Since arrays start with zero, make sure for loop control values (usually _i _for index) are tested to be LESS THAN the list capacity.
 {% endhint %}
 
-**listName.Add\(\)** - Adds the object or value in the parentheses to the end of the list.
+**listName.Add()** - Adds the object or value in the parentheses to the end of the list.
 
-**listName.Remove\(\)** - Removes the object or value in the parentheses. You can use listName\[index\] here to remove the proper item.
+**listName.Remove()** - Removes the object or value in the parentheses. You can use listName\[index] here to remove the proper item.
 
-**listName.Sort\(\)** - Sorts the list alphabetically.
+**listName.Sort()** - Sorts the list alphabetically.
 
 ## Using Unity's Built-in Functions
 
@@ -140,12 +142,10 @@ parentObject.GetComponentsInChildren<Transform>()[3].Translate(Vector3.up);
 ```
 
 {% hint style="warning" %}
-GetComponentsInChildren&lt;&gt;\(\) will return the parent object as well if the component exists in the parent object.
+GetComponentsInChildren<>() will return the parent object as well if the component exists in the parent object.
 {% endhint %}
 
 ## Helpful Tutorials
 
 [Click here for a helpful tutorial by the creators of Unity about how to use lists and dictionaries within Unity](https://learn.unity.com/tutorial/lists-and-dictionaries#)
-
-
 

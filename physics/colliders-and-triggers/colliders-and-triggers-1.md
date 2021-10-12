@@ -6,7 +6,7 @@ description: Common collider issues
 
 **Issue:**
 
-OnTriggerEnter\(\), OnTriggerStay\(\), and/or OnTriggerExit\(\) are not working.
+OnTriggerEnter(), OnTriggerStay(), and/or OnTriggerExit() are not working.
 
 **Solutions:**
 
@@ -15,7 +15,7 @@ OnTriggerEnter\(\), OnTriggerStay\(\), and/or OnTriggerExit\(\) are not working.
 
 **Issue:**
 
-OnColliderEnter\(\), OnColliderStay\(\), and/or OnColliderExit\(\) are not working.
+OnColliderEnter(), OnColliderStay(), and/or OnColliderExit() are not working.
 
 **Solutions:**
 
@@ -25,6 +25,4 @@ OnColliderEnter\(\), OnColliderStay\(\), and/or OnColliderExit\(\) are not worki
 {% hint style="info" %}
 You can check for and update these components and their properties within the script. Go here for information about [accessing components](../../select/components/accessing-attributes.md) through the script.
 {% endhint %}
-
-
 

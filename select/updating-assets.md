@@ -30,11 +30,11 @@ There are three ways to open a script:
 2. Select the script in the Project window and click **Open...** in the Inspector.
 3. In the Inspector, right-click on the script that is attached to a game object and click Edit Script.
 
-![](../.gitbook/assets/image%20%2886%29.png)
+![](<../.gitbook/assets/image (110).png>)
 
-This will open the script in your IDE/code editor \(usually Visual Studio or MonoDevelop\).
+This will open the script in your IDE/code editor (usually Visual Studio or MonoDevelop).
 
-{% page-ref page="../create/create-assets.md" %}
-
-
+{% content-ref url="../create/create-assets.md" %}
+[create-assets.md](../create/create-assets.md)
+{% endcontent-ref %}
 
